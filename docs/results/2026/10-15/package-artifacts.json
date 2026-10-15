@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "sourceCommit": "e31b57619710793ac40d25442116d7835d152ea1",
+  "artifacts": [
+    {
+      "filename": "alvarovillalbaa-agentcn-ui-0.1.0.tgz",
+      "bytes": 20159,
+      "sha256": "39a7fd40388a2e11287678b4e328678afa72477ca2357c272a9a341412193b27"
+    },
+    {
+      "filename": "agentcn-ui-0.1.0.tgz",
+      "bytes": 23640,
+      "sha256": "8e50b349f18f367da5d76333151201675dfa61f6708f6524782f56382f98775b"
+    }
+  ]
+}
