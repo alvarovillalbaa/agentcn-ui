@@ -6,7 +6,7 @@ Last updated: 2026-10-15
 
 Use a typed npm package, or copy editable source with a CLI. A Next.js website includes live demos, per-component API documentation, workflow blocks, and a visual installation configurator.
 
-**Status:** the documentation site is live at [alvarovillalbaa.github.io/agentcn-ui](https://alvarovillalbaa.github.io/agentcn-ui/). Production builds, focused tests, desktop/mobile browser checks, and local package archive installs pass. Public npm publication is pending; `@latest` commands become available after publication. Use the local CLI or package archives today.
+**Version 0.1.0 is available:** [React package](https://www.npmjs.com/package/@alvarovillalbaa/agentcn-ui), [source installer](https://www.npmjs.com/package/agentcn-ui), and [live documentation](https://alvarovillalbaa.github.io/agentcn-ui/). Production builds, focused tests, desktop/mobile browser checks, and public npm installs with React 18 and 19 pass.
 
 ## Components
 
@@ -21,7 +21,7 @@ Use a typed npm package, or copy editable source with a CLI. A Next.js website i
 
 Components receive data and emit callbacks. Your application owns runtime execution, model calls, authorization, persistence, and state transitions. No API keys, AI SDK, Tailwind setup, or runtime service are required.
 
-## Package installation (after publication)
+## Package installation
 
 ```sh
 npm install @alvarovillalbaa/agentcn-ui
@@ -45,7 +45,7 @@ export default function Usage() {
 
 Import styles once in the root layout. React 18.2 and 19 are supported. Individual entry points such as `@alvarovillalbaa/agentcn-ui/agent-run` are also exported.
 
-## Own the source (after publication)
+## Own the source
 
 ```sh
 npx agentcn-ui@latest init
@@ -102,7 +102,7 @@ npm test               # Disposable CLI installs and focused React interactions
 npm run build:website  # Full production build; run when explicitly authorized
 ```
 
-Source checks are not a Next.js build, browser QA, or accessibility certification. See [current evidence](docs/results/2026/10-15/initial-implementation.md) and [release procedure](docs/runbooks/release.md).
+Source checks are not a Next.js build, browser QA, or accessibility certification. See [release evidence](docs/results/2026/10-15/public-release.md), [implementation evidence](docs/results/2026/10-15/initial-implementation.md), and [release procedure](docs/runbooks/release.md).
 
 ## Workspace
 

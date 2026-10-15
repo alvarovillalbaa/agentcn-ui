@@ -1,0 +1,36 @@
+{
+  "packages": [
+    {
+      "react": "18.2.0",
+      "version": "0.1.0",
+      "resolved": "https://registry.npmjs.org/@alvarovillalbaa/agentcn-ui/-/agentcn-ui-0.1.0.tgz",
+      "integrity": "sha512-eDdfTHcMSiW5/clPM2IUgVaAlzYHpd1AGoUslfgTyGbfSXpODKnQZZFAMn9itGaGR1koHGl/NReb6GFO39Bz5w==",
+      "exports": 16,
+      "css": true,
+      "ssr": true
+    },
+    {
+      "react": "19.3.1",
+      "version": "0.1.0",
+      "resolved": "https://registry.npmjs.org/@alvarovillalbaa/agentcn-ui/-/agentcn-ui-0.1.0.tgz",
+      "integrity": "sha512-eDdfTHcMSiW5/clPM2IUgVaAlzYHpd1AGoUslfgTyGbfSXpODKnQZZFAMn9itGaGR1koHGl/NReb6GFO39Bz5w==",
+      "exports": 16,
+      "css": true,
+      "ssr": true
+    }
+  ],
+  "cli": {
+    "version": "0.1.0",
+    "resolved": "https://registry.npmjs.org/agentcn-ui/-/agentcn-ui-0.1.0.tgz",
+    "integrity": "sha512-CFIcYNt0g+Zf2oH5cJbuW+7VMOFuxIew0E6ulgMK6ozCtazQoiPctgC65bFzYLHLh1kHANoP0aEjD0ZZ3HOuFg==",
+    "npmInstall": true,
+    "npxInstalledDependency": true,
+    "npmExecInstalledDependency": true,
+    "allComponents": 16,
+    "configuration": {
+      "palette": "indigo",
+      "radius": "soft",
+      "density": "compact"
+    }
+  }
+}

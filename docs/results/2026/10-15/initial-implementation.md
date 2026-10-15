@@ -2,6 +2,8 @@
 
 Last updated: 2026-10-15
 
+This records the initial implementation and handoff, including the publication blockers at that time. [Public release evidence](public-release.md) supersedes the remaining publication status below.
+
 The requested project is agentcn-ui, a reusable React/Next.js component system for AI-native apps with an installable package, source-copy CLI, website, configurable installation, and source uploaded under alvarovillalbaa on GitHub.
 
 ## Implemented
@@ -60,4 +62,4 @@ The requested project is agentcn-ui, a reusable React/Next.js component system f
 | Easy npm/npx/pnpm installation                   | All archive paths checked; public registry packages still return E404                                             | Incomplete until publication and clean public installs |
 | Upload under alvarovillalbaa on GitHub           | Remote main ref and package manifest read back; Pages branch deployed                                             | Uploaded                                               |
 
-Completion is not established. Keep the goal active until public npm publication and clean public consumer installs are verified. shadcn CLI interoperability and comprehensive accessibility certification are unclaimed, separate checks.
+At this initial handoff, completion was not established. The subsequent [public release record](public-release.md) documents publication and clean public consumer installs. shadcn CLI interoperability and comprehensive accessibility certification remain unclaimed, separate checks.

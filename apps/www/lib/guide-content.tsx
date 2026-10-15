@@ -77,16 +77,6 @@ npm run dev`}</Code>
           The <Link href="/create">kit builder</Link> previews every design
           choice and generates matching install commands.
         </p>
-        <div className="callout">
-          <strong>Initial release</strong>
-          <p>
-            Registry publication is pending. Until npm packages are published,
-            build the repository and run{" "}
-            <code>node packages/cli/bin/agentcn.mjs</code> in place of{" "}
-            <code>npx agentcn-ui@latest</code>. See the repository README for
-            local setup.
-          </p>
-        </div>
       </>
     ),
   },

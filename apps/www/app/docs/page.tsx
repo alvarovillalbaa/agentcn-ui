@@ -59,15 +59,6 @@ export default function DocsPage() {
         <Link href="/docs/installation">installation guide</Link> walks through
         both approaches.
       </p>
-      <div className="callout">
-        <strong>Release status</strong>
-        <p>
-          This repository is in initial development. npm publication and the
-          hosted website must be verified before the <code>@latest</code>{" "}
-          commands are available. To work locally, use the repository
-          instructions.
-        </p>
-      </div>
       <div className="doc-next">
         <Link href="/docs/installation">Next: Installation →</Link>
       </div>
