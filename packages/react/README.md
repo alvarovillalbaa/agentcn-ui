@@ -17,4 +17,4 @@ React 18.2 and 19 are peer dependencies. Components use typed controlled props a
 
 Override `--ac-*` CSS variables to theme your installation. Apply `.dark` or `data-ac-theme="dark"` on a parent for dark mode. The source-copy CLI is `agentcn-ui`.
 
-See the [documentation](https://alvarovillalbaa.github.io/agentcn-ui/docs/) for live examples and API reference, and the [repository](https://github.com/alvarovillalbaa/agentcn-ui) for source and release evidence. MIT licensed.
+See the [documentation](https://agentcn-ui.vercel.app/docs/) for live examples and API reference, and the [repository](https://github.com/alvarovillalbaa/agentcn-ui) for source and release evidence. MIT licensed.

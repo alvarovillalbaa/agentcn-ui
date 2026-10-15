@@ -91,7 +91,7 @@ for (const item of catalog) {
 const index = {
   $schema: "https://ui.shadcn.com/schema/registry.json",
   name: "agentcn-ui",
-  homepage: "https://alvarovillalbaa.github.io/agentcn-ui/",
+  homepage: "https://agentcn-ui.vercel.app/",
   items: entries,
 };
 await writeFile(

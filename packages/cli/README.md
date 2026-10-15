@@ -14,4 +14,4 @@ Commands: `init`, `add`, `create`, `list`. Run `--help` for all flags. Source an
 
 The installer uses agentcn.json for component and CSS paths, palette, radius, and density. Review conflicts before using `--overwrite`; use `--dry-run` for a write preview. Existing destination directories are refused by create. Paths escaping the project, symlinks, Git metadata, and node_modules are rejected.
 
-For local development, build the repository, then run `node packages/cli/bin/agentcn.mjs --help`. See the [documentation](https://alvarovillalbaa.github.io/agentcn-ui/docs/) and [GitHub](https://github.com/alvarovillalbaa/agentcn-ui). MIT licensed.
+For local development, build the repository, then run `node packages/cli/bin/agentcn.mjs --help`. See the [documentation](https://agentcn-ui.vercel.app/docs/) and [GitHub](https://github.com/alvarovillalbaa/agentcn-ui). MIT licensed.

@@ -9,7 +9,7 @@
     "url": "https://github.com/alvarovillalbaa/agentcn-ui.git",
     "directory": "packages/react"
   },
-  "homepage": "https://alvarovillalbaa.github.io/agentcn-ui/",
+  "homepage": "https://agentcn-ui.vercel.app/",
   "files": [
     "dist",
     "src",

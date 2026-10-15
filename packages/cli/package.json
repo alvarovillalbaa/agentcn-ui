@@ -4,7 +4,7 @@
   "type": "module",
   "license": "MIT",
   "description": "Add AI-native React components to your app. Own the source, configure the design.",
-  "homepage": "https://alvarovillalbaa.github.io/agentcn-ui/",
+  "homepage": "https://agentcn-ui.vercel.app/",
   "bin": {
     "agentcn-ui": "./bin/agentcn.mjs"
   },
