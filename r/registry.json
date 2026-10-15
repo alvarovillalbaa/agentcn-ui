@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "agentcn-ui",
-  "homepage": "https://github.com/alvarovillalbaa/agentcn-ui",
+  "homepage": "https://alvarovillalbaa.github.io/agentcn-ui/",
   "items": [
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
