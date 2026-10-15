@@ -1,0 +1,43 @@
+{
+  "name": "@alvarovillalbaa/agentcn-ui",
+  "version": "0.1.0",
+  "description": "React components for human-controlled AI apps: agent runs, approvals, context, memory and evaluation.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvarovillalbaa/agentcn-ui.git",
+    "directory": "packages/react"
+  },
+  "homepage": "https://alvarovillalbaa.github.io/agentcn-ui/",
+  "files": [
+    "dist",
+    "src",
+    "styles.css",
+    "README.md"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./styles.css": "./styles.css",
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js"
+    }
+  },
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

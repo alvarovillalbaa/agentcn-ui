@@ -1,0 +1,28 @@
+{
+  "name": "agentcn-ui",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Add AI-native React components to your app. Own the source, configure the design.",
+  "homepage": "https://alvarovillalbaa.github.io/agentcn-ui/",
+  "bin": {
+    "agentcn-ui": "./bin/agentcn.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "registry",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvarovillalbaa/agentcn-ui.git",
+    "directory": "packages/cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

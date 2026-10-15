@@ -1,0 +1,36 @@
+{
+  "name": "agentcn-ui-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "predev": "npm run build:library",
+    "dev": "npm run dev --workspace @agentcn/website",
+    "build:library": "tsc -p packages/react/tsconfig.json && node scripts/build-registry.mjs",
+    "build:website": "npm run build:library && npm run build --workspace @agentcn/website",
+    "check:source": "node scripts/check-source.mjs",
+    "check:export": "node scripts/verify-export.mjs",
+    "check:packages": "node tests/smoke/packages.mjs",
+    "format": "prettier --write apps packages scripts tests catalog.mjs package.json agentcn.schema.json README.md AGENTS.md docs",
+    "format:check": "prettier --check apps packages scripts tests catalog.mjs package.json agentcn.schema.json README.md AGENTS.md docs",
+    "test": "node --test tests/integration/*.test.mjs",
+    "pack:release": "npm run build:library && npm pack --workspace @alvarovillalbaa/agentcn-ui --json && npm pack --workspace agentcn-ui --json"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "jsdom": "27.4.0",
+    "prettier": "3.9.10",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "typescript": "5.9.3"
+  }
+}

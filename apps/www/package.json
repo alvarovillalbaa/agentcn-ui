@@ -1,0 +1,16 @@
+{
+  "name": "@agentcn/website",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "16.4.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "@alvarovillalbaa/agentcn-ui": "0.1.0"
+  }
+}

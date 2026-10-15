@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+apps/www/out/
+dist/
+*.tgz
+*.tsbuildinfo
+.env*
+!.env.example
+packages/cli/registry/
+apps/www/public/r/
+apps/www/lib/catalog.mjs
+apps/www/lib/documentation.json
+packages/react/LICENSE
+packages/cli/LICENSE
+.DS_Store

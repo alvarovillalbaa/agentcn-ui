@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "agentcn-ui configuration",
+  "type": "object",
+  "required": ["version", "components", "css", "palette", "radius", "density"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "const": 1 },
+    "components": {
+      "type": "string",
+      "description": "Relative component source directory"
+    },
+    "css": { "type": "string", "pattern": "\\.css$" },
+    "palette": { "enum": ["forest", "ink", "indigo", "ember"] },
+    "radius": { "enum": ["sharp", "rounded", "soft"] },
+    "density": { "enum": ["compact", "comfortable"] }
+  },
+  "additionalProperties": false
+}

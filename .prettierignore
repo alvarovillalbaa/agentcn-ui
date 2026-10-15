@@ -1,0 +1,9 @@
+node_modules
+dist
+.next
+out
+packages/cli/registry
+apps/www/public/r
+apps/www/lib/catalog.mjs
+apps/www/lib/documentation.json
+package-lock.json
