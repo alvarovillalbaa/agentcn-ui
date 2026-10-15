@@ -1,0 +1,415 @@
+{
+  "verifiedDate": "2026-10-15",
+  "target": "production",
+  "status": "READY",
+  "framework": "Other (Next.js static export)",
+  "source": "git",
+  "commit": "080ae376bdb5d7a546a549d9b34d65552bf428ce",
+  "deploymentId": "dpl_5GNksH5EQJxi47JmzUwg5bcfp4PE",
+  "url": "agentcn-b80ww2dju-my-team-4f230354.vercel.app",
+  "aliases": [
+    "agentcn-ui.vercel.app",
+    "agentcn-ui-my-team-4f230354.vercel.app",
+    "agentcn-ui-git-main-my-team-4f230354.vercel.app"
+  ],
+  "buildDurationSeconds": 18.1,
+  "githubPagesEnabled": false,
+  "githubPagesUrlStatus": 404,
+  "productionHttpChecks": 65,
+  "expected404Checks": 1,
+  "byteComparedFiles": 0,
+  "runtimeErrorScan": "No runtime errors found in last 1h",
+  "drains": "Inventory unavailable: Vercel endpoint returned 404",
+  "checks": [
+    {
+      "url": "https://agentcn-ui.vercel.app/_not-found/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/blocks/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/components/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/create/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/accessibility/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/cli/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/agent-handoff/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/agent-run/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/approval-request/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/artifact-panel/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/branch-picker/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/checkpoint/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/context-window/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/eval-scorecard/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/memory-panel/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/model-router/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/plan-review/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/prompt-composer/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/source-stack/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/stream-status/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/token-usage/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/components/tool-call/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/configuration/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/installation/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/ownership/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/runtime-integration/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/docs/theming/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/agent-handoff.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/agent-run.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/approval-request.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/artifact-panel.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/branch-picker.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/checkpoint.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/context-window.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/eval-scorecard.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/memory-panel.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/model-router.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/plan-review.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/prompt-composer.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/registry.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/source-stack.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/stream-status.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/token-usage.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/r/tool-call.json",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/missing/nested-page",
+      "status": 404,
+      "expected": 404,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/01s_f_3qlcqtb.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/0ae6r88q036q_.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/1kb4dcqdypxx7.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/1x6obpmlu1_c2.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/27pqc1pxkxvxj.css",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/2r4s4h5xul1n-.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/3cgy8r_j8b_46.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/3k3vlfli_la-u.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/icon.svg",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/28ep2d-j_rkf5.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/2po_2zgqvkshe.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/2ynp6sqw24blb.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/3wjwx5gv_v1rp.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/404yab842pu-8.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/_next/static/chunks/41c282fow3ozo.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    },
+    {
+      "url": "https://agentcn-ui.vercel.app/icon.svg?icon.0dzi7n43m0qzg.svg",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": false
+    }
+  ]
+}
