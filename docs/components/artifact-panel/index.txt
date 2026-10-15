@@ -1,0 +1,169 @@
+1:"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js"
+2:"LoadingBoundaryProvider"
+3:I[39756,["$1"],"$2"]
+4:"$Sreact.fragment"
+5:I[8602,["$1"],"Header"]
+6:I[39756,["$1"],"default"]
+7:"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js"
+8:I[5150,["$1","$7"],"default"]
+9:I[37457,["$1"],"default"]
+a:"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js"
+b:"/agentcn-ui/_next/static/chunks/3wjwx5gv_v1rp.js"
+c:I[22016,["$1","$a","$b"],""]
+e:I[70846,["$1","$a"],"DocsNav"]
+14:I[97367,["$1"],"OutletBoundary"]
+15:"$Sreact.suspense"
+17:"ViewportBoundary"
+18:I[97367,["$1"],"$17"]
+1a:"MetadataBoundary"
+1b:I[97367,["$1"],"$1a"]
+1d:I[68027,["$1"],"default",1]
+:HL["/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","style"]
+10:X
+12:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$4","c",{"children":["$L13",[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3wjwx5gv_v1rp.js","async":true,"nonce":"$undefined"}]],["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]]}],"p":false,"v":null}}]]
+11:[["children",{"s":{"n":"name","t":"d","k":"artifact-panel","s":[]},"h":512,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$10"},"c":"$Q12"}]]
+f:[["children",{"s":"components","h":512,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$10"},"c":"$Q11"}]]
+d:[["children",{"s":"docs","h":512,"d":{"r":["$","$4","c",{"children":[[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js","async":true,"nonce":"$undefined"}]],["$","div",null,{"className":"page-shell docs-layout","children":[["$","aside",null,{"className":"docs-sidebar","children":["$","$Le",null,{}]}],["$","div",null,{"className":"docs-content","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Qf"}]]
+0:{"P":null,"c":["","docs","components","artifact-panel",""],"q":"","i":false,"t":{"t":{"s":"","h":532,"d":{"r":["$","$L3",null,{"loading":[["$","div","l",{"className":"page-shell loading-page","role":"status","children":[["$","span",null,{"className":"loading-mark","aria-hidden":"true","children":"✳"}]," ","Loading the workspace…"]}],[],null],"children":["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{var t=localStorage.getItem('agentcn-theme');document.documentElement.dataset.acTheme=t||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}catch(e){}"}}]}],["$","body",null,{"children":[["$","a",null,{"href":"#main","className":"skip-link","children":"Skip to content"}],["$","$L5",null,{}],["$","main",null,{"id":"main","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$8","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js","async":true,"nonce":"$undefined"}]],"template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"page-shell empty-state not-found","children":[["$","span",null,{"className":"overline","children":"404 / Uncharted territory"}],["$","h1",null,{"children":"This page isn’t here."}],["$","p",null,{"children":"The component catalog is a good place to pick things up."}],["$","$Lc",null,{"className":"button button-dark","href":"/components","children":"Explore components →"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"site-footer","children":[["$","$Lc",null,{"className":"brand footer-brand","href":"/","children":["agentcn",["$","span",null,{"className":"brand-muted","children":"/ui"}]]}],["$","p",null,{"children":"Built for the next kind of software."}],["$","div",null,{"children":[["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui","children":"Open source ↗"}],["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui/blob/main/LICENSE","children":"MIT license"}]]}],["$","span",null,{"children":"By Alvaro Villalba"}]]}]]}]]}]]}]}],"p":false,"v":null},"c":"$Qd"},"h":{"r":["$","$4","h",{"children":[null,["$","$L18",null,{"children":"$L19"}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$15",null,{"name":"Next.Metadata","children":"$L1c"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$1d",[["$","link","0",{"rel":"stylesheet","href":"/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"YHf8dYSoo2klCabcEvzo0"}
+1e:I[97758,["$1","$a","$b"],"Preview"]
+1f:I[78254,["$1","$a","$b"],"Command"]
+20:I[93382,["$1","$a","$b"],"CopyButton"]
+10:C
+13:["$","article",null,{"className":"prose component-doc","children":[["$","div",null,{"className":"doc-heading","children":[["$","span",null,{"className":"overline","children":["Components / ","Generation"]}],["$","h1",null,{"children":"Artifact Panel"}],["$","p",null,{"children":"Present streamed artifacts with version labels and explicit download actions."}]]}],["$","$L1e",null,{"name":"artifact-panel","code":"\"use client\";\n\nimport { useState } from \"react\";\nimport { ArtifactPanel } from \"@agentcn/react\";\n\nexport default function ArtifactPanelDemo() {\n  const content =\n    \"export async function research(topic: string) {\\n  const sources = await gatherSources(topic);\\n  return synthesize({ topic, sources });\\n}\";\n  return (\n    <ArtifactPanel\n      name=\"research.ts\"\n      language=\"typescript\"\n      version=\"v3\"\n      content={content}\n      onDownload={() => {\n        const url = URL.createObjectURL(\n          new Blob([content], { type: \"text/plain\" }),\n        );\n        const link = document.createElement(\"a\");\n        link.href = url;\n        link.download = \"research.ts\";\n        link.click();\n        URL.revokeObjectURL(url);\n      }}\n    />\n  );\n}\n"}],["$","h2",null,{"id":"installation","children":"Installation"}],["$","p",null,{"children":"Copy this component into your configured source directory:"}],["$","$L1f",null,{"args":"add artifact-panel"}],["$","p",null,{"children":"Or import it from the package:"}],["$","div",null,{"className":"code-block","children":[["$","$L20",null,{"value":"import { ArtifactPanel } from \"@agentcn/react\";"}],["$","pre",null,{"children":["$","code",null,{"children":"import { ArtifactPanel } from \"@agentcn/react\";"}]}]]}],["$","p",null,{"children":["Import ",["$","code",null,{"children":"@agentcn/react/styles.css"}]," once in your root layout when using the package. For source installs, import the CSS path from your ",["$","code",null,{"children":"agentcn.json"}],"."]}],["$","h2",null,{"id":"api","children":"API reference"}],["$","p",null,{"children":["Props are generated from the component’s TypeScript interface. Surface components also accept native section attributes such as"," ",["$","code",null,{"children":"className"}],", ",["$","code",null,{"children":"style"}],", and ",["$","code",null,{"children":"aria-label"}],"."]}],["$","div",null,{"className":"table-scroll","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Required"}]]}]}],["$","tbody",null,{"children":[["$","tr","name",{"children":[["$","td",null,{"children":["$","code",null,{"children":"name"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","language",{"children":[["$","td",null,{"children":["$","code",null,{"children":"language"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"No"}]]}],["$","tr","content",{"children":[["$","td",null,{"children":["$","code",null,{"children":"content"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","version",{"children":[["$","td",null,{"children":["$","code",null,{"children":"version"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"No"}]]}],["$","tr","status",{"children":[["$","td",null,{"children":["$","code",null,{"children":"status"}]}],["$","td",null,{"children":["$","code",null,{"children":"\"streaming\" | \"ready\" | \"error\""}]}],["$","td",null,{"children":"No"}]]}],["$","tr","error",{"children":[["$","td",null,{"children":["$","code",null,{"children":"error"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"No"}]]}],["$","tr","onDownload",{"children":[["$","td",null,{"children":["$","code",null,{"children":"onDownload"}]}],["$","td",null,{"children":["$","code",null,{"children":"() => void | Promise<void>"}]}],["$","td",null,{"children":"No"}]]}]]}]]}]}],["$","h2",null,{"id":"behavior","children":"Behavior & integration"}],["$","p",null,{"children":"Interactive values are controlled by your application. Update the relevant props after a callback succeeds. Async action callbacks disable their controls while pending and display a thrown error without reporting success."}],false,["$","p",null,{"children":"Artifact content is displayed as escaped text. HTML, JavaScript, and model-generated instructions are never executed by this component."}],false,"$L21","$L22","$L23"]}]
+21:["$","h2",null,{"id":"source","children":"Source"}]
+24:T6b4,"use client";
+
+import { Surface, useAction } from "./_shared";
+import type { SurfaceProps } from "./_shared";
+export interface ArtifactPanelProps extends SurfaceProps {
+  name: string;
+  language?: string;
+  content: string;
+  version?: string;
+  status?: "streaming" | "ready" | "error";
+  error?: string;
+  onDownload?: () => void | Promise<void>;
+}
+/** Text-only by design: model-generated HTML and code are never executed. */
+export function ArtifactPanel({
+  name,
+  language = "text",
+  content,
+  version,
+  status = "ready",
+  error,
+  onDownload,
+  ...props
+}: ArtifactPanelProps) {
+  const action = useAction();
+  return (
+    <Surface
+      {...props}
+      title={name}
+      eyebrow="Generated artifact"
+      actions={<span className="ac-tag">{version ?? language}</span>}
+    >
+      <pre
+        className="ac-code ac-artifact"
+        aria-label={`${name} content`}
+        aria-busy={status === "streaming"}
+      >
+        <code>{content || "Waiting for content…"}</code>
+      </pre>
+      <footer className="ac-footer">
+        <span className="ac-muted" role="status">
+          {status === "streaming"
+            ? "Generating…"
+            : status === "error"
+              ? "Generation failed"
+              : "Ready to use"}
+        </span>
+        {onDownload && (
+          <button
+            className="ac-button ac-small"
+            disabled={action.pending || status !== "ready"}
+            onClick={() => void action.run(onDownload)}
+          >
+            Download
+          </button>
+        )}
+      </footer>
+      {(error || action.error) && (
+        <p className="ac-error" role="alert">
+          {error ?? action.error}
+        </p>
+      )}
+    </Surface>
+  );
+}
+25:T6b4,"use client";
+
+import { Surface, useAction } from "./_shared";
+import type { SurfaceProps } from "./_shared";
+export interface ArtifactPanelProps extends SurfaceProps {
+  name: string;
+  language?: string;
+  content: string;
+  version?: string;
+  status?: "streaming" | "ready" | "error";
+  error?: string;
+  onDownload?: () => void | Promise<void>;
+}
+/** Text-only by design: model-generated HTML and code are never executed. */
+export function ArtifactPanel({
+  name,
+  language = "text",
+  content,
+  version,
+  status = "ready",
+  error,
+  onDownload,
+  ...props
+}: ArtifactPanelProps) {
+  const action = useAction();
+  return (
+    <Surface
+      {...props}
+      title={name}
+      eyebrow="Generated artifact"
+      actions={<span className="ac-tag">{version ?? language}</span>}
+    >
+      <pre
+        className="ac-code ac-artifact"
+        aria-label={`${name} content`}
+        aria-busy={status === "streaming"}
+      >
+        <code>{content || "Waiting for content…"}</code>
+      </pre>
+      <footer className="ac-footer">
+        <span className="ac-muted" role="status">
+          {status === "streaming"
+            ? "Generating…"
+            : status === "error"
+              ? "Generation failed"
+              : "Ready to use"}
+        </span>
+        {onDownload && (
+          <button
+            className="ac-button ac-small"
+            disabled={action.pending || status !== "ready"}
+            onClick={() => void action.run(onDownload)}
+          >
+            Download
+          </button>
+        )}
+      </footer>
+      {(error || action.error) && (
+        <p className="ac-error" role="alert">
+          {error ?? action.error}
+        </p>
+      )}
+    </Surface>
+  );
+}
+22:["$","details",null,{"className":"source-details","children":[["$","summary",null,{"children":"Inspect the component"}],["$","div",null,{"className":"code-block","children":[["$","$L20",null,{"value":"$24"}],["$","pre",null,{"children":["$","code",null,{"children":"$25"}]}]]}]]}]
+23:["$","div",null,{"className":"doc-next","children":["$","$Lc",null,{"href":"/docs/components/stream-status","children":["Next: ","Stream Status"," →"]}]}]
+19:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+26:I[27201,["$1"],"IconMark"]
+16:null
+1c:[["$","title","0",{"children":"Artifact Panel — agentcn/ui"}],["$","meta","1",{"name":"description","content":"Present streamed artifacts with version labels and explicit download actions."}],["$","link","2",{"rel":"icon","href":"/agentcn-ui/icon.svg?icon.0dzi7n43m0qzg.svg","sizes":"any","type":"image/svg+xml"}],["$","$L26","3",{}]]

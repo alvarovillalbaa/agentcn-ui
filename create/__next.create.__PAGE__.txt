@@ -1,0 +1,35 @@
+1:"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js"
+2:"LoadingBoundaryProvider"
+3:I[39756,["$1"],"$2"]
+4:"$Sreact.fragment"
+5:I[8602,["$1"],"Header"]
+6:I[39756,["$1"],"default"]
+7:"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js"
+8:I[5150,["$1","$7"],"default"]
+9:I[37457,["$1"],"default"]
+a:I[22016,["$1"],""]
+11:"/agentcn-ui/_next/static/chunks/3kgm4-4uirhp0.js"
+12:I[65537,["$1","$11"],"Configurator"]
+13:I[97367,["$1"],"OutletBoundary"]
+14:"$Sreact.suspense"
+17:"ViewportBoundary"
+18:I[97367,["$1"],"$17"]
+19:"MetadataBoundary"
+1a:I[97367,["$1"],"$19"]
+1b:I[27201,["$1"],"IconMark"]
+:HL["/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","style"]
+c:X
+f:X
+f:C
+10:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$4","c",{"children":[["$","div",null,{"className":"page-shell interior-page create-page","children":[["$","div",null,{"className":"page-heading compact","children":[["$","span",null,{"className":"overline","children":"A good place to begin"}],["$","h1",null,{"children":"Your app. Your agent. Your kit."}],["$","p",null,{"children":"Choose a starting point, tune the design, and install exactly what you need."}]]}],["$","$L12",null,{}]]}],[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3kgm4-4uirhp0.js","async":true}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],"p":"$@16","v":null,"s":"$c"}}]]
+d:[["children",{"s":"create","h":96,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@e","v":"$f","s":"$c"},"c":"$Q10"}]]
+0:{"t":{"t":{"s":"","h":84,"d":{"r":["$","$L3",null,{"loading":[["$","div","l",{"className":"page-shell loading-page","role":"status","children":[["$","span",null,{"className":"loading-mark","aria-hidden":"true","children":"✳"}]," ","Loading the workspace…"]}],[],null],"children":["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","precedence":"next"}],["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{var t=localStorage.getItem('agentcn-theme');document.documentElement.dataset.acTheme=t||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}catch(e){}"}}]}],["$","body",null,{"children":[["$","a",null,{"href":"#main","className":"skip-link","children":"Skip to content"}],["$","$L5",null,{}],["$","main",null,{"id":"main","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$8","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js","async":true}]],"template":["$","$L9",null,{}],"notFound":[["$","div",null,{"className":"page-shell empty-state not-found","children":[["$","span",null,{"className":"overline","children":"404 / Uncharted territory"}],["$","h1",null,{"children":"This page isn’t here."}],["$","p",null,{"children":"The component catalog is a good place to pick things up."}],["$","$La",null,{"className":"button button-dark","href":"/components","children":"Explore components →"}]]}],[]]}]}],["$","footer",null,{"className":"site-footer","children":[["$","$La",null,{"className":"brand footer-brand","href":"/","children":["agentcn",["$","span",null,{"className":"brand-muted","children":"/ui"}]]}],["$","p",null,{"children":"Built for the next kind of software."}],["$","div",null,{"children":[["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui","children":"Open source ↗"}],["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui/blob/main/LICENSE","children":"MIT license"}]]}],["$","span",null,{"children":"By Alvaro Villalba"}]]}]]}]]}]]}]}],"p":"$@b","v":null,"s":"$c"},"c":"$Qd"},"h":{"r":["$","$4","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Create your kit — agentcn/ui"}],["$","meta","1",{"name":"description","content":"Open-source React components for AI-native apps. Agent runs, approvals, context, memory, artifacts, and evaluation. Install a package or own the source."}],["$","link","2",{"rel":"icon","href":"/agentcn-ui/icon.svg?icon.0dzi7n43m0qzg.svg","sizes":"any","type":"image/svg+xml"}],["$","$L1b","3",{}]]}]}],null]}],null]}],"p":"$@1c","v":null,"s":"$c"}},"a":"$@1d","u":"$@1e","b":"YHf8dYSoo2klCabcEvzo0"}
+15:null
+c:300
+1e:true
+c:C
+1d:0
+e:"$undefined"
+b:"$undefined"
+1c:"$undefined"
+16:"$undefined"

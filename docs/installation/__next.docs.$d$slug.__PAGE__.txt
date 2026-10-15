@@ -1,0 +1,56 @@
+1:"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js"
+2:"LoadingBoundaryProvider"
+3:I[39756,["$1"],"$2"]
+4:"$Sreact.fragment"
+5:I[8602,["$1"],"Header"]
+6:I[39756,["$1"],"default"]
+7:"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js"
+8:I[5150,["$1","$7"],"default"]
+9:I[37457,["$1"],"default"]
+a:"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js"
+b:"/agentcn-ui/_next/static/chunks/2po_2zgqvkshe.js"
+c:I[22016,["$1","$a","$b"],""]
+10:I[70846,["$1","$a"],"DocsNav"]
+16:I[78254,["$1","$a","$b"],"Command"]
+17:I[93382,["$1","$a","$b"],"CopyButton"]
+29:"ViewportBoundary"
+2a:I[97367,["$1"],"$29"]
+2b:"MetadataBoundary"
+2c:I[97367,["$1"],"$2b"]
+2d:"$Sreact.suspense"
+2e:I[27201,["$1"],"IconMark"]
+:HL["/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","style"]
+e:X
+14:X
+14:C
+15:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$4","c",{"children":[["$","article",null,{"className":"prose","children":[["$","div",null,{"className":"doc-heading","children":[["$","span",null,{"className":"overline","children":"Documentation / Get started"}],["$","h1",null,{"children":"Start with one component."}],["$","p",null,{"children":"Use npm imports, or install editable source with npx and pnpm dlx."}]]}],[["$","h2",null,{"children":"Requirements"}],["$","p",null,{"children":"React 18.2 or 19, TypeScript, and a modern browser. The CLI needs Node.js 22 or newer. The Next.js starter uses the App Router. Tailwind and an AI SDK are optional."}],["$","h2",null,{"children":"Option 1: npm package"}],["$","$L16",null,{"args":"","mode":"install","packageName":"@agentcn/react"}],["$","p",null,{"children":"Import the stylesheet in your root layout or application entry:"}],["$","div",null,{"className":"code-block","children":[["$","$L17",null,{"value":"import \"@agentcn/react/styles.css\";"}],["$","pre",null,{"children":["$","code",null,{"children":"import \"@agentcn/react/styles.css\";"}]}]]}],["$","p",null,{"children":"Then render a component:"}],["$","div",null,{"className":"code-block","children":[["$","$L17",null,{"value":"import { ContextWindow } from \"@agentcn/react\";\n\nexport default function Usage() {\n  return <ContextWindow capacity={128000} segments={[\n    { id: \"conversation\", label: \"Conversation\", tokens: 12000 }\n  ]} />;\n}"}],["$","pre",null,{"children":["$","code",null,{"children":"import { ContextWindow } from \"@agentcn/react\";\n\nexport default function Usage() {\n  return <ContextWindow capacity={128000} segments={[\n    { id: \"conversation\", label: \"Conversation\", tokens: 12000 }\n  ]} />;\n}"}]}]]}],"$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25"]]}],["$L26"],"$L27"]}],"p":"$@28","v":null,"s":"$e"}}]]
+12:[["children",{"s":{"n":"slug","t":"d","k":"installation","s":["components"]},"h":96,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@13","v":"$14","s":"$e"},"c":"$Q15"}]]
+f:[["children",{"s":"docs","h":96,"d":{"r":["$","$4","c",{"children":[[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js","async":true}]],["$","div",null,{"className":"page-shell docs-layout","children":[["$","aside",null,{"className":"docs-sidebar","children":["$","$L10",null,{}]}],["$","div",null,{"className":"docs-content","children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]}]]}]]}],"p":"$@11","v":null,"s":"$e"},"c":"$Q12"}]]
+0:{"t":{"t":{"s":"","h":84,"d":{"r":["$","$L3",null,{"loading":[["$","div","l",{"className":"page-shell loading-page","role":"status","children":[["$","span",null,{"className":"loading-mark","aria-hidden":"true","children":"✳"}]," ","Loading the workspace…"]}],[],null],"children":["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","precedence":"next"}],["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{var t=localStorage.getItem('agentcn-theme');document.documentElement.dataset.acTheme=t||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}catch(e){}"}}]}],["$","body",null,{"children":[["$","a",null,{"href":"#main","className":"skip-link","children":"Skip to content"}],["$","$L5",null,{}],["$","main",null,{"id":"main","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$8","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js","async":true}]],"template":["$","$L9",null,{}],"notFound":[["$","div",null,{"className":"page-shell empty-state not-found","children":[["$","span",null,{"className":"overline","children":"404 / Uncharted territory"}],["$","h1",null,{"children":"This page isn’t here."}],["$","p",null,{"children":"The component catalog is a good place to pick things up."}],["$","$Lc",null,{"className":"button button-dark","href":"/components","children":"Explore components →"}]]}],[]]}]}],["$","footer",null,{"className":"site-footer","children":[["$","$Lc",null,{"className":"brand footer-brand","href":"/","children":["agentcn",["$","span",null,{"className":"brand-muted","children":"/ui"}]]}],["$","p",null,{"children":"Built for the next kind of software."}],["$","div",null,{"children":[["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui","children":"Open source ↗"}],["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui/blob/main/LICENSE","children":"MIT license"}]]}],["$","span",null,{"children":"By Alvaro Villalba"}]]}]]}]]}]]}]}],"p":"$@d","v":null,"s":"$e"},"c":"$Qf"},"h":{"r":["$","$4","h",{"children":[null,["$","$L2a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L2c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$2d",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Start with one component. — agentcn/ui"}],["$","meta","1",{"name":"description","content":"Open-source React components for AI-native apps. Agent runs, approvals, context, memory, artifacts, and evaluation. Install a package or own the source."}],["$","link","2",{"rel":"icon","href":"/agentcn-ui/icon.svg?icon.0dzi7n43m0qzg.svg","sizes":"any","type":"image/svg+xml"}],["$","$L2e","3",{}]]}]}],null]}],null]}],"p":"$@2f","v":null,"s":"$e"}},"a":"$@30","u":"$@31","b":"YHf8dYSoo2klCabcEvzo0"}
+32:I[97367,["$1"],"OutletBoundary"]
+18:["$","h2",null,{"children":"Option 2: own the source"}]
+19:["$","$L16",null,{"args":"init"}]
+1a:["$","p",null,{"children":"Choose your palette, radius, and density, then add components:"}]
+1b:["$","$L16",null,{"args":"add agent-run approval-request"}]
+1c:["$","p",null,{"children":["The CLI creates ",["$","code",null,{"children":"agentcn.json"}],", a stylesheet, the selected components, and a shared helper. It does not execute dependency installs. Review every planned change with ",["$","code",null,{"children":"--dry-run"}],"."]}]
+1d:["$","div",null,{"className":"code-block","children":[["$","$L17",null,{"value":"// app/layout.tsx\nimport \"../styles/agentcn.css\";\n\n// In a client component:\nimport { AgentRun } from \"@/components/agentcn/agent-run\";"}],["$","pre",null,{"children":["$","code",null,{"children":"// app/layout.tsx\nimport \"../styles/agentcn.css\";\n\n// In a client component:\nimport { AgentRun } from \"@/components/agentcn/agent-run\";"}]}]]}]
+1e:["$","p",null,{"children":["The ",["$","code",null,{"children":"@/"}]," alias in this example must be configured by your app. Relative imports work too."]}]
+1f:["$","h2",null,{"children":"Start a new Next.js app"}]
+20:["$","$L16",null,{"args":"create my-agent --preset copilot --palette forest --yes"}]
+21:["$","div",null,{"className":"code-block","children":[["$","$L17",null,{"value":"cd my-agent\nnpm install\nnpm run dev"}],["$","pre",null,{"children":["$","code",null,{"children":"cd my-agent\nnpm install\nnpm run dev"}]}]]}]
+22:["$","p",null,{"children":["The starter is a local demonstration. Connect its callbacks to a real agent API. You can also use ",["$","code",null,{"children":"pnpm install"}]," and"," ",["$","code",null,{"children":"pnpm dev"}],"."]}]
+23:["$","h2",null,{"children":"Configure visually"}]
+24:["$","p",null,{"children":["The ",["$","$Lc",null,{"href":"/create","children":"kit builder"}]," previews every design choice and generates matching install commands."]}]
+25:["$","div",null,{"className":"callout","children":[["$","strong",null,{"children":"Initial release"}],["$","p",null,{"children":["Registry publication is pending. Until npm packages are published, build the repository and run"," ",["$","code",null,{"children":"node packages/cli/bin/agentcn.mjs"}]," in place of"," ",["$","code",null,{"children":"npx agentcn-ui@latest"}],". See the repository README for local setup."]}]]}]
+26:["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/2po_2zgqvkshe.js","async":true}]
+27:["$","$L32",null,{"children":["$","$2d",null,{"name":"Next.MetadataOutlet","children":"$@33"}]}]
+e:300
+33:null
+31:true
+e:C
+30:0
+13:"$undefined"
+11:"$undefined"
+d:"$undefined"
+2f:"$undefined"
+28:"$undefined"

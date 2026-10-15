@@ -1,0 +1,166 @@
+1:"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js"
+2:"LoadingBoundaryProvider"
+3:I[39756,["$1"],"$2"]
+4:"$Sreact.fragment"
+5:I[8602,["$1"],"Header"]
+6:I[39756,["$1"],"default"]
+7:"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js"
+8:I[5150,["$1","$7"],"default"]
+9:I[37457,["$1"],"default"]
+a:"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js"
+b:"/agentcn-ui/_next/static/chunks/3wjwx5gv_v1rp.js"
+c:I[22016,["$1","$a","$b"],""]
+e:I[70846,["$1","$a"],"DocsNav"]
+14:I[97367,["$1"],"OutletBoundary"]
+15:"$Sreact.suspense"
+17:"ViewportBoundary"
+18:I[97367,["$1"],"$17"]
+1a:"MetadataBoundary"
+1b:I[97367,["$1"],"$1a"]
+1d:I[68027,["$1"],"default",1]
+:HL["/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","style"]
+10:X
+12:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$4","c",{"children":["$L13",[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3wjwx5gv_v1rp.js","async":true,"nonce":"$undefined"}]],["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]]}],"p":false,"v":null}}]]
+11:[["children",{"s":{"n":"name","t":"d","k":"memory-panel","s":[]},"h":512,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$10"},"c":"$Q12"}]]
+f:[["children",{"s":"components","h":512,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$10"},"c":"$Q11"}]]
+d:[["children",{"s":"docs","h":512,"d":{"r":["$","$4","c",{"children":[[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js","async":true,"nonce":"$undefined"}]],["$","div",null,{"className":"page-shell docs-layout","children":[["$","aside",null,{"className":"docs-sidebar","children":["$","$Le",null,{}]}],["$","div",null,{"className":"docs-content","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Qf"}]]
+0:{"P":null,"c":["","docs","components","memory-panel",""],"q":"","i":false,"t":{"t":{"s":"","h":532,"d":{"r":["$","$L3",null,{"loading":[["$","div","l",{"className":"page-shell loading-page","role":"status","children":[["$","span",null,{"className":"loading-mark","aria-hidden":"true","children":"✳"}]," ","Loading the workspace…"]}],[],null],"children":["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{var t=localStorage.getItem('agentcn-theme');document.documentElement.dataset.acTheme=t||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}catch(e){}"}}]}],["$","body",null,{"children":[["$","a",null,{"href":"#main","className":"skip-link","children":"Skip to content"}],["$","$L5",null,{}],["$","main",null,{"id":"main","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$8","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js","async":true,"nonce":"$undefined"}]],"template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"page-shell empty-state not-found","children":[["$","span",null,{"className":"overline","children":"404 / Uncharted territory"}],["$","h1",null,{"children":"This page isn’t here."}],["$","p",null,{"children":"The component catalog is a good place to pick things up."}],["$","$Lc",null,{"className":"button button-dark","href":"/components","children":"Explore components →"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"site-footer","children":[["$","$Lc",null,{"className":"brand footer-brand","href":"/","children":["agentcn",["$","span",null,{"className":"brand-muted","children":"/ui"}]]}],["$","p",null,{"children":"Built for the next kind of software."}],["$","div",null,{"children":[["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui","children":"Open source ↗"}],["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui/blob/main/LICENSE","children":"MIT license"}]]}],["$","span",null,{"children":"By Alvaro Villalba"}]]}]]}]]}]]}]}],"p":false,"v":null},"c":"$Qd"},"h":{"r":["$","$4","h",{"children":[null,["$","$L18",null,{"children":"$L19"}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$15",null,{"name":"Next.Metadata","children":"$L1c"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$1d",[["$","link","0",{"rel":"stylesheet","href":"/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"YHf8dYSoo2klCabcEvzo0"}
+1e:I[97758,["$1","$a","$b"],"Preview"]
+1f:I[78254,["$1","$a","$b"],"Command"]
+20:I[93382,["$1","$a","$b"],"CopyButton"]
+10:C
+21:T755,"use client";
+
+import { Surface, useAction } from "./_shared";
+import type { SurfaceProps } from "./_shared";
+export interface MemoryEntry {
+  id: string;
+  content: string;
+  source: string;
+  updatedAt?: string;
+  kind: "preference" | "fact" | "instruction";
+}
+export interface MemoryPanelProps extends SurfaceProps {
+  entries: MemoryEntry[];
+  onForget?: (id: string) => void | Promise<void>;
+}
+export function MemoryPanel({ entries, onForget, ...props }: MemoryPanelProps) {
+  const action = useAction();
+  return (
+    <Surface
+      {...props}
+      title="Agent memory"
+      eyebrow="Persistent context"
+      actions={
+        <span className="ac-muted ac-mono">{entries.length} memories</span>
+      }
+    >
+      {entries.length === 0 ? (
+        <p className="ac-empty">
+          No saved memories. New memories will appear here.
+        </p>
+      ) : (
+        <ul className="ac-list">
+          {entries.map((e) => (
+            <li className="ac-memory" key={e.id}>
+              <div className="ac-row">
+                <span className="ac-tag">{e.kind}</span>
+                {onForget && (
+                  <button
+                    className="ac-button ac-ghost ac-small"
+                    disabled={action.pending}
+                    aria-label={`Forget memory: ${e.content}`}
+                    onClick={() => void action.run(() => onForget(e.id))}
+                  >
+                    Forget
+                  </button>
+                )}
+              </div>
+              <p>{e.content}</p>
+              <span className="ac-muted ac-small">
+                {e.source}
+                {e.updatedAt && ` · ${e.updatedAt}`}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
+      {action.error && (
+        <p className="ac-error" role="alert">
+          {action.error}
+        </p>
+      )}
+    </Surface>
+  );
+}
+13:["$","article",null,{"className":"prose component-doc","children":[["$","div",null,{"className":"doc-heading","children":[["$","span",null,{"className":"overline","children":["Components / ","Context & memory"]}],["$","h1",null,{"children":"Memory Panel"}],["$","p",null,{"children":"Make persistent agent memory visible, attributable, and removable."}]]}],["$","$L1e",null,{"name":"memory-panel","code":"\"use client\";\n\nimport { useState } from \"react\";\nimport { MemoryPanel } from \"@agentcn/react\";\n\nexport default function MemoryPanelDemo() {\n  const [entries, setEntries] = useState([\n    {\n      id: \"1\",\n      kind: \"preference\" as const,\n      content: \"Use concise summaries with links to primary sources.\",\n      source: \"Explicit user preference\",\n      updatedAt: \"Just now\",\n    },\n    {\n      id: \"2\",\n      kind: \"fact\" as const,\n      content: \"The workspace uses React and TypeScript.\",\n      source: \"Project configuration\",\n      updatedAt: \"2 hours ago\",\n    },\n  ]);\n  return (\n    <MemoryPanel\n      entries={entries}\n      onForget={(id) =>\n        setEntries((current) => current.filter((e) => e.id !== id))\n      }\n    />\n  );\n}\n"}],["$","h2",null,{"id":"installation","children":"Installation"}],["$","p",null,{"children":"Copy this component into your configured source directory:"}],["$","$L1f",null,{"args":"add memory-panel"}],["$","p",null,{"children":"Or import it from the package:"}],["$","div",null,{"className":"code-block","children":[["$","$L20",null,{"value":"import { MemoryPanel } from \"@agentcn/react\";"}],["$","pre",null,{"children":["$","code",null,{"children":"import { MemoryPanel } from \"@agentcn/react\";"}]}]]}],["$","p",null,{"children":["Import ",["$","code",null,{"children":"@agentcn/react/styles.css"}]," once in your root layout when using the package. For source installs, import the CSS path from your ",["$","code",null,{"children":"agentcn.json"}],"."]}],["$","h2",null,{"id":"api","children":"API reference"}],["$","p",null,{"children":["Props are generated from the component’s TypeScript interface. Surface components also accept native section attributes such as"," ",["$","code",null,{"children":"className"}],", ",["$","code",null,{"children":"style"}],", and ",["$","code",null,{"children":"aria-label"}],"."]}],["$","div",null,{"className":"table-scroll","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Required"}]]}]}],["$","tbody",null,{"children":[["$","tr","entries",{"children":[["$","td",null,{"children":["$","code",null,{"children":"entries"}]}],["$","td",null,{"children":["$","code",null,{"children":"MemoryEntry[]"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","onForget",{"children":[["$","td",null,{"children":["$","code",null,{"children":"onForget"}]}],["$","td",null,{"children":["$","code",null,{"children":"(id: string) => void | Promise<void>"}]}],["$","td",null,{"children":"No"}]]}]]}]]}]}],["$","h2",null,{"id":"behavior","children":"Behavior & integration"}],["$","p",null,{"children":"Interactive values are controlled by your application. Update the relevant props after a callback succeeds. Async action callbacks disable their controls while pending and display a thrown error without reporting success."}],["$","div",null,{"className":"callout","children":[["$","strong",null,{"children":"Keep the server authoritative."}],["$","p",null,{"children":"Reviewing a decision in the interface does not authorize an operation. Validate the user, request, current state, and scope on your server before executing a callback’s action."}]]}],false,false,["$","h2",null,{"id":"source","children":"Source"}],["$","details",null,{"className":"source-details","children":[["$","summary",null,{"children":"Inspect the component"}],["$","div",null,{"className":"code-block","children":[["$","$L20",null,{"value":"$21"}],"$L22"]}]]}],"$L23"]}]
+24:T755,"use client";
+
+import { Surface, useAction } from "./_shared";
+import type { SurfaceProps } from "./_shared";
+export interface MemoryEntry {
+  id: string;
+  content: string;
+  source: string;
+  updatedAt?: string;
+  kind: "preference" | "fact" | "instruction";
+}
+export interface MemoryPanelProps extends SurfaceProps {
+  entries: MemoryEntry[];
+  onForget?: (id: string) => void | Promise<void>;
+}
+export function MemoryPanel({ entries, onForget, ...props }: MemoryPanelProps) {
+  const action = useAction();
+  return (
+    <Surface
+      {...props}
+      title="Agent memory"
+      eyebrow="Persistent context"
+      actions={
+        <span className="ac-muted ac-mono">{entries.length} memories</span>
+      }
+    >
+      {entries.length === 0 ? (
+        <p className="ac-empty">
+          No saved memories. New memories will appear here.
+        </p>
+      ) : (
+        <ul className="ac-list">
+          {entries.map((e) => (
+            <li className="ac-memory" key={e.id}>
+              <div className="ac-row">
+                <span className="ac-tag">{e.kind}</span>
+                {onForget && (
+                  <button
+                    className="ac-button ac-ghost ac-small"
+                    disabled={action.pending}
+                    aria-label={`Forget memory: ${e.content}`}
+                    onClick={() => void action.run(() => onForget(e.id))}
+                  >
+                    Forget
+                  </button>
+                )}
+              </div>
+              <p>{e.content}</p>
+              <span className="ac-muted ac-small">
+                {e.source}
+                {e.updatedAt && ` · ${e.updatedAt}`}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
+      {action.error && (
+        <p className="ac-error" role="alert">
+          {action.error}
+        </p>
+      )}
+    </Surface>
+  );
+}
+22:["$","pre",null,{"children":["$","code",null,{"children":"$24"}]}]
+23:["$","div",null,{"className":"doc-next","children":["$","$Lc",null,{"href":"/docs/components/source-stack","children":["Next: ","Source Stack"," →"]}]}]
+19:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+25:I[27201,["$1"],"IconMark"]
+16:null
+1c:[["$","title","0",{"children":"Memory Panel — agentcn/ui"}],["$","meta","1",{"name":"description","content":"Make persistent agent memory visible, attributable, and removable."}],["$","link","2",{"rel":"icon","href":"/agentcn-ui/icon.svg?icon.0dzi7n43m0qzg.svg","sizes":"any","type":"image/svg+xml"}],["$","$L25","3",{}]]

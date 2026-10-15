@@ -1,0 +1,180 @@
+1:"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js"
+2:"LoadingBoundaryProvider"
+3:I[39756,["$1"],"$2"]
+4:"$Sreact.fragment"
+5:I[8602,["$1"],"Header"]
+6:I[39756,["$1"],"default"]
+7:"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js"
+8:I[5150,["$1","$7"],"default"]
+9:I[37457,["$1"],"default"]
+a:"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js"
+b:"/agentcn-ui/_next/static/chunks/3wjwx5gv_v1rp.js"
+c:I[22016,["$1","$a","$b"],""]
+10:I[70846,["$1","$a"],"DocsNav"]
+18:I[97758,["$1","$a","$b"],"Preview"]
+19:I[78254,["$1","$a","$b"],"Command"]
+1a:I[93382,["$1","$a","$b"],"CopyButton"]
+25:"ViewportBoundary"
+26:I[97367,["$1"],"$25"]
+27:"MetadataBoundary"
+28:I[97367,["$1"],"$27"]
+29:"$Sreact.suspense"
+2a:I[27201,["$1"],"IconMark"]
+:HL["/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","style"]
+e:X
+14:X
+14:C
+17:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$4","c",{"children":[["$","article",null,{"className":"prose component-doc","children":[["$","div",null,{"className":"doc-heading","children":[["$","span",null,{"className":"overline","children":["Components / ","Observability"]}],["$","h1",null,{"children":"Token Usage"}],["$","p",null,{"children":"Track input, output, cached tokens, and costs against a run budget."}]]}],["$","$L18",null,{"name":"token-usage","code":"\"use client\";\n\nimport { useState } from \"react\";\nimport { TokenUsage } from \"@agentcn/react\";\n\nexport default function TokenUsageDemo() {\n  return (\n    <TokenUsage\n      input={24680}\n      output={1820}\n      cached={18400}\n      cost={0.0824}\n      budget={0.5}\n    />\n  );\n}\n"}],["$","h2",null,{"id":"installation","children":"Installation"}],["$","p",null,{"children":"Copy this component into your configured source directory:"}],["$","$L19",null,{"args":"add token-usage"}],["$","p",null,{"children":"Or import it from the package:"}],["$","div",null,{"className":"code-block","children":[["$","$L1a",null,{"value":"import { TokenUsage } from \"@agentcn/react\";"}],["$","pre",null,{"children":["$","code",null,{"children":"import { TokenUsage } from \"@agentcn/react\";"}]}]]}],["$","p",null,{"children":["Import ",["$","code",null,{"children":"@agentcn/react/styles.css"}]," once in your root layout when using the package. For source installs, import the CSS path from your ",["$","code",null,{"children":"agentcn.json"}],"."]}],["$","h2",null,{"id":"api","children":"API reference"}],"$L1b","$L1c","$L1d","$L1e",false,false,false,"$L1f","$L20","$L21"]}],["$L22"],"$L23"]}],"p":"$@24","v":null,"s":"$e"}}]]
+15:[["children",{"s":{"n":"name","t":"d","k":"token-usage","s":[]},"h":96,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@16","v":"$14","s":"$e"},"c":"$Q17"}]]
+12:[["children",{"s":"components","h":96,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@13","v":"$14","s":"$e"},"c":"$Q15"}]]
+f:[["children",{"s":"docs","h":96,"d":{"r":["$","$4","c",{"children":[[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js","async":true}]],["$","div",null,{"className":"page-shell docs-layout","children":[["$","aside",null,{"className":"docs-sidebar","children":["$","$L10",null,{}]}],["$","div",null,{"className":"docs-content","children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]}]]}]]}],"p":"$@11","v":null,"s":"$e"},"c":"$Q12"}]]
+0:{"t":{"t":{"s":"","h":84,"d":{"r":["$","$L3",null,{"loading":[["$","div","l",{"className":"page-shell loading-page","role":"status","children":[["$","span",null,{"className":"loading-mark","aria-hidden":"true","children":"✳"}]," ","Loading the workspace…"]}],[],null],"children":["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","precedence":"next"}],["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{var t=localStorage.getItem('agentcn-theme');document.documentElement.dataset.acTheme=t||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}catch(e){}"}}]}],["$","body",null,{"children":[["$","a",null,{"href":"#main","className":"skip-link","children":"Skip to content"}],["$","$L5",null,{}],["$","main",null,{"id":"main","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$8","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js","async":true}]],"template":["$","$L9",null,{}],"notFound":[["$","div",null,{"className":"page-shell empty-state not-found","children":[["$","span",null,{"className":"overline","children":"404 / Uncharted territory"}],["$","h1",null,{"children":"This page isn’t here."}],["$","p",null,{"children":"The component catalog is a good place to pick things up."}],["$","$Lc",null,{"className":"button button-dark","href":"/components","children":"Explore components →"}]]}],[]]}]}],["$","footer",null,{"className":"site-footer","children":[["$","$Lc",null,{"className":"brand footer-brand","href":"/","children":["agentcn",["$","span",null,{"className":"brand-muted","children":"/ui"}]]}],["$","p",null,{"children":"Built for the next kind of software."}],["$","div",null,{"children":[["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui","children":"Open source ↗"}],["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui/blob/main/LICENSE","children":"MIT license"}]]}],["$","span",null,{"children":"By Alvaro Villalba"}]]}]]}]]}]]}]}],"p":"$@d","v":null,"s":"$e"},"c":"$Qf"},"h":{"r":["$","$4","h",{"children":[null,["$","$L26",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L28",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$29",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Token Usage — agentcn/ui"}],["$","meta","1",{"name":"description","content":"Track input, output, cached tokens, and costs against a run budget."}],["$","link","2",{"rel":"icon","href":"/agentcn-ui/icon.svg?icon.0dzi7n43m0qzg.svg","sizes":"any","type":"image/svg+xml"}],["$","$L2a","3",{}]]}]}],null]}],null]}],"p":"$@2b","v":null,"s":"$e"}},"a":"$@2c","u":"$@2d","b":"YHf8dYSoo2klCabcEvzo0"}
+30:I[97367,["$1"],"OutletBoundary"]
+1b:["$","p",null,{"children":["Props are generated from the component’s TypeScript interface. Surface components also accept native section attributes such as"," ",["$","code",null,{"children":"className"}],", ",["$","code",null,{"children":"style"}],", and ",["$","code",null,{"children":"aria-label"}],"."]}]
+1c:["$","div",null,{"className":"table-scroll","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Required"}]]}]}],["$","tbody",null,{"children":[["$","tr","input",{"children":[["$","td",null,{"children":["$","code",null,{"children":"input"}]}],["$","td",null,{"children":["$","code",null,{"children":"number"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","output",{"children":[["$","td",null,{"children":["$","code",null,{"children":"output"}]}],["$","td",null,{"children":["$","code",null,{"children":"number"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","cached",{"children":[["$","td",null,{"children":["$","code",null,{"children":"cached"}]}],["$","td",null,{"children":["$","code",null,{"children":"number"}]}],["$","td",null,{"children":"No"}]]}],["$","tr","cost",{"children":[["$","td",null,{"children":["$","code",null,{"children":"cost"}]}],["$","td",null,{"children":["$","code",null,{"children":"number"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","budget",{"children":[["$","td",null,{"children":["$","code",null,{"children":"budget"}]}],["$","td",null,{"children":["$","code",null,{"children":"number"}]}],["$","td",null,{"children":"No"}]]}],["$","tr","currency",{"children":[["$","td",null,{"children":["$","code",null,{"children":"currency"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"No"}]]}]]}]]}]}]
+1d:["$","h2",null,{"id":"behavior","children":"Behavior & integration"}]
+1e:["$","p",null,{"children":"Interactive values are controlled by your application. Update the relevant props after a callback succeeds. Async action callbacks disable their controls while pending and display a thrown error without reporting success."}]
+1f:["$","h2",null,{"id":"source","children":"Source"}]
+2e:T627,"use client";
+
+import { Surface, number, bounded } from "./_shared";
+import type { SurfaceProps } from "./_shared";
+export interface TokenUsageProps extends SurfaceProps {
+  input: number;
+  output: number;
+  cached?: number;
+  cost: number;
+  budget?: number;
+  currency?: string;
+}
+export function TokenUsage({
+  input,
+  output,
+  cached = 0,
+  cost,
+  budget,
+  currency = "USD",
+  ...props
+}: TokenUsageProps) {
+  const money = new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency,
+    maximumFractionDigits: 4,
+  });
+  return (
+    <Surface
+      {...props}
+      title="Usage & cost"
+      eyebrow="Run telemetry"
+      actions={
+        <strong className="ac-mono">{money.format(Math.max(0, cost))}</strong>
+      }
+    >
+      <dl className="ac-metrics">
+        {[
+          ["Input", input],
+          ["Output", output],
+          ["Cached input", cached],
+        ].map(([label, value]) => (
+          <div key={label}>
+            <dt>{label}</dt>
+            <dd>{number(Math.max(0, Number(value)))}</dd>
+          </div>
+        ))}
+      </dl>
+      {budget !== undefined && budget > 0 && (
+        <div className="ac-body">
+          <label className="ac-row ac-muted">
+            Budget <span>{money.format(budget)}</span>
+          </label>
+          <progress
+            className="ac-progress"
+            aria-label="Run budget spent"
+            value={bounded(cost, budget)}
+            max={budget}
+          />
+          {cost > budget && <p className="ac-error">Budget exceeded</p>}
+        </div>
+      )}
+    </Surface>
+  );
+}
+2f:T627,"use client";
+
+import { Surface, number, bounded } from "./_shared";
+import type { SurfaceProps } from "./_shared";
+export interface TokenUsageProps extends SurfaceProps {
+  input: number;
+  output: number;
+  cached?: number;
+  cost: number;
+  budget?: number;
+  currency?: string;
+}
+export function TokenUsage({
+  input,
+  output,
+  cached = 0,
+  cost,
+  budget,
+  currency = "USD",
+  ...props
+}: TokenUsageProps) {
+  const money = new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency,
+    maximumFractionDigits: 4,
+  });
+  return (
+    <Surface
+      {...props}
+      title="Usage & cost"
+      eyebrow="Run telemetry"
+      actions={
+        <strong className="ac-mono">{money.format(Math.max(0, cost))}</strong>
+      }
+    >
+      <dl className="ac-metrics">
+        {[
+          ["Input", input],
+          ["Output", output],
+          ["Cached input", cached],
+        ].map(([label, value]) => (
+          <div key={label}>
+            <dt>{label}</dt>
+            <dd>{number(Math.max(0, Number(value)))}</dd>
+          </div>
+        ))}
+      </dl>
+      {budget !== undefined && budget > 0 && (
+        <div className="ac-body">
+          <label className="ac-row ac-muted">
+            Budget <span>{money.format(budget)}</span>
+          </label>
+          <progress
+            className="ac-progress"
+            aria-label="Run budget spent"
+            value={bounded(cost, budget)}
+            max={budget}
+          />
+          {cost > budget && <p className="ac-error">Budget exceeded</p>}
+        </div>
+      )}
+    </Surface>
+  );
+}
+20:["$","details",null,{"className":"source-details","children":[["$","summary",null,{"children":"Inspect the component"}],["$","div",null,{"className":"code-block","children":[["$","$L1a",null,{"value":"$2e"}],["$","pre",null,{"children":["$","code",null,{"children":"$2f"}]}]]}]]}]
+21:["$","div",null,{"className":"doc-next","children":["$","$Lc",null,{"href":"/docs/components/eval-scorecard","children":["Next: ","Eval Scorecard"," →"]}]}]
+22:["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3wjwx5gv_v1rp.js","async":true}]
+23:["$","$L30",null,{"children":["$","$29",null,{"name":"Next.MetadataOutlet","children":"$@31"}]}]
+e:300
+31:null
+2d:true
+e:C
+2c:0
+16:"$undefined"
+13:"$undefined"
+11:"$undefined"
+d:"$undefined"
+2b:"$undefined"
+24:"$undefined"

@@ -1,0 +1,196 @@
+1:"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js"
+2:"LoadingBoundaryProvider"
+3:I[39756,["$1"],"$2"]
+4:"$Sreact.fragment"
+5:I[8602,["$1"],"Header"]
+6:I[39756,["$1"],"default"]
+7:"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js"
+8:I[5150,["$1","$7"],"default"]
+9:I[37457,["$1"],"default"]
+a:"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js"
+b:"/agentcn-ui/_next/static/chunks/3wjwx5gv_v1rp.js"
+c:I[22016,["$1","$a","$b"],""]
+10:I[70846,["$1","$a"],"DocsNav"]
+18:I[97758,["$1","$a","$b"],"Preview"]
+29:"ViewportBoundary"
+2a:I[97367,["$1"],"$29"]
+2b:"MetadataBoundary"
+2c:I[97367,["$1"],"$2b"]
+2d:"$Sreact.suspense"
+2e:I[27201,["$1"],"IconMark"]
+:HL["/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","style"]
+e:X
+14:X
+14:C
+17:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$4","c",{"children":[["$","article",null,{"className":"prose component-doc","children":[["$","div",null,{"className":"doc-heading","children":[["$","span",null,{"className":"overline","children":["Components / ","Observability"]}],["$","h1",null,{"children":"Eval Scorecard"}],["$","p",null,{"children":"Show evaluation scores against thresholds with sample and run provenance."}]]}],["$","$L18",null,{"name":"eval-scorecard","code":"\"use client\";\n\nimport { useState } from \"react\";\nimport { EvalScorecard } from \"@agentcn/react\";\n\nexport default function EvalScorecardDemo() {\n  return (\n    <EvalScorecard\n      title=\"Research agent · latest run\"\n      sampleSize={120}\n      runId=\"eval_024\"\n      metrics={[\n        {\n          id: \"accuracy\",\n          label: \"Factual accuracy\",\n          score: 0.96,\n          threshold: 0.9,\n          detail: \"Verified against source material\",\n        },\n        {\n          id: \"grounding\",\n          label: \"Citation coverage\",\n          score: 0.88,\n          threshold: 0.85,\n        },\n        {\n          id: \"latency\",\n          label: \"Latency target\",\n          score: 0.72,\n          threshold: 0.8,\n          detail: \"Investigate long tool calls\",\n        },\n      ]}\n    />\n  );\n}\n"}],["$","h2",null,{"id":"installation","children":"Installation"}],"$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22",false,false,false,"$L23","$L24","$L25"]}],["$L26"],"$L27"]}],"p":"$@28","v":null,"s":"$e"}}]]
+15:[["children",{"s":{"n":"name","t":"d","k":"eval-scorecard","s":[]},"h":96,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@16","v":"$14","s":"$e"},"c":"$Q17"}]]
+12:[["children",{"s":"components","h":96,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@13","v":"$14","s":"$e"},"c":"$Q15"}]]
+f:[["children",{"s":"docs","h":96,"d":{"r":["$","$4","c",{"children":[[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js","async":true}]],["$","div",null,{"className":"page-shell docs-layout","children":[["$","aside",null,{"className":"docs-sidebar","children":["$","$L10",null,{}]}],["$","div",null,{"className":"docs-content","children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]}]]}]]}],"p":"$@11","v":null,"s":"$e"},"c":"$Q12"}]]
+0:{"t":{"t":{"s":"","h":84,"d":{"r":["$","$L3",null,{"loading":[["$","div","l",{"className":"page-shell loading-page","role":"status","children":[["$","span",null,{"className":"loading-mark","aria-hidden":"true","children":"✳"}]," ","Loading the workspace…"]}],[],null],"children":["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","precedence":"next"}],["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{var t=localStorage.getItem('agentcn-theme');document.documentElement.dataset.acTheme=t||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}catch(e){}"}}]}],["$","body",null,{"children":[["$","a",null,{"href":"#main","className":"skip-link","children":"Skip to content"}],["$","$L5",null,{}],["$","main",null,{"id":"main","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$8","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js","async":true}]],"template":["$","$L9",null,{}],"notFound":[["$","div",null,{"className":"page-shell empty-state not-found","children":[["$","span",null,{"className":"overline","children":"404 / Uncharted territory"}],["$","h1",null,{"children":"This page isn’t here."}],["$","p",null,{"children":"The component catalog is a good place to pick things up."}],["$","$Lc",null,{"className":"button button-dark","href":"/components","children":"Explore components →"}]]}],[]]}]}],["$","footer",null,{"className":"site-footer","children":[["$","$Lc",null,{"className":"brand footer-brand","href":"/","children":["agentcn",["$","span",null,{"className":"brand-muted","children":"/ui"}]]}],["$","p",null,{"children":"Built for the next kind of software."}],["$","div",null,{"children":[["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui","children":"Open source ↗"}],["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui/blob/main/LICENSE","children":"MIT license"}]]}],["$","span",null,{"children":"By Alvaro Villalba"}]]}]]}]]}]]}]}],"p":"$@d","v":null,"s":"$e"},"c":"$Qf"},"h":{"r":["$","$4","h",{"children":[null,["$","$L2a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L2c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$2d",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Eval Scorecard — agentcn/ui"}],["$","meta","1",{"name":"description","content":"Show evaluation scores against thresholds with sample and run provenance."}],["$","link","2",{"rel":"icon","href":"/agentcn-ui/icon.svg?icon.0dzi7n43m0qzg.svg","sizes":"any","type":"image/svg+xml"}],["$","$L2e","3",{}]]}]}],null]}],null]}],"p":"$@2f","v":null,"s":"$e"}},"a":"$@30","u":"$@31","b":"YHf8dYSoo2klCabcEvzo0"}
+32:I[78254,["$1","$a","$b"],"Command"]
+33:I[93382,["$1","$a","$b"],"CopyButton"]
+36:I[97367,["$1"],"OutletBoundary"]
+19:["$","p",null,{"children":"Copy this component into your configured source directory:"}]
+1a:["$","$L32",null,{"args":"add eval-scorecard"}]
+1b:["$","p",null,{"children":"Or import it from the package:"}]
+1c:["$","div",null,{"className":"code-block","children":[["$","$L33",null,{"value":"import { EvalScorecard } from \"@agentcn/react\";"}],["$","pre",null,{"children":["$","code",null,{"children":"import { EvalScorecard } from \"@agentcn/react\";"}]}]]}]
+1d:["$","p",null,{"children":["Import ",["$","code",null,{"children":"@agentcn/react/styles.css"}]," once in your root layout when using the package. For source installs, import the CSS path from your ",["$","code",null,{"children":"agentcn.json"}],"."]}]
+1e:["$","h2",null,{"id":"api","children":"API reference"}]
+1f:["$","p",null,{"children":["Props are generated from the component’s TypeScript interface. Surface components also accept native section attributes such as"," ",["$","code",null,{"children":"className"}],", ",["$","code",null,{"children":"style"}],", and ",["$","code",null,{"children":"aria-label"}],"."]}]
+20:["$","div",null,{"className":"table-scroll","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Required"}]]}]}],["$","tbody",null,{"children":[["$","tr","title",{"children":[["$","td",null,{"children":["$","code",null,{"children":"title"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","metrics",{"children":[["$","td",null,{"children":["$","code",null,{"children":"metrics"}]}],["$","td",null,{"children":["$","code",null,{"children":"EvalMetric[]"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","sampleSize",{"children":[["$","td",null,{"children":["$","code",null,{"children":"sampleSize"}]}],["$","td",null,{"children":["$","code",null,{"children":"number"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","runId",{"children":[["$","td",null,{"children":["$","code",null,{"children":"runId"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"No"}]]}]]}]]}]}]
+21:["$","h2",null,{"id":"behavior","children":"Behavior & integration"}]
+22:["$","p",null,{"children":"Interactive values are controlled by your application. Update the relevant props after a callback succeeds. Async action callbacks disable their controls while pending and display a thrown error without reporting success."}]
+23:["$","h2",null,{"id":"source","children":"Source"}]
+34:T768,"use client";
+
+import { Surface, bounded, number } from "./_shared";
+import type { SurfaceProps } from "./_shared";
+export interface EvalMetric {
+  id: string;
+  label: string;
+  score: number;
+  threshold: number;
+  detail?: string;
+}
+export interface EvalScorecardProps extends SurfaceProps {
+  title: string;
+  metrics: EvalMetric[];
+  sampleSize: number;
+  runId?: string;
+}
+export function EvalScorecard({
+  title,
+  metrics,
+  sampleSize,
+  runId,
+  ...props
+}: EvalScorecardProps) {
+  const passed = metrics.filter((m) => m.score >= m.threshold).length;
+  return (
+    <Surface
+      {...props}
+      title={title}
+      eyebrow="Evaluation"
+      actions={
+        <span className="ac-tag">
+          {passed} / {metrics.length} passed
+        </span>
+      }
+    >
+      {metrics.length === 0 ? (
+        <p className="ac-empty">No evaluation results yet.</p>
+      ) : (
+        <ul className="ac-list">
+          {metrics.map((m) => (
+            <li key={m.id} className="ac-eval">
+              <div className="ac-row">
+                <strong>{m.label}</strong>
+                <span className="ac-mono" data-passed={m.score >= m.threshold}>
+                  {number(m.score * 100)}% ·{" "}
+                  {m.score >= m.threshold ? "Pass" : "Fail"}
+                </span>
+              </div>
+              <progress
+                className="ac-progress"
+                aria-label={`${m.label} score`}
+                value={bounded(m.score, 1)}
+                max={1}
+              />
+              <span className="ac-muted ac-small">
+                Threshold {number(m.threshold * 100)}%
+                {m.detail && ` · ${m.detail}`}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
+      <footer className="ac-footer ac-muted ac-small">
+        {number(sampleSize)} samples{runId && ` · ${runId}`}
+      </footer>
+    </Surface>
+  );
+}
+35:T768,"use client";
+
+import { Surface, bounded, number } from "./_shared";
+import type { SurfaceProps } from "./_shared";
+export interface EvalMetric {
+  id: string;
+  label: string;
+  score: number;
+  threshold: number;
+  detail?: string;
+}
+export interface EvalScorecardProps extends SurfaceProps {
+  title: string;
+  metrics: EvalMetric[];
+  sampleSize: number;
+  runId?: string;
+}
+export function EvalScorecard({
+  title,
+  metrics,
+  sampleSize,
+  runId,
+  ...props
+}: EvalScorecardProps) {
+  const passed = metrics.filter((m) => m.score >= m.threshold).length;
+  return (
+    <Surface
+      {...props}
+      title={title}
+      eyebrow="Evaluation"
+      actions={
+        <span className="ac-tag">
+          {passed} / {metrics.length} passed
+        </span>
+      }
+    >
+      {metrics.length === 0 ? (
+        <p className="ac-empty">No evaluation results yet.</p>
+      ) : (
+        <ul className="ac-list">
+          {metrics.map((m) => (
+            <li key={m.id} className="ac-eval">
+              <div className="ac-row">
+                <strong>{m.label}</strong>
+                <span className="ac-mono" data-passed={m.score >= m.threshold}>
+                  {number(m.score * 100)}% ·{" "}
+                  {m.score >= m.threshold ? "Pass" : "Fail"}
+                </span>
+              </div>
+              <progress
+                className="ac-progress"
+                aria-label={`${m.label} score`}
+                value={bounded(m.score, 1)}
+                max={1}
+              />
+              <span className="ac-muted ac-small">
+                Threshold {number(m.threshold * 100)}%
+                {m.detail && ` · ${m.detail}`}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
+      <footer className="ac-footer ac-muted ac-small">
+        {number(sampleSize)} samples{runId && ` · ${runId}`}
+      </footer>
+    </Surface>
+  );
+}
+24:["$","details",null,{"className":"source-details","children":[["$","summary",null,{"children":"Inspect the component"}],["$","div",null,{"className":"code-block","children":[["$","$L33",null,{"value":"$34"}],["$","pre",null,{"children":["$","code",null,{"children":"$35"}]}]]}]]}]
+25:["$","div",null,{"className":"doc-next","children":["$","$Lc",null,{"href":"/docs/components/agent-run","children":["Next: ","Agent Run"," →"]}]}]
+26:["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3wjwx5gv_v1rp.js","async":true}]
+27:["$","$L36",null,{"children":["$","$2d",null,{"name":"Next.MetadataOutlet","children":"$@37"}]}]
+e:300
+37:null
+31:true
+e:C
+30:0
+16:"$undefined"
+13:"$undefined"
+11:"$undefined"
+d:"$undefined"
+2f:"$undefined"
+28:"$undefined"

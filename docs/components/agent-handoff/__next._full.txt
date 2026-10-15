@@ -1,0 +1,189 @@
+1:"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js"
+2:"LoadingBoundaryProvider"
+3:I[39756,["$1"],"$2"]
+4:"$Sreact.fragment"
+5:I[8602,["$1"],"Header"]
+6:I[39756,["$1"],"default"]
+7:"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js"
+8:I[5150,["$1","$7"],"default"]
+9:I[37457,["$1"],"default"]
+a:"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js"
+b:"/agentcn-ui/_next/static/chunks/3wjwx5gv_v1rp.js"
+c:I[22016,["$1","$a","$b"],""]
+e:I[70846,["$1","$a"],"DocsNav"]
+14:I[97367,["$1"],"OutletBoundary"]
+15:"$Sreact.suspense"
+17:"ViewportBoundary"
+18:I[97367,["$1"],"$17"]
+1a:"MetadataBoundary"
+1b:I[97367,["$1"],"$1a"]
+1d:I[68027,["$1"],"default",1]
+:HL["/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","style"]
+10:X
+12:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$4","c",{"children":["$L13",[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3wjwx5gv_v1rp.js","async":true,"nonce":"$undefined"}]],["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]]}],"p":false,"v":null}}]]
+11:[["children",{"s":{"n":"name","t":"d","k":"agent-handoff","s":[]},"h":512,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$10"},"c":"$Q12"}]]
+f:[["children",{"s":"components","h":512,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$10"},"c":"$Q11"}]]
+d:[["children",{"s":"docs","h":512,"d":{"r":["$","$4","c",{"children":[[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/28ep2d-j_rkf5.js","async":true,"nonce":"$undefined"}]],["$","div",null,{"className":"page-shell docs-layout","children":[["$","aside",null,{"className":"docs-sidebar","children":["$","$Le",null,{}]}],["$","div",null,{"className":"docs-content","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Qf"}]]
+0:{"P":null,"c":["","docs","components","agent-handoff",""],"q":"","i":false,"t":{"t":{"s":"","h":532,"d":{"r":["$","$L3",null,{"loading":[["$","div","l",{"className":"page-shell loading-page","role":"status","children":[["$","span",null,{"className":"loading-mark","aria-hidden":"true","children":"✳"}]," ","Loading the workspace…"]}],[],null],"children":["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/3cgy8r_j8b_46.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{var t=localStorage.getItem('agentcn-theme');document.documentElement.dataset.acTheme=t||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}catch(e){}"}}]}],["$","body",null,{"children":[["$","a",null,{"href":"#main","className":"skip-link","children":"Skip to content"}],["$","$L5",null,{}],["$","main",null,{"id":"main","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$8","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/agentcn-ui/_next/static/chunks/0ae6r88q036q_.js","async":true,"nonce":"$undefined"}]],"template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"page-shell empty-state not-found","children":[["$","span",null,{"className":"overline","children":"404 / Uncharted territory"}],["$","h1",null,{"children":"This page isn’t here."}],["$","p",null,{"children":"The component catalog is a good place to pick things up."}],["$","$Lc",null,{"className":"button button-dark","href":"/components","children":"Explore components →"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"site-footer","children":[["$","$Lc",null,{"className":"brand footer-brand","href":"/","children":["agentcn",["$","span",null,{"className":"brand-muted","children":"/ui"}]]}],["$","p",null,{"children":"Built for the next kind of software."}],["$","div",null,{"children":[["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui","children":"Open source ↗"}],["$","a",null,{"href":"https://github.com/alvarovillalbaa/agentcn-ui/blob/main/LICENSE","children":"MIT license"}]]}],["$","span",null,{"children":"By Alvaro Villalba"}]]}]]}]]}]]}]}],"p":false,"v":null},"c":"$Qd"},"h":{"r":["$","$4","h",{"children":[null,["$","$L18",null,{"children":"$L19"}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$15",null,{"name":"Next.Metadata","children":"$L1c"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$1d",[["$","link","0",{"rel":"stylesheet","href":"/agentcn-ui/_next/static/chunks/27pqc1pxkxvxj.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"YHf8dYSoo2klCabcEvzo0"}
+1e:I[97758,["$1","$a","$b"],"Preview"]
+1f:I[78254,["$1","$a","$b"],"Command"]
+20:I[93382,["$1","$a","$b"],"CopyButton"]
+10:C
+13:["$","article",null,{"className":"prose component-doc","children":[["$","div",null,{"className":"doc-heading","children":[["$","span",null,{"className":"overline","children":["Components / ","Orchestration"]}],["$","h1",null,{"children":"Agent Handoff"}],["$","p",null,{"children":"Review delegation between agents and the context crossing that boundary."}]]}],["$","$L1e",null,{"name":"agent-handoff","code":"\"use client\";\n\nimport { useState } from \"react\";\nimport { AgentHandoff } from \"@agentcn/react\";\n\nexport default function AgentHandoffDemo() {\n  const [status, setStatus] = useState<\"proposed\" | \"accepted\" | \"declined\">(\n    \"proposed\",\n  );\n  return (\n    <AgentHandoff\n      from=\"Research agent\"\n      to=\"Writing agent\"\n      reason=\"Research is complete. The writing specialist can turn the findings into a draft.\"\n      context={[\n        \"6 verified primary sources\",\n        \"Product brief and audience\",\n        \"Open questions and uncertainties\",\n      ]}\n      status={status}\n      onAccept={() => setStatus(\"accepted\")}\n      onDecline={() => setStatus(\"declined\")}\n    />\n  );\n}\n"}],["$","h2",null,{"id":"installation","children":"Installation"}],["$","p",null,{"children":"Copy this component into your configured source directory:"}],["$","$L1f",null,{"args":"add agent-handoff"}],["$","p",null,{"children":"Or import it from the package:"}],["$","div",null,{"className":"code-block","children":[["$","$L20",null,{"value":"import { AgentHandoff } from \"@agentcn/react\";"}],["$","pre",null,{"children":["$","code",null,{"children":"import { AgentHandoff } from \"@agentcn/react\";"}]}]]}],["$","p",null,{"children":["Import ",["$","code",null,{"children":"@agentcn/react/styles.css"}]," once in your root layout when using the package. For source installs, import the CSS path from your ",["$","code",null,{"children":"agentcn.json"}],"."]}],["$","h2",null,{"id":"api","children":"API reference"}],["$","p",null,{"children":["Props are generated from the component’s TypeScript interface. Surface components also accept native section attributes such as"," ",["$","code",null,{"children":"className"}],", ",["$","code",null,{"children":"style"}],", and ",["$","code",null,{"children":"aria-label"}],"."]}],["$","div",null,{"className":"table-scroll","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Prop"}],["$","th",null,{"children":"Type"}],["$","th",null,{"children":"Required"}]]}]}],["$","tbody",null,{"children":[["$","tr","from",{"children":[["$","td",null,{"children":["$","code",null,{"children":"from"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","to",{"children":[["$","td",null,{"children":["$","code",null,{"children":"to"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","reason",{"children":[["$","td",null,{"children":["$","code",null,{"children":"reason"}]}],["$","td",null,{"children":["$","code",null,{"children":"string"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","context",{"children":[["$","td",null,{"children":["$","code",null,{"children":"context"}]}],["$","td",null,{"children":["$","code",null,{"children":"string[]"}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","status",{"children":[["$","td",null,{"children":["$","code",null,{"children":"status"}]}],["$","td",null,{"children":["$","code",null,{"children":"\"proposed\" | \"accepted\" | \"declined\""}]}],["$","td",null,{"children":"Yes"}]]}],["$","tr","onAccept",{"children":[["$","td",null,{"children":["$","code",null,{"children":"onAccept"}]}],["$","td",null,{"children":["$","code",null,{"children":"() => void | Promise<void>"}]}],["$","td",null,{"children":"No"}]]}],["$","tr","onDecline",{"children":[["$","td",null,{"children":["$","code",null,{"children":"onDecline"}]}],["$","td",null,{"children":["$","code",null,{"children":"() => void | Promise<void>"}]}],["$","td",null,{"children":"No"}]]}]]}]]}]}],["$","h2",null,{"id":"behavior","children":"Behavior & integration"}],["$","p",null,{"children":"Interactive values are controlled by your application. Update the relevant props after a callback succeeds. Async action callbacks disable their controls while pending and display a thrown error without reporting success."}],["$","div",null,{"className":"callout","children":[["$","strong",null,{"children":"Keep the server authoritative."}],["$","p",null,{"children":"Reviewing a decision in the interface does not authorize an operation. Validate the user, request, current state, and scope on your server before executing a callback’s action."}]]}],false,false,"$L21","$L22","$L23"]}]
+21:["$","h2",null,{"id":"source","children":"Source"}]
+24:T77d,"use client";
+
+import { Surface, useAction } from "./_shared";
+import type { SurfaceProps } from "./_shared";
+export interface AgentHandoffProps extends SurfaceProps {
+  from: string;
+  to: string;
+  reason: string;
+  context: string[];
+  status: "proposed" | "accepted" | "declined";
+  onAccept?: () => void | Promise<void>;
+  onDecline?: () => void | Promise<void>;
+}
+export function AgentHandoff({
+  from,
+  to,
+  reason,
+  context,
+  status,
+  onAccept,
+  onDecline,
+  ...props
+}: AgentHandoffProps) {
+  const action = useAction();
+  return (
+    <Surface
+      {...props}
+      title="Agent handoff"
+      eyebrow="Delegation"
+      actions={<span className="ac-tag">{status}</span>}
+    >
+      <div className="ac-handoff">
+        <span>{from}</span>
+        <span aria-label="hands off to">→</span>
+        <span>{to}</span>
+      </div>
+      <p className="ac-body ac-muted">{reason}</p>
+      <details className="ac-disclosure">
+        <summary>Context to transfer · {context.length} items</summary>
+        <ul className="ac-scope">
+          {context.map((c, i) => (
+            <li key={i}>{c}</li>
+          ))}
+        </ul>
+      </details>
+      {status === "proposed" && (
+        <footer className="ac-footer">
+          {onAccept && (
+            <button
+              className="ac-button ac-primary"
+              disabled={action.pending}
+              onClick={() => void action.run(onAccept)}
+            >
+              Accept handoff
+            </button>
+          )}
+          {onDecline && (
+            <button
+              className="ac-button"
+              disabled={action.pending}
+              onClick={() => void action.run(onDecline)}
+            >
+              Decline
+            </button>
+          )}
+        </footer>
+      )}
+      {action.error && (
+        <p className="ac-error" role="alert">
+          {action.error}
+        </p>
+      )}
+    </Surface>
+  );
+}
+25:T77d,"use client";
+
+import { Surface, useAction } from "./_shared";
+import type { SurfaceProps } from "./_shared";
+export interface AgentHandoffProps extends SurfaceProps {
+  from: string;
+  to: string;
+  reason: string;
+  context: string[];
+  status: "proposed" | "accepted" | "declined";
+  onAccept?: () => void | Promise<void>;
+  onDecline?: () => void | Promise<void>;
+}
+export function AgentHandoff({
+  from,
+  to,
+  reason,
+  context,
+  status,
+  onAccept,
+  onDecline,
+  ...props
+}: AgentHandoffProps) {
+  const action = useAction();
+  return (
+    <Surface
+      {...props}
+      title="Agent handoff"
+      eyebrow="Delegation"
+      actions={<span className="ac-tag">{status}</span>}
+    >
+      <div className="ac-handoff">
+        <span>{from}</span>
+        <span aria-label="hands off to">→</span>
+        <span>{to}</span>
+      </div>
+      <p className="ac-body ac-muted">{reason}</p>
+      <details className="ac-disclosure">
+        <summary>Context to transfer · {context.length} items</summary>
+        <ul className="ac-scope">
+          {context.map((c, i) => (
+            <li key={i}>{c}</li>
+          ))}
+        </ul>
+      </details>
+      {status === "proposed" && (
+        <footer className="ac-footer">
+          {onAccept && (
+            <button
+              className="ac-button ac-primary"
+              disabled={action.pending}
+              onClick={() => void action.run(onAccept)}
+            >
+              Accept handoff
+            </button>
+          )}
+          {onDecline && (
+            <button
+              className="ac-button"
+              disabled={action.pending}
+              onClick={() => void action.run(onDecline)}
+            >
+              Decline
+            </button>
+          )}
+        </footer>
+      )}
+      {action.error && (
+        <p className="ac-error" role="alert">
+          {action.error}
+        </p>
+      )}
+    </Surface>
+  );
+}
+22:["$","details",null,{"className":"source-details","children":[["$","summary",null,{"children":"Inspect the component"}],["$","div",null,{"className":"code-block","children":[["$","$L20",null,{"value":"$24"}],["$","pre",null,{"children":["$","code",null,{"children":"$25"}]}]]}]]}]
+23:["$","div",null,{"className":"doc-next","children":["$","$Lc",null,{"href":"/docs/components/model-router","children":["Next: ","Model Router"," →"]}]}]
+19:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+26:I[27201,["$1"],"IconMark"]
+16:null
+1c:[["$","title","0",{"children":"Agent Handoff — agentcn/ui"}],["$","meta","1",{"name":"description","content":"Review delegation between agents and the context crossing that boundary."}],["$","link","2",{"rel":"icon","href":"/agentcn-ui/icon.svg?icon.0dzi7n43m0qzg.svg","sizes":"any","type":"image/svg+xml"}],["$","$L26","3",{}]]
