@@ -38,9 +38,31 @@ export default async function ComponentPage({
       </div>
       <Preview name={name} code={data.example} />
       <h2 id="installation">Installation</h2>
-      <p>Copy this component into your configured source directory:</p>
-      <Command args={`add ${name}`} />
-      <p>Or import it from the package:</p>
+      {item.sourceOnly ? (
+        <div className="callout">
+          <strong>Available in source.</strong>
+          <p>
+            The published npm 0.1.0 packages do not include this component yet.
+            Use the source below, or build a reviewed repository checkout and
+            run its local installer. The examples on this page use that source.
+          </p>
+          <a
+            href={`https://github.com/alvarovillalbaa/agentcn-ui/blob/main/packages/react/src/${name}.tsx`}
+          >
+            Open component source ↗
+          </a>
+        </div>
+      ) : (
+        <>
+          <p>Copy this component into your configured source directory:</p>
+          <Command args={`add ${name}`} />
+        </>
+      )}
+      <p>
+        {item.sourceOnly
+          ? "Import from your built source package:"
+          : "Or import it from the package:"}
+      </p>
       <div className="code-block">
         <CopyButton
           value={`import { ${item.component} } from "@alvarovillalbaa/agentcn-ui";`}
@@ -117,6 +139,39 @@ export default async function ComponentPage({
         <p>
           Only absolute HTTP and HTTPS URLs become links. Invalid URLs and other
           protocols render as plain titles.
+        </p>
+      )}
+      {name === "multi-input" && (
+        <p>
+          Values are controlled text entries. Adding trims surrounding
+          whitespace and refuses empty or duplicate entries. Member selection
+          belongs in Member Picker, where each person retains a supplied
+          identity.
+        </p>
+      )}
+      {name === "member-picker" && (
+        <p>
+          Search filters existing members; selection preserves their IDs and
+          members hidden by the filter. This component creates no invitation or
+          access grant. Your application owns availability and membership
+          changes.
+        </p>
+      )}
+      {name === "creatable-select" && (
+        <p>
+          Selecting an option and creating one are separate actions. The create
+          callback receives a label; your application adds the acknowledged
+          option and controls its selected ID. Rejected creation keeps the draft
+          available for correction or retry.
+        </p>
+      )}
+      {name === "pricing-table" && (
+        <p>
+          Prices, features and current plan are supplied by your application.
+          The drawer reviews a plan before emitting its ID. The callback does
+          not create a subscription or establish billing authorization. Closing
+          a pending review dismisses its feedback; your application still owns
+          the outcome of an already dispatched request.
         </p>
       )}
       <h2 id="source">Source</h2>

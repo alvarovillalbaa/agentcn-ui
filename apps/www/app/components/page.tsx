@@ -1,4 +1,5 @@
 import { ComponentGallery } from "@/components/component-gallery";
+import { catalog } from "@/lib/catalog.mjs";
 export const metadata = { title: "Components" };
 export default function ComponentsPage() {
   return (
@@ -11,8 +12,8 @@ export default function ComponentsPage() {
           AI-native interfaces.
         </h1>
         <p>
-          16 focused components. Real interactions, typed APIs, and source code
-          you can make your own.
+          {catalog.length} focused components. Real interactions, typed APIs,
+          and source code you can make your own.
         </p>
       </div>
       <ComponentGallery />

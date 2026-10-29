@@ -143,6 +143,46 @@ export const catalog = [
     component: "EvalScorecard",
     tags: ["eval", "quality", "metrics"],
   },
+  {
+    name: "multi-input",
+    title: "Multi Input",
+    category: "Inputs",
+    description:
+      "Collect editable tags or short values with explicit additions, removal, and limits.",
+    component: "MultiInput",
+    tags: ["tags", "input", "multiple"],
+    sourceOnly: true,
+  },
+  {
+    name: "member-picker",
+    title: "Member Picker",
+    category: "Inputs",
+    description:
+      "Search and select existing members without treating people as freeform tags.",
+    component: "MemberPicker",
+    tags: ["members", "selection", "people"],
+    sourceOnly: true,
+  },
+  {
+    name: "creatable-select",
+    title: "Creatable Select",
+    category: "Inputs",
+    description:
+      "Choose an existing option or explicitly submit a new label for your app to create.",
+    component: "CreatableSelect",
+    tags: ["select", "create", "options"],
+    sourceOnly: true,
+  },
+  {
+    name: "pricing-table",
+    title: "Pricing Table",
+    category: "Plans",
+    description:
+      "Compare plans and review one in a drawer before continuing with your selection.",
+    component: "PricingTable",
+    tags: ["pricing", "plans", "drawer"],
+    sourceOnly: true,
+  },
 ];
 
 export const presets = {

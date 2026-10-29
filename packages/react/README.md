@@ -1,6 +1,10 @@
 # @alvarovillalbaa/agentcn-ui
 
-Last updated: 2026-10-15
+Last updated: 2026-10-29
+
+The repository source also contains MultiInput, MemberPicker, CreatableSelect
+and PricingTable. They are not part of the published 0.1.0 archive. Consult
+the repository's current source and release evidence before using those exports.
 
 React components for AI-native apps. Import components from `@alvarovillalbaa/agentcn-ui` and load `@alvarovillalbaa/agentcn-ui/styles.css` once in the application root.
 

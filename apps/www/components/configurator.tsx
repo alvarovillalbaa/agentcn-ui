@@ -57,7 +57,14 @@ export function Configurator() {
     "--ac-space": density === "compact" ? "14px" : "20px",
   } as CSSProperties;
   const prefix = manager === "npm" ? "npx" : "pnpm dlx";
-  const commands = `${prefix} agentcn-ui@latest init --yes --palette ${palette} --radius ${radius} --density ${density}\n${prefix} agentcn-ui@latest add ${selected.join(" ")}`;
+  const sourceInstall = selected.some((name) =>
+    catalog.some((item) => item.name === name && item.sourceOnly),
+  );
+  const executable = sourceInstall
+    ? "node /path/to/agentcn-ui/packages/cli/bin/agentcn.mjs"
+    : `${prefix} agentcn-ui@latest`;
+  const destination = sourceInstall ? " --cwd /path/to/your-app" : "";
+  const commands = `${executable} init --yes --palette ${palette} --radius ${radius} --density ${density}${destination}\n${executable} add ${selected.join(" ")}${destination}`;
   const config = JSON.stringify(
     {
       $schema:
@@ -178,6 +185,7 @@ export function Configurator() {
                   onChange={() => toggle(i.name)}
                 />
                 {i.title}
+                {i.sourceOnly && <small> · source</small>}
               </label>
             ))}
           </div>
@@ -234,6 +242,7 @@ export function Configurator() {
                 <button
                   key={m}
                   aria-pressed={manager === m}
+                  disabled={sourceInstall}
                   onClick={() => setManager(m)}
                 >
                   {m}
@@ -241,7 +250,20 @@ export function Configurator() {
               ))}
             </div>
           </div>
-          <p>Run these commands inside your React or Next.js project.</p>
+          {sourceInstall ? (
+            <p>
+              This kit includes components available in repository source; npm
+              0.1.0 does not include them. Build a reviewed agentcn-ui checkout
+              with <code>npm ci</code> and <code>npm run build:library</code>,
+              then replace the example paths below with your checkout and app.
+              <a href="https://github.com/alvarovillalbaa/agentcn-ui">
+                {" "}
+                Open source ↗
+              </a>
+            </p>
+          ) : (
+            <p>Run these commands inside your React or Next.js project.</p>
+          )}
           {selected.length > 0 && (
             <div className="command-box">
               <div className="command-toolbar">

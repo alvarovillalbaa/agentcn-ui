@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-29",
+  "project": "agentcn-ui",
+  "status": "source-prepared-before-hosted-and-interaction-proof",
+  "baseCommit": "8517d6043b0b4bd8b4add43de31ad65e49861fc3",
+  "brief": {
+    "url": "https://app.notion.com/p/3c6a1ee8bd0680739da8f7df94fd906e",
+    "snapshot": "2026-10-15T11:26:30.089Z",
+    "returnedCharacters": 1498,
+    "completeReturnedTextRead": true,
+    "verification": "unverified"
+  },
+  "newComponents": [
+    "MultiInput",
+    "MemberPicker",
+    "CreatableSelect",
+    "PricingTable"
+  ],
+  "catalogEntries": 20,
+  "publishedPackageVersion": "0.1.0",
+  "newComponentsInPublishedArchive": false,
+  "sourceOnlyCatalogEntries": 4,
+  "storageGuard": {
+    "needGiB": 4,
+    "reserveGiB": 30,
+    "freeGiB": 25,
+    "requiredGiB": 34,
+    "exitCode": 2,
+    "localInstallOrBuild": false
+  },
+  "staticChecks": {
+    "node": "v24.21.0",
+    "typescript": "5.9.3",
+    "modulesParsed": 56,
+    "sourceImportsResolved": 115,
+    "catalogInterfacesAndDemosMatched": 20,
+    "cssParsed": true,
+    "proposedWorkflowYamlParsed": true,
+    "proposedWorkflowShellBodiesParsed": 4,
+    "proposedWorkflowNodeProgramsParsed": 1,
+    "targetedFormat": "passed",
+    "gitDiffCheck": "passed",
+    "productImports": 0,
+    "buildFilesEmitted": 0
+  },
+  "authoredChecks": {
+    "newCases": 28,
+    "existingReactCases": 5,
+    "existingCLICases": 9,
+    "totalProposed": 42,
+    "newCaseNames": [
+      "MultiInput adds a trimmed token through Enter and reflects controlled values",
+      "MultiInput explicit changes preserve caller state and retain a failed draft",
+      "MultiInput rejects blank and existing tokens without duplicate callbacks",
+      "MultiInput item limits prevent additions while permitting removal",
+      "MultiInput enforces text bounds and consumes later external value changes",
+      "MultiInput disabled state prevents both addition and removal",
+      "MultiInput IME composition and keyCode 229 do not prematurely add a token",
+      "MemberPicker filters existing names and descriptions without dropping hidden selections",
+      "MemberPicker toggles only supplied member IDs and preserves consumer-owned input",
+      "MemberPicker respects individual and whole-control disabled states",
+      "MemberPicker selection limits still allow deselecting a current member",
+      "MemberPicker empty and unmatched searches never offer invented members",
+      "CreatableSelect native selection preserves IDs and recovers from a caller failure",
+      "CreatableSelect explicit creation emits a label without minting or selecting an ID",
+      "CreatableSelect does not create empty duplicate or over-limit labels",
+      "CreatableSelect serializes pending creation and exposes failure with a retry",
+      "CreatableSelect late success retains a newer unsent label",
+      "CreatableSelect late failure cannot attach an error to a newer label",
+      "CreatableSelect changed caller context fences an older creation acknowledgement",
+      "CreatableSelect disabled and composing inputs cannot request creation",
+      "PricingTable renders supplied terms without inventing a current plan or billing action",
+      "PricingTable opens a labelled review with supplied details before choice intent",
+      "PricingTable close and native cancel return focus without choosing",
+      "PricingTable pending choices serialize double clicks and failure stays retryable",
+      "PricingTable closing and reopening fences a late failed choice",
+      "PricingTable committed plan or current-value changes invalidate an older review",
+      "PricingTable replacing the choice handler fences old work from a newer review",
+      "PricingTable disabled choices and literal supplied content do not trigger billing"
+    ],
+    "execution": "unexecuted",
+    "browserScenariosProposed": 8
+  },
+  "protectedInputsMatchedBase": [
+    "package.json",
+    "package-lock.json",
+    "packages/react/package.json",
+    "packages/cli/package.json",
+    "apps/www/package.json",
+    "scripts/build-registry.mjs",
+    "scripts/check-source.mjs",
+    "packages/react/src/_shared.tsx",
+    "tests/integration/components.test.mjs",
+    "tests/integration/cli.test.mjs"
+  ],
+  "sources": [
+    {
+      "path": ".gitignore",
+      "sha256": "4227c42ac179c2cafc9bef4058f20c46b0d85ec9b922df6e381fa3af34a61b51"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "a29e67269278193c382d34f7e5c85ac12cbdc39a3f82e56f5d9b62a5feddd948"
+    },
+    {
+      "path": "apps/www/app/blocks/page.tsx",
+      "sha256": "2cdfdf464d9bac3f70d241efa68c2d91ebbdcd7c6b12d6967c716a0e3dea0779"
+    },
+    {
+      "path": "apps/www/app/components/page.tsx",
+      "sha256": "f36e99d5f63bed22ca6e855b06b929e325138090249e41fc044899eafc2af410"
+    },
+    {
+      "path": "apps/www/app/create/page.tsx",
+      "sha256": "e0a27ca207cc16c3b8c753a38ffa227ae29260995721ed3abdb7dd1cecdf80e9"
+    },
+    {
+      "path": "apps/www/app/docs/[slug]/page.tsx",
+      "sha256": "d6bb951f76648acf2e68aeb53c454b08bb149cbb7f84674100cd18cda1a566a7"
+    },
+    {
+      "path": "apps/www/app/docs/components/[name]/page.tsx",
+      "sha256": "542cd21d77208cc4bb04c8728412ad4e6b30c48119b0b328508e37d6b8c28585"
+    },
+    {
+      "path": "apps/www/app/docs/layout.tsx",
+      "sha256": "77e6725e4b546df3da4158f6bf6e314877789d22acb516d86412bd72a6aca659"
+    },
+    {
+      "path": "apps/www/app/docs/page.tsx",
+      "sha256": "914d089b2726db40d243970d7eb457c9b10063282d5534776ce592bfae566a2e"
+    },
+    {
+      "path": "apps/www/app/error.tsx",
+      "sha256": "6e8bc62be877c32a4530a7527614e698e0045f3841f390bcd171b59095d23d42"
+    },
+    {
+      "path": "apps/www/app/globals.css",
+      "sha256": "fb7ff555529bfe7995f6ec6de0995157b8a1156832d811495dcc7fb561d052e5"
+    },
+    {
+      "path": "apps/www/app/layout.tsx",
+      "sha256": "b0a8b6821d719f3d4416e13fbe1b501ba67b717c096170a3f18508ffa928c168"
+    },
+    {
+      "path": "apps/www/app/loading.tsx",
+      "sha256": "5c9c9283a463178fb2bf0bc1dc27e0e9197e5c643c11810cb4cd1da1c7af3d62"
+    },
+    {
+      "path": "apps/www/app/not-found.tsx",
+      "sha256": "8ba9e2400b384dae785296dc19fdbbea66e23517867742395e930b27da5a7fe7"
+    },
+    {
+      "path": "apps/www/app/page.tsx",
+      "sha256": "5b3a8f53410e470d9b6080998aa3c22133d168e59e62f68570c7a829e4bd3a3b"
+    },
+    {
+      "path": "apps/www/components/blocks.tsx",
+      "sha256": "da7794ad1b4f609f890e4d01f24ef204fea65bbf602002ab82edb446e1c98b49"
+    },
+    {
+      "path": "apps/www/components/command.tsx",
+      "sha256": "8d553c57a4f2c279653d2b8c5360da98f26c713f613636ada07eacf67b06a458"
+    },
+    {
+      "path": "apps/www/components/component-gallery.tsx",
+      "sha256": "930a71eb496e4ba95989b9fffe09e2b675ecf261694157359a10839fea71d267"
+    },
+    {
+      "path": "apps/www/components/configurator.tsx",
+      "sha256": "668c83238b9500bc6f2fd46a75aeac1a2d34322ff538adbe15f1ab94323f49f3"
+    },
+    {
+      "path": "apps/www/components/copy-button.tsx",
+      "sha256": "fb0990d2eddb25622b23b0945973bc630337600a66b68ae31c3dc9613020f6e7"
+    },
+    {
+      "path": "apps/www/components/demos.tsx",
+      "sha256": "ad60ad08b9059c071c8103ada0640758f3a6eb9523b52b967a96bcadcc6822b3"
+    },
+    {
+      "path": "apps/www/components/docs-nav.tsx",
+      "sha256": "fb4a5720950377173cf87c43510ee21486a7800a4674f57367816d71924d340c"
+    },
+    {
+      "path": "apps/www/components/header.tsx",
+      "sha256": "83482a46bcb78da837ea489375ca5e9a8275e9d5cab0eb7fe0ef84de0fe0f9fb"
+    },
+    {
+      "path": "apps/www/components/preview.tsx",
+      "sha256": "e9f6cd4b67f92cb4f8b20a3ef9ce520da6fe77891c3fadf4d7338f10a1e2598c"
+    },
+    {
+      "path": "apps/www/lib/guide-content.tsx",
+      "sha256": "d781def3a6aa849abf6ac494c06a1fc0ea786a0a2e841342a7e07d3be50f4c09"
+    },
+    {
+      "path": "apps/www/next-env.d.ts",
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "path": "apps/www/next.config.mjs",
+      "sha256": "57e8eb7c890dac206706224fed9f730d3ab662fd0eeadf16f0c1788f6d7d80a7"
+    },
+    {
+      "path": "apps/www/package.json",
+      "sha256": "838ae01f0cc506e578fdce0429f0cbf7f370254b72d6c7d4b9a4a826a3e69b2a"
+    },
+    {
+      "path": "apps/www/styles/docs.css",
+      "sha256": "27f402468a9371f23bab355ed339a0e8d464ef4f9a863da69e76496c509a07e8"
+    },
+    {
+      "path": "apps/www/tsconfig.json",
+      "sha256": "3a048c27852b1b7bafc742e8ff53cffc34d0316c867f8a267758174a27804477"
+    },
+    {
+      "path": "catalog.mjs",
+      "sha256": "232d9e6b6032b79e606fbb7046a7cb06522d2b765dfcb5b012aff1ebd7cdeb61"
+    },
+    {
+      "path": "docs/proposals/brief-components-checks.md",
+      "sha256": "4bbaaf8603313e7be94b4941d132d47b7e2ab9118341647361ffd4fa43ebf222"
+    },
+    {
+      "path": "docs/proposals/brief-components.workflow.yml",
+      "sha256": "47096bfe66ad7a794cba142bde8471c6f61fd4ba116c05a0920bd08983fd4813"
+    },
+    {
+      "path": "docs/specs/brief-components.md",
+      "sha256": "f88fa1f3c518ab21e4ac2c21e1c5c7c66f04a03be0793205aae0697636845398"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "fd8e8070b20efbb4c601b764c5b997e32a31d99c4a04b9b0527b8c6d62ad2863"
+    },
+    {
+      "path": "package.json",
+      "sha256": "ddb1196f4918a601e1dbeb3c1ffc45bc8cee078eb1d112231deb46c35f146916"
+    },
+    {
+      "path": "packages/cli/bin/agentcn.mjs",
+      "sha256": "d9a698f1db5935549c997d0f969410d1a7a0fcfd5bbcbce7bbfa5a9a7e0122b2"
+    },
+    {
+      "path": "packages/cli/lib/config.mjs",
+      "sha256": "3642fe68563bbcdabe66dd9da6b9627e878203180abe232eb904d600359cffdc"
+    },
+    {
+      "path": "packages/cli/lib/install.mjs",
+      "sha256": "5170832be7655d34eaba16ddb4dcd2367dc34d4cf7ba7bfebaedfed341c5df7b"
+    },
+    {
+      "path": "packages/cli/package.json",
+      "sha256": "1c44e104b82b1bdf69281f185044417bc0fc6dd290751e7d06039abe4e16650d"
+    },
+    {
+      "path": "packages/react/package.json",
+      "sha256": "8e99cfd223b5898c63f417209f802f4de4762924920d8b7b65ab4bc15b4fed57"
+    },
+    {
+      "path": "packages/react/src/_shared.tsx",
+      "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+    },
+    {
+      "path": "packages/react/src/agent-handoff.tsx",
+      "sha256": "1e6bf2a4c8f30dfa69cd6dd5c3ebce4fc95614e9cacb39b120ff66b32ec9b60a"
+    },
+    {
+      "path": "packages/react/src/agent-run.tsx",
+      "sha256": "f91b9d19d707e1c0b4de6ea75cb0f8cf04a9db1615e39fe7c2b0553d3e26cb7f"
+    },
+    {
+      "path": "packages/react/src/approval-request.tsx",
+      "sha256": "7a31362d7309c8a23a01a80d0d6bc9b0aeaff234b2ee2f94cad44f51db0e5db1"
+    },
+    {
+      "path": "packages/react/src/artifact-panel.tsx",
+      "sha256": "a08ceeaff110d8e2535092fa77db16b4465eed745ac70e8a9d9fbbf7bf4e292e"
+    },
+    {
+      "path": "packages/react/src/branch-picker.tsx",
+      "sha256": "2f06363da62448b7449d08f8476180886462d00f4bd53d2784960af5aca924b9"
+    },
+    {
+      "path": "packages/react/src/checkpoint.tsx",
+      "sha256": "61cbf2f6f85317b057e9cbadedc48e5d52c2832eb18a4c7d815cffee9a197547"
+    },
+    {
+      "path": "packages/react/src/context-window.tsx",
+      "sha256": "e3719816717c29e0f741580ff579288df9de4ec062e82c8a5b40ccd7b69cf2c4"
+    },
+    {
+      "path": "packages/react/src/creatable-select.tsx",
+      "sha256": "41b3aee02121d5119e6cb5b67c55a34a808e8e53f5045685618f9baae260057b"
+    },
+    {
+      "path": "packages/react/src/eval-scorecard.tsx",
+      "sha256": "3487a45cdf0462f3bf7db27bbef4007abf9afb180cb81a95b51964dd0177aeff"
+    },
+    {
+      "path": "packages/react/src/index.ts",
+      "sha256": "68444fb72ef1dc2160806ca646e38913613f98931dd042d554a5599c16e4d929"
+    },
+    {
+      "path": "packages/react/src/member-picker.tsx",
+      "sha256": "d0b0285505d3c3a5dae67f47408a9d2bd606fdb0790d6ee4526b1a9a961070e7"
+    },
+    {
+      "path": "packages/react/src/memory-panel.tsx",
+      "sha256": "ec5e9658a39afb6203c0157e2eacda8c4888e4df5c6e9a308b846cb90558edf2"
+    },
+    {
+      "path": "packages/react/src/model-router.tsx",
+      "sha256": "f1ebd28130b787d65bd55546b6c190a0e9de0448947a7ba9f5351be2f393e7d3"
+    },
+    {
+      "path": "packages/react/src/multi-input.tsx",
+      "sha256": "94bb89b5d26bd73b810817868378dc7bb9f16c854cfc5cb620caaa43bc7d7e6b"
+    },
+    {
+      "path": "packages/react/src/plan-review.tsx",
+      "sha256": "75b55382af000e1142e0245117e7265d3482c109db13b636feec4efcf809f101"
+    },
+    {
+      "path": "packages/react/src/pricing-table.tsx",
+      "sha256": "f2b9efb33a4c2b7b61465d67d43fe35bd36a27a2fc2d7874ddf0109c93530044"
+    },
+    {
+      "path": "packages/react/src/prompt-composer.tsx",
+      "sha256": "51cedb743bb7615768cd13fe498f0a92607342a90ffec64669c45a3452da15ea"
+    },
+    {
+      "path": "packages/react/src/source-stack.tsx",
+      "sha256": "28cb6cd9834d909c8e68d6a8cce66ed455e3f1350bd53f6df29a5d33e50fc0d5"
+    },
+    {
+      "path": "packages/react/src/stream-status.tsx",
+      "sha256": "cbe49f07b5db23414170c0f26700448d64bbfe989ad15823626b049fc11d1e80"
+    },
+    {
+      "path": "packages/react/src/token-usage.tsx",
+      "sha256": "f981a4a898720a5a2471a84b4f4021768d09048d23147667559988728eca8894"
+    },
+    {
+      "path": "packages/react/src/tool-call.tsx",
+      "sha256": "26cfde3c815c2dd1bf80e31f22b7df39e3b42ac7c81ba1205394fa1148112d14"
+    },
+    {
+      "path": "packages/react/styles.css",
+      "sha256": "7423bdb8cfea2910f2272c17565b21523f8ea09244be32383fc5c2eaee403900"
+    },
+    {
+      "path": "packages/react/tsconfig.json",
+      "sha256": "d293d600f4400ab43e88d34f70464faeec9224fd11529e3c9413f327729d295b"
+    },
+    {
+      "path": "scripts/build-registry.mjs",
+      "sha256": "0eb1b221b1fe68a784828dd7e0367e23dde8d6088b7305985e4290da74598d5b"
+    },
+    {
+      "path": "scripts/check-source.mjs",
+      "sha256": "0bcbf95b6ce8a8d3c99a45d570a1cb294ff4bf2c2f964992fc27bd8eb8f10e3e"
+    },
+    {
+      "path": "scripts/verify-export.mjs",
+      "sha256": "2edbdf3c30cae212829448bf0d233524e0f8b2c8a8c01abc58f6362c6241d45e"
+    },
+    {
+      "path": "tests/integration/brief-components.test.mjs",
+      "sha256": "1de998e184819e3a04abafdd6a1bd9de3370a2bfa5163231f8f0934e58316fca"
+    },
+    {
+      "path": "tests/integration/cli.test.mjs",
+      "sha256": "4128688be16f8282c966b1b24f4c8619247692fddc8d4a974bbb2fbe14bd87df"
+    },
+    {
+      "path": "tests/integration/components.test.mjs",
+      "sha256": "38f80458d16a3d6f44a112e63d2674973d0a07eb30c0c51d0c93714f15246e0d"
+    },
+    {
+      "path": "tests/smoke/packages.mjs",
+      "sha256": "8283c25435449d2f5b8af84701f984dc4b7306910be54aeeab902ea86a432bf9"
+    }
+  ],
+  "proposedExecution": {
+    "status": "awaiting explicit approval",
+    "proposal": "docs/proposals/brief-components-checks.md",
+    "workflow": "docs/proposals/brief-components.workflow.yml",
+    "activeWorkflow": false,
+    "runner": "ubuntu-latest",
+    "timeoutMinutes": 8,
+    "branch": "qa/agentcn-brief-components",
+    "ciJobsExecuted": 0,
+    "browserChecksExecuted": 0
+  },
+  "limits": [
+    "Source preparation does not prove hosted output, native browser behavior or new public npm installation.",
+    "No dependency/lockfile/Auth/provider/CI/production-config change, paid action or model call.",
+    "The full library and portfolio goal remain incomplete."
+  ]
+}

@@ -19,6 +19,10 @@ import {
   EvalScorecard,
   Checkpoint,
   StreamStatus,
+  MultiInput,
+  MemberPicker,
+  CreatableSelect,
+  PricingTable,
 } from "@alvarovillalbaa/agentcn-ui";
 
 export function AgentRunDemo() {
@@ -407,6 +411,101 @@ export function StreamStatusDemo() {
   );
 }
 
+export function MultiInputDemo() {
+  const [values, setValues] = useState(["Research", "Documentation"]);
+  return (
+    <MultiInput
+      label="Context tags"
+      values={values}
+      onValuesChange={setValues}
+      maxItems={5}
+      maxLength={40}
+      placeholder="Add a context tag"
+    />
+  );
+}
+
+export function MemberPickerDemo() {
+  const [value, setValue] = useState(["research"]);
+  return (
+    <MemberPicker
+      label="Review members"
+      value={value}
+      onValueChange={setValue}
+      members={[
+        { id: "research", name: "Research team", description: "Source review" },
+        { id: "design", name: "Design team", description: "Interface review" },
+        {
+          id: "operations",
+          name: "Operations team",
+          description: "Release review",
+        },
+      ]}
+      maxMembers={2}
+    />
+  );
+}
+
+export function CreatableSelectDemo() {
+  const [value, setValue] = useState("research");
+  const [options, setOptions] = useState([
+    { id: "research", label: "Research" },
+    { id: "writing", label: "Writing" },
+  ]);
+  return (
+    <CreatableSelect
+      label="Workflow"
+      value={value}
+      options={options}
+      onValueChange={setValue}
+      onCreate={(label) => {
+        const id = `workflow-${options.length + 1}`;
+        setOptions((current) => [...current, { id, label }]);
+        setValue(id);
+      }}
+    />
+  );
+}
+
+export function PricingTableDemo() {
+  const [value, setValue] = useState("starter");
+  return (
+    <div>
+      <p className="ac-muted ac-small">
+        Example plans. Choosing a plan changes only this preview.
+      </p>
+      <PricingTable
+        label="Workspace plans"
+        value={value}
+        onChoose={setValue}
+        plans={[
+          {
+            id: "starter",
+            name: "Starter",
+            price: "Free",
+            description: "For a personal workspace.",
+            features: ["One workspace", "Core components"],
+            details: "A place to try your first workflow.",
+          },
+          {
+            id: "team",
+            name: "Team",
+            price: "€12 / month",
+            description: "For a shared review workflow.",
+            features: [
+              "Shared workspaces",
+              "Review controls",
+              "Team templates",
+            ],
+            details:
+              "An illustrative monthly price. This demo never starts a subscription.",
+          },
+        ]}
+      />
+    </div>
+  );
+}
+
 export const demos: Record<string, ComponentType> = {
   "agent-run": AgentRunDemo,
   "tool-call": ToolCallDemo,
@@ -424,6 +523,10 @@ export const demos: Record<string, ComponentType> = {
   "eval-scorecard": EvalScorecardDemo,
   checkpoint: CheckpointDemo,
   "stream-status": StreamStatusDemo,
+  "multi-input": MultiInputDemo,
+  "member-picker": MemberPickerDemo,
+  "creatable-select": CreatableSelectDemo,
+  "pricing-table": PricingTableDemo,
 };
 
 export function Demo({ name }: { name: string }) {

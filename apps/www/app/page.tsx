@@ -9,6 +9,7 @@ import {
   EvalScorecardDemo,
 } from "@/components/demos";
 import { Command } from "@/components/command";
+import { catalog } from "@/lib/catalog.mjs";
 export default function HomePage() {
   return (
     <>
@@ -16,7 +17,7 @@ export default function HomePage() {
         <div className="hero-copy">
           <Link href="/components" className="release-pill">
             <span />
-            16 components for the agent era <span>→</span>
+            {catalog.length} components for the agent era <span>→</span>
           </Link>
           <h1>
             Interfaces for

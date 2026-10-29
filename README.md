@@ -1,12 +1,19 @@
 # agentcn/ui
 
-Last updated: 2026-10-15
+Last updated: 2026-10-29
 
 **Interfaces for apps that think.** An MIT-licensed React component library for AI-native apps: agent execution, human approvals, context, memory, artifacts, and evaluation.
 
 Use a typed npm package, or copy editable source with a CLI. A Next.js website includes live demos, per-component API documentation, workflow blocks, and a visual installation configurator.
 
 **Version 0.1.0 is available:** [React package](https://www.npmjs.com/package/@alvarovillalbaa/agentcn-ui), [source installer](https://www.npmjs.com/package/agentcn-ui), and [live documentation](https://agentcn-ui.vercel.app/). Production builds, focused tests, desktop/mobile browser checks, and public npm installs with React 18 and 19 pass.
+
+That release evidence covers the original 16 components. Main adds four
+source components requested in the brief: MultiInput, MemberPicker,
+CreatableSelect and PricingTable. They are not included in the published 0.1.0
+archives. Their [scope and behavior](docs/specs/brief-components.md) and current
+[delivery evidence](docs/results/2026/10-29/brief-components.md) keep source,
+hosted, interaction and future package-release proof separate.
 
 ## Components
 
@@ -18,6 +25,8 @@ Use a typed npm package, or copy editable source with a CLI. A Next.js website i
 | Conversation       | PromptComposer, BranchPicker                  |
 | Generation         | ArtifactPanel, StreamStatus                   |
 | Observability      | TokenUsage, EvalScorecard                     |
+| Inputs (source)    | MultiInput, MemberPicker, CreatableSelect     |
+| Plans (source)     | PricingTable with a plan-review drawer        |
 
 Components receive data and emit callbacks. Your application owns runtime execution, model calls, authorization, persistence, and state transitions. No API keys, AI SDK, Tailwind setup, or runtime service are required.
 

@@ -1,0 +1,53 @@
+# Inactive proposal. Activate only after approval of the adjacent exact scope.
+name: Agentcn approved brief components
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  focused-components:
+    if: github.ref == 'refs/heads/qa/agentcn-brief-components'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 24.21.0
+      - name: Install the unchanged committed lock
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Compile library and generate registries
+        run: |
+          mkdir -p check-results
+          set -o pipefail
+          npm run build:library 2>&1 | tee check-results/library.txt
+          npm run check:source 2>&1 | tee check-results/source.txt
+      - name: Run exactly the approved authored cases
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync, writeFileSync } from 'node:fs';
+          import { createHash } from 'node:crypto';
+          import { spawnSync } from 'node:child_process';
+          const files = ['tests/integration/components.test.mjs', 'tests/integration/cli.test.mjs', 'tests/integration/brief-components.test.mjs'];
+          const digest = path => createHash('sha256').update(readFileSync(path)).digest('hex');
+          const args = ['--test', '--test-reporter=tap', '--test-concurrency=1', '--test-timeout=10000', ...files];
+          const result = spawnSync(process.execPath, args, { encoding: 'utf8', timeout: 120000, maxBuffer: 2 * 1024 * 1024 });
+          writeFileSync('check-results/checks.tap', result.stdout ?? '');
+          writeFileSync('check-results/checks.stderr.txt', result.stderr ?? '');
+          writeFileSync('check-results/execution.json', JSON.stringify({ sourceCommit: process.env.GITHUB_SHA, node: process.version, arguments: args, sources: files.map(path => ({ path, sha256: digest(path) })), exitCode: result.status, signal: result.signal, error: result.error ? String(result.error.code ?? result.error.name) : null }, null, 2) + '\n');
+          process.stdout.write(result.stdout ?? '');
+          process.stderr.write(result.stderr ?? '');
+          process.exitCode = result.status === 0 && !result.error && !result.signal ? 0 : 1;
+          NODE
+      - name: Verify unchanged dependency inputs
+        if: always()
+        run: git diff --exit-code -- package.json package-lock.json packages/react/package.json packages/cli/package.json apps/www/package.json
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: agentcn-brief-components-checks
+          path: check-results/
+          if-no-files-found: error
+          retention-days: 1
