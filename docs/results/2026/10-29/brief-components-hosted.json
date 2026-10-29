@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-29",
+  "sourceCommit": "18a612d220fc22f88059f7b5edc1a419aebdb948",
+  "github": {
+    "head": "18a612d220fc22f88059f7b5edc1a419aebdb948",
+    "filesMatched": 94,
+    "truncated": false,
+    "clean": true
+  },
+  "deployment": {
+    "id": "dpl_FYL3onFBx2z7Fzr5XciATkZ4dJvx",
+    "url": "agentcn-j98rl23ip-my-team-4f230354.vercel.app",
+    "canonical": "https://agentcn-ui.vercel.app",
+    "state": "READY",
+    "target": "production",
+    "sourceCommit": "18a612d220fc22f88059f7b5edc1a419aebdb948",
+    "alias": [
+      "agentcn-ui.vercel.app",
+      "agentcn-ui-my-team-4f230354.vercel.app",
+      "agentcn-ui-git-main-my-team-4f230354.vercel.app"
+    ],
+    "buildingAt": 1793296648475,
+    "ready": 1793296668984
+  },
+  "buildEvidence": {
+    "libraryTypeScript": "passed",
+    "registryGeneratorItems": 20,
+    "nextVersion": "16.4.1",
+    "websiteCompilation": "passed",
+    "websiteTypeScript": "passed",
+    "staticPages": "35/35",
+    "job": "bld_egu3psmt7",
+    "testsRun": 0,
+    "observedLogLines": [
+      "tsc -p packages/react/tsconfig.json && node scripts/build-registry.mjs",
+      "Built 20 self-contained registry entries for the website and CLI.",
+      "Compiled successfully in 2.2s",
+      "Finished TypeScript in 2.1s",
+      "Generating static pages using 3 workers (35/35)",
+      "Build Completed in /vercel/output [15s]",
+      "Deployment completed"
+    ]
+  },
+  "http": {
+    "transport": "Connected Vercel fetch; may use a temporary authenticated share link",
+    "requests": [
+      {
+        "path": "/r/multi-input.json",
+        "status": 200,
+        "characters": 24843,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "path": "/r/member-picker.json",
+        "status": 200,
+        "characters": 24723,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "path": "/r/creatable-select.json",
+        "status": 200,
+        "characters": 28722,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "path": "/r/pricing-table.json",
+        "status": 200,
+        "characters": 32162,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "path": "/docs/components/multi-input",
+        "status": 200,
+        "characters": 42760,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "path": "/docs/components/member-picker",
+        "status": 200,
+        "characters": 42698,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "path": "/docs/components/creatable-select",
+        "status": 200,
+        "characters": 54821,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "path": "/docs/components/pricing-table",
+        "status": 200,
+        "characters": 66671,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "path": "/create",
+        "status": 200,
+        "characters": 16382,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "path": "/components",
+        "status": 200,
+        "characters": 40966,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "path": "/r/registry.json",
+        "status": 200,
+        "characters": 455898,
+        "contentType": "application/json; charset=utf-8"
+      }
+    ],
+    "identity": {
+      "registryItems": 20,
+      "sourceOnlyItems": 4,
+      "registries": [
+        {
+          "name": "multi-input",
+          "sourceOnly": true,
+          "filesMatched": [
+            {
+              "path": "multi-input.tsx",
+              "sha256": "08a35409027471fc8709007bc8f5ba99c060c9fee46bbc0898a509dcc09e9e52"
+            },
+            {
+              "path": "_shared.tsx",
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "agentcn.css",
+              "sha256": "7423bdb8cfea2910f2272c17565b21523f8ea09244be32383fc5c2eaee403900"
+            }
+          ]
+        },
+        {
+          "name": "member-picker",
+          "sourceOnly": true,
+          "filesMatched": [
+            {
+              "path": "member-picker.tsx",
+              "sha256": "649b8e41f9397e2a9c068016ccf9d29d802c97e5fc7a17c6c49210972a8e009c"
+            },
+            {
+              "path": "_shared.tsx",
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "agentcn.css",
+              "sha256": "7423bdb8cfea2910f2272c17565b21523f8ea09244be32383fc5c2eaee403900"
+            }
+          ]
+        },
+        {
+          "name": "creatable-select",
+          "sourceOnly": true,
+          "filesMatched": [
+            {
+              "path": "creatable-select.tsx",
+              "sha256": "91dcaf5ba5cd12f56f8b5a19bb0100f2ed15283a12d9ae466889836a0521553c"
+            },
+            {
+              "path": "_shared.tsx",
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "agentcn.css",
+              "sha256": "7423bdb8cfea2910f2272c17565b21523f8ea09244be32383fc5c2eaee403900"
+            }
+          ]
+        },
+        {
+          "name": "pricing-table",
+          "sourceOnly": true,
+          "filesMatched": [
+            {
+              "path": "pricing-table.tsx",
+              "sha256": "b53bae59b238d6513f09a5c44affb11a5ad9f426206a8b521476436e22fd0776"
+            },
+            {
+              "path": "_shared.tsx",
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "agentcn.css",
+              "sha256": "7423bdb8cfea2910f2272c17565b21523f8ea09244be32383fc5c2eaee403900"
+            }
+          ]
+        }
+      ],
+      "documentationNotices": 4,
+      "configuratorSourceMarkers": 4,
+      "verification": "Connected Vercel HTTP readback; local unauthenticated fetch failed DNS; no browser interaction proof."
+    },
+    "localUnauthenticatedAttempt": {
+      "status": "failed-before-response",
+      "code": "ENOTFOUND",
+      "host": "agentcn-ui.vercel.app",
+      "retried": false
+    },
+    "anonymousBrowserAcceptance": false
+  },
+  "approval": {
+    "status": "pending",
+    "proposalCommit": "18a612d220fc22f88059f7b5edc1a419aebdb948",
+    "proposalPath": "docs/proposals/brief-components-checks.md",
+    "cases": 42,
+    "newCases": 28,
+    "browserScenarios": 8,
+    "ciJobs": 0,
+    "browserChecksExecuted": 0
+  },
+  "limits": [
+    "Hosted compile/static identity do not prove interaction, native focus/touch, source installation or public npm consumers.",
+    "Published npm0.1.0 does not include the four new components.",
+    "No full library or portfolio completion claim."
+  ]
+}

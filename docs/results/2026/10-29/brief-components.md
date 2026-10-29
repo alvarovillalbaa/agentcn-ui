@@ -57,7 +57,42 @@ unexecuted. The workflow is an inactive document outside `.github` and has not
 been dispatched. The proposal seeks the supplied AGENTS.md §§7/14 approval;
 earlier project scopes do not authorize it.
 
-Publication, hosted compile, served documentation/registry identity, native
-drawer focus/touch and package consumer checks remain to be recorded. No npm
-publication, local build, CI or browser check occurred. This does not complete
+## Published source and hosted output
+
+Published source
+[`18a612d220fc22f88059f7b5edc1a419aebdb948`](https://github.com/alvarovillalbaa/agentcn-ui/commit/18a612d220fc22f88059f7b5edc1a419aebdb948)
+matched all 94 remote file paths, modes, types and blob SHAs without truncation;
+the checkout was clean. The existing Git-connected production deployment
+[`dpl_FYL3onFBx2z7Fzr5XciATkZ4dJvx`](https://vercel.com/my-team-4f230354/agentcn-ui/FYL3onFBx2z7Fzr5XciATkZ4dJvx)
+reached READY at that exact source and owns the canonical
+[documentation site](https://agentcn-ui.vercel.app).
+
+Build job `bld_egu3psmt7` completed the React-library TypeScript compile, produced
+twenty self-contained registry entries, then passed Next.js 16.4.1 compilation
+and website TypeScript checks. Its static export generated 35/35 pages and
+completed in the existing Vercel build path. No build or provider configuration
+was changed. This hosted build is distinct from the blocked local build and
+the proposed unexecuted focused test job.
+
+Connected Vercel HTTP readback returned 200 for eleven selected URLs: the full
+registry, four new registry items, four component docs, `/create` and
+`/components`. The index contains twenty entries with four source-only markers.
+Every new registry's component, shared helper and stylesheet content matched
+the published source exactly after the generator's documented relative-import
+normalization: twelve file identities. All four docs expose their source-only
+npm 0.1.0 notice and generated API reference; the configurator HTML exposes four
+source markers. Its dynamic command behavior still needs browser acceptance.
+
+The initial direct unauthenticated local fetch failed before a response with
+`getaddrinfo ENOTFOUND agentcn-ui.vercel.app`. It was not retried with changed
+permissions. The connected fetch succeeded and may use a temporary share link;
+it does not prove independent anonymous browser access. The
+[hosted machine record](brief-components-hosted.json) preserves deployment,
+build, HTTP identity and transport limitations.
+
+The separate 42-case/eight-scenario approval was requested against the immutable
+published proposal. No CI job or browser check has run under that request, and
+the proposed workflow remains inactive. Native drawer focus/touch, runtime
+interaction, source installation and new package-consumer acceptance remain
+unverified. No npm publication or local build occurred. This does not complete
 the full library or portfolio goal.
