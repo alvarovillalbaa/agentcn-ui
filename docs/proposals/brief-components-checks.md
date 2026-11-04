@@ -5,8 +5,22 @@ Prepared 29 October 2026; guard preparation updated 4 November 2026. Source:
 are not covered by the earlier 0.1.0 installation/browser evidence.
 The owner's repeated “approve everything / keep going / do all the work”
 instructions authorize this focused free verification scope and its temporary
-CI wiring. No further approval question is pending for this packet. These new
-42-case and eight-browser scopes remain UNRUN; preparation runs no product code.
+CI wiring. No further approval question is pending for this packet. The 42-case
+CI packet **passed on its first job**; the eight-browser scope remains UNRUN.
+The [result](../results/2026/11-04/brief-components-checks.md) and
+[raw machine evidence](../results/2026/11-04/brief-components-checks.json) own the
+actual execution proof. Source preparation itself ran no product code.
+
+Checked preparation `6a3513353958fc02cc8f8dc08997e4a5f33d5ec7` was exercised by
+separate activation `6c0be2f6f8be1e7b37d61c134d278d58c9e13285`,
+[run 41836906424](https://github.com/alvarovillalbaa/agentcn-ui/actions/runs/41836906424),
+job `126598062647`, on 4 November 2026, 13:18:35–13:18:56 UTC. Actual Node
+24.21.0/npm 11.19.0 on Linux x64 installed the locked React 19/jsdom profile,
+compiled the library, generated 20 entries and passed the source checker plus
+all 42 exact unique case names/statuses. All 23 child exits/group checks, three
+84-input/97-identity guards and owned fixture/scratch cleanup passed. The pinned
+actions emitted GitHub's Node20-runtime deprecation/forced-Node24 warning; all
+five main-phase stderr streams were empty. No retry or action-pin change occurred.
 
 ## One temporary CI job
 
@@ -47,8 +61,15 @@ Exact test arguments are `--test --test-reporter=tap --test-concurrency=1
 --test-timeout=10000` followed by those three files. Acceptance requires the
 exact 42 unique prepared name/status SET, all `ok`, test totals 42/pass42 with
 zero fail/cancel/skip/TODO, and actual child exit zero without signal/stop.
-Reporter/file order is not an acceptance condition. No test, import, build or
-installation was executed while preparing this revision.
+Reporter/file order is not an acceptance condition. Preparation performed no
+test/import/build/install execution; the recorded CI job subsequently performed
+this exact scope. It is not native browser or new package-release proof.
+
+This later documentation edition changes only `README.md` and this proposal
+among the 84 checked inputs, leaving 82 unchanged, including all product/test/
+dependency/generator inputs. The raw JSON, original 72-input preparation seal,
+84-input CI seal and older release receipts remain unchanged. Reproduce the
+checked immutable source; the later documentation is not a replacement seal.
 
 ## Full source and process guards
 
@@ -102,8 +123,8 @@ output excerpts/hashes. Actual TAP is retained losslessly as gzip/base64, capped
 at 16 KiB compressed, with uncompressed size/hash and parsed actual names/statuses.
 Malformed/oversized/incomplete evidence or a failed product check fails the job;
 no disabled assertion, silent retry or pass-only filtering is permitted. No
-artifact download job is needed. Root records actual results and removes the
-temporary active workflow after terminal collection. No production workflow,
+artifact download job is needed. Root retires the temporary active workflow with
+the terminal result handoff; the inactive example remains. No production workflow,
 Next.js website build, browser installation, npm publication or hosting change
 is included.
 

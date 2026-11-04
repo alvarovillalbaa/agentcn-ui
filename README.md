@@ -1,6 +1,6 @@
 # agentcn/ui
 
-Last updated: 2026-10-29
+Last updated: 2026-11-04
 
 **Interfaces for apps that think.** An MIT-licensed React component library for AI-native apps: agent execution, human approvals, context, memory, artifacts, and evaluation.
 
@@ -14,6 +14,13 @@ CreatableSelect and PricingTable. They are not included in the published 0.1.0
 archives. Their [scope and behavior](docs/specs/brief-components.md) and current
 [delivery evidence](docs/results/2026/10-29/brief-components.md) keep source,
 hosted, interaction and future package-release proof separate.
+
+The [requested-component CI packet](docs/results/2026/11-04/brief-components-checks.md)
+passed all **42 cases once** on 4 November: 28 cases for the four new components
+and 14 current-source React/CLI regressions. This is a locked React 19/jsdom and
+disposable CLI profile, with native drawer behavior covered only by a local
+dialog shim. The eight desktop/narrow browser scenarios, new React 18/public npm
+consumer acceptance and a new package release remain open.
 
 ## Components
 
@@ -112,6 +119,19 @@ npm run build:website  # Full production build; run when explicitly authorized
 ```
 
 Source checks are not a Next.js build, browser QA, or accessibility certification. See [release evidence](docs/results/2026/10-15/public-release.md), [implementation evidence](docs/results/2026/10-15/initial-implementation.md), and [release procedure](docs/runbooks/release.md).
+
+The new [machine receipt](docs/results/2026/11-04/brief-components-checks.json)
+records checked source `6a3513353958fc02cc8f8dc08997e4a5f33d5ec7`, actual Node
+24.21.0/npm 11.19.0 on Linux x64, successful React-library compilation and 20
+generated registry entries. All 42 exact case names/statuses, 84 source vectors,
+97 tracked identities, 23 child exits/group checks and owned cleanup passed.
+These 20 generated entries do not change the published 0.1.0 archives.
+
+This later status edition changes only this README and the focused-check proposal
+among the 84 checked inputs; the other 82, including all runtime, test, dependency
+and generator inputs, remain unchanged. Raw result JSON and historical 72/84
+seals are preserved. Reproduce the checked source, rather than treat these later
+documentation bytes as the original sealed snapshot.
 
 ## Website hosting
 

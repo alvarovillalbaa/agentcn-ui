@@ -1,0 +1,1413 @@
+{
+  "schemaVersion": "agentcn.brief-components-checks-receipt.v1",
+  "status": "passed",
+  "executionDateUtc": "2026-11-04",
+  "observedAtUtc": "2026-11-04T13:23:05Z",
+  "source": {
+    "repository": "alvarovillalbaa/agentcn-ui",
+    "commit": "6a3513353958fc02cc8f8dc08997e4a5f33d5ec7",
+    "tree": "c700a532a6fb7f13d948ef91bdb4dae3a702fed3",
+    "sealPath": "docs/results/2026/11-04/brief-components-checks-source.json",
+    "sealSha256": "a48a25ee3f621f3c443655a89a25ea384e5c37c41f100abc6d2ff73e4ed0d3d1",
+    "controllerSha256": "fb9b2c933d0b8298617db1da8fe335e81bdbda1783330e16a57c4d8cf9465f34"
+  },
+  "activation": {
+    "commit": "6c0be2f6f8be1e7b37d61c134d278d58c9e13285",
+    "tree": "e31afd1e50f5097e24545526c963b8464f798c9e",
+    "workflowPath": ".github/workflows/brief-components-checks.yml",
+    "sourcePinIsSeparateFromActivation": true
+  },
+  "run": {
+    "id": 41836906424,
+    "url": "https://github.com/alvarovillalbaa/agentcn-ui/actions/runs/41836906424",
+    "attempt": 1,
+    "event": "push",
+    "headSha": "6c0be2f6f8be1e7b37d61c134d278d58c9e13285",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-11-04T13:18:32Z",
+    "startedAt": "2026-11-04T13:18:32Z",
+    "updatedAt": "2026-11-04T13:18:57Z"
+  },
+  "job": {
+    "id": 126598062647,
+    "name": "focused-components",
+    "status": "completed",
+    "conclusion": "success",
+    "startedAt": "2026-11-04T13:18:35Z",
+    "completedAt": "2026-11-04T13:18:56Z",
+    "steps": [
+      {
+        "name": "Set up job",
+        "status": "completed",
+        "conclusion": "success",
+        "startedAt": "2026-11-04T13:18:36Z",
+        "completedAt": "2026-11-04T13:18:37Z"
+      },
+      {
+        "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+        "status": "completed",
+        "conclusion": "success",
+        "startedAt": "2026-11-04T13:18:37Z",
+        "completedAt": "2026-11-04T13:18:38Z"
+      },
+      {
+        "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+        "status": "completed",
+        "conclusion": "success",
+        "startedAt": "2026-11-04T13:18:38Z",
+        "completedAt": "2026-11-04T13:18:43Z"
+      },
+      {
+        "name": "Guarded install, library generation and exact 42 cases",
+        "status": "completed",
+        "conclusion": "success",
+        "startedAt": "2026-11-04T13:18:43Z",
+        "completedAt": "2026-11-04T13:18:53Z"
+      },
+      {
+        "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+        "status": "completed",
+        "conclusion": "success",
+        "startedAt": "2026-11-04T13:18:53Z",
+        "completedAt": "2026-11-04T13:18:53Z"
+      },
+      {
+        "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+        "status": "completed",
+        "conclusion": "success",
+        "startedAt": "2026-11-04T13:18:53Z",
+        "completedAt": "2026-11-04T13:18:54Z"
+      },
+      {
+        "name": "Complete job",
+        "status": "completed",
+        "conclusion": "success",
+        "startedAt": "2026-11-04T13:18:54Z",
+        "completedAt": "2026-11-04T13:18:54Z"
+      }
+    ]
+  },
+  "reportEvidence": {
+    "jobLogUrl": "https://github.com/alvarovillalbaa/agentcn-ui/actions/runs/41836906424/job/126598062647",
+    "rawJsonBytes": 32630,
+    "rawJsonSha256": "cd86f3de0b502456e96c33c3bde2f05ab557495f67e8bf6ac8e63bbf64678ff7",
+    "hashScope": "Exact original controller JSON line excluding GitHub timestamp/newline. Retained-object JS and UTF8 compact JSON reserialization were verified byte-identical to the independently fetched original line.",
+    "fullControllerReportRetained": true
+  },
+  "controllerReport": {
+    "schemaVersion": "agentcn.brief-checks.v1",
+    "sourceCommit": "6a3513353958fc02cc8f8dc08997e4a5f33d5ec7",
+    "status": "passed",
+    "startedAtUtc": "2026-11-04T13:18:43.520Z",
+    "runtime": {
+      "node": "v24.21.0",
+      "platform": "linux",
+      "architecture": "x64",
+      "executableSha256": "7fde7b8afa198da66257f42ee2001d874c7355631e6d1579a5fb5ef1f246df4c",
+      "npmCliSha256": "8e5f6f3429f8cdbe693cdc29904e9d5a7b127a494bd15c804bd54c7403bfcbe7",
+      "npm": "11.19.0"
+    },
+    "scope": {
+      "expectedCases": 42,
+      "files": [
+        "tests/integration/components.test.mjs",
+        "tests/integration/cli.test.mjs",
+        "tests/integration/brief-components.test.mjs"
+      ]
+    },
+    "commands": [
+      {
+        "label": "before_head",
+        "arguments": [
+          "git",
+          "rev-parse",
+          "HEAD"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 41,
+            "capturedBytes": 41,
+            "observedSha256": "74f892f348e86ef09c4f734a30d4369c6a7847022635d85e623f457d8fcf5aaf",
+            "capturedSha256": "74f892f348e86ef09c4f734a30d4369c6a7847022635d85e623f457d8fcf5aaf",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "before_seal",
+        "arguments": [
+          "git",
+          "show",
+          "HEAD:docs/results/2026/11-04/brief-components-checks-source.json"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 35395,
+            "capturedBytes": 35395,
+            "observedSha256": "a48a25ee3f621f3c443655a89a25ea384e5c37c41f100abc6d2ff73e4ed0d3d1",
+            "capturedSha256": "a48a25ee3f621f3c443655a89a25ea384e5c37c41f100abc6d2ff73e4ed0d3d1",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "before_index",
+        "arguments": [
+          "git",
+          "ls-files",
+          "--stage",
+          "-z"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 7927,
+            "capturedBytes": 7927,
+            "observedSha256": "e4bf16445e761b0f440a1cbc9a32d054bbaf33d2aaf58b6592a3a67bfc29d5ac",
+            "capturedSha256": "e4bf16445e761b0f440a1cbc9a32d054bbaf33d2aaf58b6592a3a67bfc29d5ac",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "before_tree",
+        "arguments": [
+          "git",
+          "ls-tree",
+          "-r",
+          "-z",
+          "HEAD"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 8218,
+            "capturedBytes": 8218,
+            "observedSha256": "5ba260f833ec8e9c2fc08081b5531235d0f51fef505c11623a4c38d4a9cd3afb",
+            "capturedSha256": "5ba260f833ec8e9c2fc08081b5531235d0f51fef505c11623a4c38d4a9cd3afb",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "before_status",
+        "arguments": [
+          "git",
+          "status",
+          "--porcelain=v1",
+          "-z",
+          "--untracked-files=all"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "before_working",
+        "arguments": [
+          "git",
+          "-c",
+          "core.filemode=true",
+          "diff",
+          "--no-ext-diff",
+          "--no-textconv",
+          "--exit-code",
+          "HEAD",
+          "--"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "npm_version",
+        "arguments": [
+          "[node]",
+          "/opt/hostedtoolcache/node/24.21.0/x64/lib/node_modules/npm/bin/npm-cli.js",
+          "--version"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 8,
+            "capturedBytes": 8,
+            "observedSha256": "005206ab803f8881d8227540b7980b37e723b69a8849edb31734a90b7e7964e2",
+            "capturedSha256": "005206ab803f8881d8227540b7980b37e723b69a8849edb31734a90b7e7964e2",
+            "complete": true,
+            "head": "11.19.0\n",
+            "tail": "11.19.0\n"
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true,
+            "head": "",
+            "tail": ""
+          }
+        ]
+      },
+      {
+        "label": "install",
+        "arguments": [
+          "[node]",
+          "/opt/hostedtoolcache/node/24.21.0/x64/lib/node_modules/npm/bin/npm-cli.js",
+          "ci",
+          "--ignore-scripts",
+          "--no-audit",
+          "--no-fund"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 25,
+            "capturedBytes": 25,
+            "observedSha256": "1e6f6f8ca434265d1bf5821bec1bf276d1ccbea4c272bd541bd007282e048708",
+            "capturedSha256": "1e6f6f8ca434265d1bf5821bec1bf276d1ccbea4c272bd541bd007282e048708",
+            "complete": true,
+            "head": "\nadded 76 packages in 5s\n",
+            "tail": "\nadded 76 packages in 5s\n"
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true,
+            "head": "",
+            "tail": ""
+          }
+        ]
+      },
+      {
+        "label": "library_and_generator",
+        "arguments": [
+          "[node]",
+          "/opt/hostedtoolcache/node/24.21.0/x64/lib/node_modules/npm/bin/npm-cli.js",
+          "run",
+          "build:library"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 184,
+            "capturedBytes": 184,
+            "observedSha256": "f22c05f3aa92c35052b99417282894962907afda6a9895f4413475199382bc84",
+            "capturedSha256": "f22c05f3aa92c35052b99417282894962907afda6a9895f4413475199382bc84",
+            "complete": true,
+            "head": "\n> agentcn-ui-workspace@0.1.0 build:library\n> tsc -p packages/react/tsconfig.json && node scripts/build-registry.mjs\n\nBuilt 20 self-contained registry entries for the website and CLI.\n",
+            "tail": "\n> agentcn-ui-workspace@0.1.0 build:library\n> tsc -p packages/react/tsconfig.json && node scripts/build-registry.mjs\n\nBuilt 20 self-contained registry entries for the website and CLI.\n"
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true,
+            "head": "",
+            "tail": ""
+          }
+        ]
+      },
+      {
+        "label": "source_check",
+        "arguments": [
+          "[node]",
+          "/opt/hostedtoolcache/node/24.21.0/x64/lib/node_modules/npm/bin/npm-cli.js",
+          "run",
+          "check:source"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 226,
+            "capturedBytes": 226,
+            "observedSha256": "58c7a6922c9ee159ae640d586ac31f86b59b8029ab9f73f2fb0bdd1e9029989b",
+            "capturedSha256": "58c7a6922c9ee159ae640d586ac31f86b59b8029ab9f73f2fb0bdd1e9029989b",
+            "complete": true,
+            "head": "\n> agentcn-ui-workspace@0.1.0 check:source\n> node scripts/check-source.mjs\n\nSyntax/import checks passed for 53 source files; 20 registry items have API documentation and examples. This is not a Next.js build or browser check.\n",
+            "tail": "\n> agentcn-ui-workspace@0.1.0 check:source\n> node scripts/check-source.mjs\n\nSyntax/import checks passed for 53 source files; 20 registry items have API documentation and examples. This is not a Next.js build or browser check.\n"
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true,
+            "head": "",
+            "tail": ""
+          }
+        ]
+      },
+      {
+        "label": "after_build_head",
+        "arguments": [
+          "git",
+          "rev-parse",
+          "HEAD"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 41,
+            "capturedBytes": 41,
+            "observedSha256": "74f892f348e86ef09c4f734a30d4369c6a7847022635d85e623f457d8fcf5aaf",
+            "capturedSha256": "74f892f348e86ef09c4f734a30d4369c6a7847022635d85e623f457d8fcf5aaf",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "after_build_seal",
+        "arguments": [
+          "git",
+          "show",
+          "HEAD:docs/results/2026/11-04/brief-components-checks-source.json"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 35395,
+            "capturedBytes": 35395,
+            "observedSha256": "a48a25ee3f621f3c443655a89a25ea384e5c37c41f100abc6d2ff73e4ed0d3d1",
+            "capturedSha256": "a48a25ee3f621f3c443655a89a25ea384e5c37c41f100abc6d2ff73e4ed0d3d1",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "after_build_index",
+        "arguments": [
+          "git",
+          "ls-files",
+          "--stage",
+          "-z"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 7927,
+            "capturedBytes": 7927,
+            "observedSha256": "e4bf16445e761b0f440a1cbc9a32d054bbaf33d2aaf58b6592a3a67bfc29d5ac",
+            "capturedSha256": "e4bf16445e761b0f440a1cbc9a32d054bbaf33d2aaf58b6592a3a67bfc29d5ac",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "after_build_tree",
+        "arguments": [
+          "git",
+          "ls-tree",
+          "-r",
+          "-z",
+          "HEAD"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 8218,
+            "capturedBytes": 8218,
+            "observedSha256": "5ba260f833ec8e9c2fc08081b5531235d0f51fef505c11623a4c38d4a9cd3afb",
+            "capturedSha256": "5ba260f833ec8e9c2fc08081b5531235d0f51fef505c11623a4c38d4a9cd3afb",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "after_build_status",
+        "arguments": [
+          "git",
+          "status",
+          "--porcelain=v1",
+          "-z",
+          "--untracked-files=all"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "after_build_working",
+        "arguments": [
+          "git",
+          "-c",
+          "core.filemode=true",
+          "diff",
+          "--no-ext-diff",
+          "--no-textconv",
+          "--exit-code",
+          "HEAD",
+          "--"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "tests",
+        "arguments": [
+          "[node]",
+          "--test",
+          "--test-reporter=tap",
+          "--test-concurrency=1",
+          "--test-timeout=10000",
+          "tests/integration/components.test.mjs",
+          "tests/integration/cli.test.mjs",
+          "tests/integration/brief-components.test.mjs"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 8771,
+            "capturedBytes": 8771,
+            "observedSha256": "dbd03b1cbd00edbce90cf33fec126124c883d2e17a128684beb30f4f341dca33",
+            "capturedSha256": "dbd03b1cbd00edbce90cf33fec126124c883d2e17a128684beb30f4f341dca33",
+            "complete": true,
+            "head": "TAP version 13\n# Subtest: MultiInput adds a trimmed token through Enter and reflects controlled values\nok 1 - MultiInput adds a trimmed token through Enter and reflects controlled values\n  ---\n  duration_ms: 95.071868\n  type: 'test'\n  ...\n# Subtest: MultiInput explicit changes preserve caller state and retain a failed draft\nok 2 - MultiInput explicit changes preserve caller state and retain a failed draft\n  ---\n  duration_ms: 27.64584\n  type: 'test'\n  ...\n# Subtest: MultiInput rejects blank and existing tokens without duplicate callbacks\nok 3 - MultiInput rejects blank and existing tokens without duplicate callbacks\n  ---\n  duration_ms: 16.184191\n  type: 'test'\n  ...\n# Subtest: MultiInput item limits prevent additions while permitting removal\nok 4 - MultiInput item limits prevent additions while permitting removal\n  ---\n  duration_ms: 14.84111\n  type: 'test'\n  ...\n# Subtest: MultiInput enforces text bounds and consumes later external value changes\nok 5 - MultiInput enforces text bounds and consumes later external value changes\n  ---\n  duration_ms: 12.334162\n  type: 'test'\n  ...\n# Subtest: MultiInput disabled state prevents both addition and removal\nok 6 - MultiInput disabled state ",
+            "tail": "ect untouched\nok 32 - unknown component leaves initialized project untouched\n  ---\n  duration_ms: 58.518853\n  type: 'test'\n  ...\n# Subtest: configuration rejects traversal and symlink destinations\nok 33 - configuration rejects traversal and symlink destinations\n  ---\n  duration_ms: 88.179393\n  type: 'test'\n  ...\n# Subtest: create copilot produces a Next.js starter with its source\nok 34 - create copilot produces a Next.js starter with its source\n  ---\n  duration_ms: 69.788647\n  type: 'test'\n  ...\n# Subtest: create research produces a Next.js starter with its source\nok 35 - create research produces a Next.js starter with its source\n  ---\n  duration_ms: 68.476196\n  type: 'test'\n  ...\n# Subtest: create operations produces a Next.js starter with its source\nok 36 - create operations produces a Next.js starter with its source\n  ---\n  duration_ms: 70.879507\n  type: 'test'\n  ...\n# Subtest: list exposes all shipped registry names\nok 37 - list exposes all shipped registry names\n  ---\n  duration_ms: 28.714975\n  type: 'test'\n  ...\n# Subtest: approval waits for persistence, blocks duplicate clicks, and renders failure\nok 38 - approval waits for persistence, blocks duplicate clicks, and renders failure\n  ---\n  duration_ms: 68.802425\n  type: 'test'\n  ...\n# Subtest: artifact text cannot inject HTML or execute code\nok 39 - artifact text cannot inject HTML or execute code\n  ---\n  duration_ms: 4.73202\n  type: 'test'\n  ...\n# Subtest: source links reject executable and relative URLs\nok 40 - source links reject executable and relative URLs\n  ---\n  duration_ms: 1.24182\n  type: 'test'\n  ...\n# Subtest: context meter clamps display when over capacity\nok 41 - context meter clamps display when over capacity\n  ---\n  duration_ms: 11.705389\n  type: 'test'\n  ...\n# Subtest: empty plan cannot be confirmed\nok 42 - empty plan cannot be confirmed\n  ---\n  duration_ms: 0.752455\n  type: 'test'\n  ...\n1..42\n# tests 42\n# suites 0\n# pass 42\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 2013.381307\n"
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true,
+            "head": "",
+            "tail": ""
+          }
+        ]
+      },
+      {
+        "label": "after_head",
+        "arguments": [
+          "git",
+          "rev-parse",
+          "HEAD"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 41,
+            "capturedBytes": 41,
+            "observedSha256": "74f892f348e86ef09c4f734a30d4369c6a7847022635d85e623f457d8fcf5aaf",
+            "capturedSha256": "74f892f348e86ef09c4f734a30d4369c6a7847022635d85e623f457d8fcf5aaf",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "after_seal",
+        "arguments": [
+          "git",
+          "show",
+          "HEAD:docs/results/2026/11-04/brief-components-checks-source.json"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 35395,
+            "capturedBytes": 35395,
+            "observedSha256": "a48a25ee3f621f3c443655a89a25ea384e5c37c41f100abc6d2ff73e4ed0d3d1",
+            "capturedSha256": "a48a25ee3f621f3c443655a89a25ea384e5c37c41f100abc6d2ff73e4ed0d3d1",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "after_index",
+        "arguments": [
+          "git",
+          "ls-files",
+          "--stage",
+          "-z"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 7927,
+            "capturedBytes": 7927,
+            "observedSha256": "e4bf16445e761b0f440a1cbc9a32d054bbaf33d2aaf58b6592a3a67bfc29d5ac",
+            "capturedSha256": "e4bf16445e761b0f440a1cbc9a32d054bbaf33d2aaf58b6592a3a67bfc29d5ac",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "after_tree",
+        "arguments": [
+          "git",
+          "ls-tree",
+          "-r",
+          "-z",
+          "HEAD"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 8218,
+            "capturedBytes": 8218,
+            "observedSha256": "5ba260f833ec8e9c2fc08081b5531235d0f51fef505c11623a4c38d4a9cd3afb",
+            "capturedSha256": "5ba260f833ec8e9c2fc08081b5531235d0f51fef505c11623a4c38d4a9cd3afb",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "after_status",
+        "arguments": [
+          "git",
+          "status",
+          "--porcelain=v1",
+          "-z",
+          "--untracked-files=all"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      },
+      {
+        "label": "after_working",
+        "arguments": [
+          "git",
+          "-c",
+          "core.filemode=true",
+          "diff",
+          "--no-ext-diff",
+          "--no-textconv",
+          "--exit-code",
+          "HEAD",
+          "--"
+        ],
+        "exitCode": 0,
+        "signal": null,
+        "stop": null,
+        "spawned": true,
+        "exitObserved": true,
+        "closeObserved": true,
+        "originalProcessGroupAbsent": true,
+        "termSent": false,
+        "killSent": false,
+        "streams": [
+          {
+            "stream": "stdout",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          },
+          {
+            "stream": "stderr",
+            "observedBytes": 0,
+            "capturedBytes": 0,
+            "observedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "sourceGuards": [
+      {
+        "label": "before",
+        "passed": true,
+        "changedPaths": [],
+        "indexedLeaves": 97,
+        "statusEntries": [],
+        "fullIndexMatchesHead": true,
+        "fullWorkingTreeClean": true,
+        "historicalResultsUnchanged": true,
+        "files": 84,
+        "totalBytes": 386624,
+        "sealSha256": "a48a25ee3f621f3c443655a89a25ea384e5c37c41f100abc6d2ff73e4ed0d3d1"
+      },
+      {
+        "label": "after_build",
+        "passed": true,
+        "changedPaths": [],
+        "indexedLeaves": 97,
+        "statusEntries": [],
+        "fullIndexMatchesHead": true,
+        "fullWorkingTreeClean": true,
+        "historicalResultsUnchanged": true,
+        "files": 84,
+        "totalBytes": 386624,
+        "sealSha256": "a48a25ee3f621f3c443655a89a25ea384e5c37c41f100abc6d2ff73e4ed0d3d1"
+      },
+      {
+        "label": "after",
+        "passed": true,
+        "changedPaths": [],
+        "indexedLeaves": 97,
+        "statusEntries": [],
+        "fullIndexMatchesHead": true,
+        "fullWorkingTreeClean": true,
+        "historicalResultsUnchanged": true,
+        "files": 84,
+        "totalBytes": 386624,
+        "sealSha256": "a48a25ee3f621f3c443655a89a25ea384e5c37c41f100abc6d2ff73e4ed0d3d1"
+      }
+    ],
+    "errors": [],
+    "limits": {
+      "workSeconds": 390,
+      "cleanupSeconds": 45,
+      "jobMinutes": 8,
+      "streamBytes": 131072,
+      "termToKillSeconds": 3,
+      "postKillDrainSeconds": 3,
+      "reportBytes": 65536
+    },
+    "proofLimits": [
+      "Fixture React/jsdom and disposable CLI checks only; no native browser/modal/touch/IME or accessibility acceptance.",
+      "No package publication, live account, model/provider, database, Next website build or hosted acceptance.",
+      "Direct child exit/close and original process-group absence are checked. Descendant PIDs or separate sessions are not independently inventoried.",
+      "jsdom teardown is the authored test cleanup plus runner termination; windows are not independently instrumented."
+    ],
+    "sealSha256": "a48a25ee3f621f3c443655a89a25ea384e5c37c41f100abc6d2ff73e4ed0d3d1",
+    "tap": {
+      "raw": {
+        "encoding": "gzip-base64",
+        "bytes": 8771,
+        "sha256": "dbd03b1cbd00edbce90cf33fec126124c883d2e17a128684beb30f4f341dca33",
+        "compressedBytes": 2043,
+        "data": "H4sIAAAAAAAAA7VZy67juBHd368ooBez6avoaUmdVTAzQBqYDhqZzjqgpbLNMUUqJGVf5+uDImW57ZYiy9ez80MqnVOsx6nSt799hQNqw5WEKHn5AL93a4vGfoIvnbD8s2w7C6yuDTCwmjcN1mDVHiXYnVbddge/SosamKxB40ZgZQ1USlqthMAaDkx0aF7UHiJ4fa5NgNfX1xeAutPMciX/3ZhPUGZBmEfFqngBsKcWP8FPROenF4AgCCb44VsreMUtVDsmt2ig1WhQHxAqJgRqMJZZ7PFYxiUw2DBOWGrNNpboxdf03m1ylF2cB6s0K9Il5DT+4Ry4Fkzu3QPxjRvL5dY73cCR253qLNQdYSZYhHHNqr07uOSa2fvsjdKKVkFUpFEZLeHFLTYgeMOtc+4BpQsqTlYNHHdcILSoG24dNo2NOjBBhNJrQg8aGmeSBkUaRYuIoNwoXaEBi28W1qqTlBmyppA3XYMGBKN0wDeLWjLh4/8cWEQou4m99xkcJxYHSZJGq3gJs5obtqaQ9sHeO9fAWtnd4OI+B4bTWV2TWW5jHH8UJFFZxovwf/7yK1SqaZW5PGWPp59VjRDHJdQKpLKEqWG20yhOhIiqGiUCkcmvybzT4BSzLA/LMJlnhs0a9Vde7VHDhguL2lySVzKKDEJUo6k0b/v4PyezVm1L1+14XaMEg1SX6RLiWRDPP8n8eCUMgyJL0nwha6u2W4EGlBQnMF3bCo41NO4S+PyLB3gu1eacMPpVHSXWwOkQiW55S/cZdsdPNwnKKCqifBlPjaZ1VZrLmh943THhIBx3SuBr30tvcst36fCW2mOmxsmEQZ7GWVguIzPEwrlKG8uFACaEOlI0+b/lFhhUndZUv73nHaHoltDj5qYqY1QmUbFaRgqb1p6cIzvZMFvtyHfIdLVDAxIPqEFtNqiBSyp4QzT5U4pvST1ublxGBVGWRNG8ivpZI7N08r87t4Fklh/wOx9fgv6cBhorRZITNlo15GQviEj9dBodPZIcz7c81bHjJC3KeU11C+gi8egPQoQunBgItkYxlLaGSxdOagg9ii0Jn39xXNMRrk8wPZWAaZyG5fJzrRXFkeoRYR9vF4WnNJDrX11KeZQ+UrMReg8Zm0q+IkrTcL483mIwqDkT/L8kzVHW5LjB2V7UtsqgOQePczkwEuv65IitRoi9y+g4wSJI8ygvssUESeOB6aoKjelnDAogiUfU0ElDdc251rHJR9jcb2GihqzKOF5+Mu6xZw9VTFKgMGtZtaPQRq0V9dsByIVDMcVhqbEJOklZptG84LiF4HV1fa5G1DFJl29QVk4RgRI1/T4ESrWX6iiw3mKD0umNqByh9l67U2oyzrK0WH5sgwLwk4YTuXLrtY05u17jfzo0l7rmJudwrEQ8ZG3i4MJVlt8xuXzVvOJy+40eDBplTa1kEHMWdXPRq76NXquEVpDTNay5EO6faqBIIuRPMj/KOQ/KuCjni8YVJtWiHHoM+V7jgePRV6kBaE2FQBhY40ZRTu0UrxC4tH2sxvEt1yfYnYrVVZrOJ+QVmEoo4/cuvaComKxQUH3rtISNqrrLMVQ75eLO8UpueT1maqqP5auoKOfT7grB0GScs8yl/0CtOg+RV3svjs5F0Fh2Mr7lkA1HLb2l9gzD43NbFmRlfs+0+oOrvbah6KGAom/nUnep8lQOHWRHKxs7sWVmpppyucpX84r/+uGqoR0S1kMm95n9erV/odxngtd+PdgXcZ8xjtTqB1Lvtzs1YodJfE8ruKlsrWCVWwfuhjTeMVk7Ke5drUQNR6X3Z6Hum+93JPMf6+U7rU6J/zSKVuG8Hr4CMzSnc3pQPAluUTNxKWiuIUt7XupYzbdbHMq3o1nc0nyK5VGqq2BVZFE4H7NccvsXt3VqW3GiZ234trf0Ebg0lvlpGYzqdIUfHUamEXiNTauGPkCa5SnGJipmFCRFHN4hyGp9At3JH8aODRd+6ZGQAvn/V437NArKssjmlQXxFtyPZ86eqzLnVnfU3E9xdud0XNMqSTvOv7opiP5F4GYYCh1iEhTPtTrh5TKIszQs5jfanSR5KS9PAoHs4OoOt7550ApM0dsD6KRVHS0pHBlSDA/ePoo6K4IsKopsPjSuAnJ4tWE1ozVCv+gyp0ZwuafVkOWSDTvPJOnP4CEDo8CLIojyMinvAO6Ds1ItF25jrOrON7F/4JsN/qCtFtO05Xcqy625XIY55NTvH7cwngtlkBfFKp3vFv2DaXtD+6ml2LML9kdMjIOnKXsVlfPVsX+yatHfbpbCX13gP2ZkXO+HQZGX2R17EMGNHfYQrvDueNs6Ub7lxuqT39Q7rNSF771+XEIUQR6lZT4/iLC21fT2Bo6MuG6UpnduhhtLvf0jrIUivfndK0UnQD/2Us4PU9+tEBNqrU81OhU4RRin8R0EteUbVln/Uq4fYLl05ezv3778RroN37DqXE7WngS10MU3jgJNgzyJw/lO5YMMqF6Zvpz11p0+8Y4Rftz51z9/c3GSUvtcfON4vwniNCruaqjOHQ1SilSCNa0h8dQKdoLjDqVrclCxllXcuoVd2rfMRfdNzZ15mCXF/GsMv9h0srw/uDX6lqEb3/tS6n0zl42CCIM8i9NsIvCiIEjjlw9AvxlwH03HLRoIXz5Ay0z/oxMM9JMfXUl50jez9zlOn62qlfvw3eOBdFeQFFES5i//A1foNxxDIgAA"
+      },
+      "cases": [
+        {
+          "number": 1,
+          "name": "MultiInput adds a trimmed token through Enter and reflects controlled values",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 2,
+          "name": "MultiInput explicit changes preserve caller state and retain a failed draft",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 3,
+          "name": "MultiInput rejects blank and existing tokens without duplicate callbacks",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 4,
+          "name": "MultiInput item limits prevent additions while permitting removal",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 5,
+          "name": "MultiInput enforces text bounds and consumes later external value changes",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 6,
+          "name": "MultiInput disabled state prevents both addition and removal",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 7,
+          "name": "MultiInput IME composition and keyCode 229 do not prematurely add a token",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 8,
+          "name": "MemberPicker filters existing names and descriptions without dropping hidden selections",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 9,
+          "name": "MemberPicker toggles only supplied member IDs and preserves consumer-owned input",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 10,
+          "name": "MemberPicker respects individual and whole-control disabled states",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 11,
+          "name": "MemberPicker selection limits still allow deselecting a current member",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 12,
+          "name": "MemberPicker empty and unmatched searches never offer invented members",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 13,
+          "name": "CreatableSelect native selection preserves IDs and recovers from a caller failure",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 14,
+          "name": "CreatableSelect explicit creation emits a label without minting or selecting an ID",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 15,
+          "name": "CreatableSelect does not create empty duplicate or over-limit labels",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 16,
+          "name": "CreatableSelect serializes pending creation and exposes failure with a retry",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 17,
+          "name": "CreatableSelect late success retains a newer unsent label",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 18,
+          "name": "CreatableSelect late failure cannot attach an error to a newer label",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 19,
+          "name": "CreatableSelect changed caller context fences an older creation acknowledgement",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 20,
+          "name": "CreatableSelect disabled and composing inputs cannot request creation",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 21,
+          "name": "PricingTable renders supplied terms without inventing a current plan or billing action",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 22,
+          "name": "PricingTable opens a labelled review with supplied details before choice intent",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 23,
+          "name": "PricingTable close and native cancel return focus without choosing",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 24,
+          "name": "PricingTable pending choices serialize double clicks and failure stays retryable",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 25,
+          "name": "PricingTable closing and reopening fences a late failed choice",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 26,
+          "name": "PricingTable committed plan or current-value changes invalidate an older review",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 27,
+          "name": "PricingTable replacing the choice handler fences old work from a newer review",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 28,
+          "name": "PricingTable disabled choices and literal supplied content do not trigger billing",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 29,
+          "name": "init/add apply configuration, install all source, and are idempotent",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 30,
+          "name": "dry run does not create files",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 31,
+          "name": "conflicting files fail before writing other components; overwrite is explicit",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 32,
+          "name": "unknown component leaves initialized project untouched",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 33,
+          "name": "configuration rejects traversal and symlink destinations",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 34,
+          "name": "create copilot produces a Next.js starter with its source",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 35,
+          "name": "create research produces a Next.js starter with its source",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 36,
+          "name": "create operations produces a Next.js starter with its source",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 37,
+          "name": "list exposes all shipped registry names",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 38,
+          "name": "approval waits for persistence, blocks duplicate clicks, and renders failure",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 39,
+          "name": "artifact text cannot inject HTML or execute code",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 40,
+          "name": "source links reject executable and relative URLs",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 41,
+          "name": "context meter clamps display when over capacity",
+          "status": "ok",
+          "directive": null
+        },
+        {
+          "number": 42,
+          "name": "empty plan cannot be confirmed",
+          "status": "ok",
+          "directive": null
+        }
+      ],
+      "totals": {
+        "tests": 42,
+        "suites": 0,
+        "pass": 42,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "exactNameSet": true,
+      "orderingRequired": false
+    },
+    "fixtures": {
+      "remainingEntries": [],
+      "remainingCount": 0,
+      "passed": true
+    },
+    "scratchCleanup": "passed",
+    "completedAtUtc": "2026-11-04T13:18:53.708Z",
+    "interrupted": false
+  },
+  "acceptance": {
+    "passed": true,
+    "exactUniqueActualCases": 42,
+    "actualNameStatusSetMatchedPreparedSeal": true,
+    "orderingRequired": false,
+    "totals": {
+      "tests": 42,
+      "suites": 0,
+      "pass": 42,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0
+    },
+    "perPreparedFile": [
+      {
+        "path": "tests/integration/components.test.mjs",
+        "cases": 5
+      },
+      {
+        "path": "tests/integration/cli.test.mjs",
+        "cases": 9
+      },
+      {
+        "path": "tests/integration/brief-components.test.mjs",
+        "cases": 28
+      }
+    ],
+    "newComponents": {
+      "MultiInput": 7,
+      "MemberPicker": 5,
+      "CreatableSelect": 8,
+      "PricingTable": 8
+    },
+    "commandCount": 23,
+    "allCommandsExitZero": true,
+    "allExitAndCloseObserved": true,
+    "allOriginalProcessGroupsAbsent": true,
+    "allSourceGuardsPassed": true,
+    "fixturesEmpty": true,
+    "scratchRemoved": true,
+    "interrupted": false,
+    "retries": 0
+  },
+  "tapEvidence": {
+    "encoding": "gzip-base64",
+    "uncompressedBytes": 8771,
+    "sha256": "dbd03b1cbd00edbce90cf33fec126124c883d2e17a128684beb30f4f341dca33",
+    "compressedBytes": 2043,
+    "losslessDataLocation": "controllerReport.tap.raw.data",
+    "actualCaseRowsLocation": "controllerReport.tap.cases",
+    "durationMs": 2013.381307,
+    "meaning": "Actual decoded TAP bytes and actual42 unique names/statuses were independently matched to the frozen selection; timing is not a performance benchmark."
+  },
+  "phaseEvidence": {
+    "npmCi": "added 76 packages in 5s",
+    "libraryAndGenerator": "React TypeScript compiled; built 20 self-contained registry entries for website and CLI.",
+    "sourceCheck": "Syntax/import checks passed for 53 source files;20 registry items have API documentation and examples.",
+    "mainPhaseStderrBytes": {
+      "npm_version": 0,
+      "install": 0,
+      "library_and_generator": 0,
+      "source_check": 0,
+      "tests": 0
+    },
+    "materialWarningLines": [
+      "##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11d5960a326750d5838078e36cf38b85af677262, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/"
+    ],
+    "qualification": "Package counts are installation output, not coverage. The 20 generated source registry entries do not mean that npm0.1.0 archives ship the four new components."
+  },
+  "runtimeProfile": {
+    "basis": "Actual Node/npm/platform/executable identity is retained in controllerReport.runtime; React19.3.1/jsdom27.4.0/TypeScript5.9.3 are the committed-lock profile installed by successful npmci, not a separate module-version probe.",
+    "consumerMeaning": "Current-source React19/jsdom plus disposable CLI profile. No new React18 or public npm installation/release proof."
+  },
+  "proofLimits": [
+    "One actual first-job42-case invocation passed. The14 retained checks are current-source regressions; original16-component release/consumer/browser evidence remains separate and is not additive coverage.",
+    "Eight manual desktop/narrow browser scenarios remain unrun. jsdom dialog shim/lifecycle cannot establish native focus, inertness, touch, IME or accessibility.",
+    "No npm publication, version bump, new package archive, public consumer matrix, Next.js website build, hosted/browser/account/provider/model/database action occurred in this packet.",
+    "All23 commands exited0, had observed exit/close and original process-group absence. Individual descendant PIDs/separate sessions and jsdom window counts were not independently inventoried.",
+    "No deadline, output cap, interruption or TERM/KILL path fired; this successful job does not runtime-test those controller failure branches.",
+    "The complete97-entry index/HEAD/working state and84 source vectors passed before install, after build/source-check and at final guard. All12 historical results and both source seals remain immutable.",
+    "Only result evidence is authored here before later status documentation; source pin6a351335 remains distinct from activation/current/future documentation editions."
+  ]
+}
