@@ -44,6 +44,12 @@ Closing a review does not cancel an already dispatched consuming-app operation.
 Native dialog behavior, keyboard/focus return and narrow layouts need browser
 acceptance independently of authored DOM checks.
 
+The [5 November hosted packet](../results/2026/11-05/hosted-browser-checks.md)
+subsequently passed the four demos at desktop/narrow widths, including actual
+native modal focus and the added disabled-member example. This closes that
+focused Chromium scope only; physical IME/touch, public package consumers and
+new release acceptance remain separate.
+
 All four components accept existing scoped styles and section attributes. They
 use the current palette, dark mode and density tokens; do not execute HTML or
 model output; and keep runtime calls in the consumer. Examples are explicitly

@@ -1,6 +1,8 @@
 # Hosted requested-component browser acceptance
 
-5 November 2026. **Prepared; not executed.** This packet implements the original
+5 November 2026. **Accepted: eight cases passed once.** See the
+[actual receipt](../results/2026/11-05/hosted-browser-checks.md).
+This packet implements the original
 [four desktop/four narrow workflows](brief-components-checks.md#focused-live-browser-scope).
 The owner's later “I approve everything / Keep going / Do all the work”
 instructions authorize the bounded temporary public browser CI needed to finish

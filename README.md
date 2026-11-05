@@ -1,6 +1,6 @@
 # agentcn/ui
 
-Last updated: 2026-11-04
+Last updated: 2026-11-05
 
 **Interfaces for apps that think.** An MIT-licensed React component library for AI-native apps: agent execution, human approvals, context, memory, artifacts, and evaluation.
 
@@ -19,10 +19,14 @@ The [requested-component CI packet](docs/results/2026/11-04/brief-components-che
 passed all **42 cases once** on 4 November: 28 cases for the four new components
 and 14 current-source React/CLI regressions. This is a locked React 19/jsdom and
 disposable CLI profile, with native drawer behavior covered only by a local
-dialog shim. The eight desktop/narrow browser scenarios, new React 18/public npm
-consumer acceptance and a new package release remain open. The
+dialog shim. The separate [eight hosted browser cases](docs/results/2026/11-05/hosted-browser-checks.md)
+passed once on 5 November: all four demos at desktop/narrow widths, including
+native dialog modality, keyboard/focus, real controlled-demo state and registry
+source identity. New React 18/public npm consumers and a new release remain open;
+the [release-readiness observation](docs/results/2026/11-05/release-readiness.md)
+records the unverified npm transport/identity boundary. The
 [5 November hosted browser packet](docs/proposals/hosted-browser-checks.md)
-is prepared for the eight demo cases; it has not yet run. Its only demo change
+records that result. Its only demo change
 adds an explicitly disabled MemberPicker example using the existing prop.
 
 ## Components

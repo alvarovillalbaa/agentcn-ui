@@ -1,6 +1,6 @@
 # Working on agentcn-ui
 
-Last updated: 2026-10-15
+Last updated: 2026-11-05
 
 - Read README.md and git status before changing anything. Preserve unrelated work.
 - Components live in packages/react/src; catalog.mjs owns names, presets, and palettes.
@@ -34,3 +34,9 @@ retired after terminal evidence. No account, invitation, subscription, payment,
 provider/model, Auth/configuration change or package release is part of this
 scope. Normal Vercel deployment regenerates library/registry/docs; do not
 regenerate or hand-edit ignored output locally below Storage Guard's reserve.
+
+All eight hosted cases passed once at `af06c2ed908646eafb66fba2588eda0577228062`;
+see `docs/results/2026/11-05/hosted-browser-checks.md`. Do not rerun closed scopes
+merely because an earlier approval note is stale. Preserve the separately
+failed local source-check/legacy ignored-output observation; clean CI guards
+must remain strict. New npm/React 18 consumers and full-library proof stay open.

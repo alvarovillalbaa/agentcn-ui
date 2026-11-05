@@ -1,12 +1,15 @@
 # Requested component checks
 
-Prepared 29 October 2026; guard preparation updated 4 November 2026. Source:
+Prepared 29 October 2026; guard preparation updated 4 November and browser
+status updated 5 November 2026. Source:
 [brief and contract](../specs/brief-components.md). The four new components
 are not covered by the earlier 0.1.0 installation/browser evidence.
 The owner's repeated “approve everything / keep going / do all the work”
 instructions authorize this focused free verification scope and its temporary
 CI wiring. No further approval question is pending for this packet. The 42-case
-CI packet **passed on its first job**; the eight-browser scope remains UNRUN.
+CI packet **passed on its first job**. The separate
+[eight hosted browser cases](../results/2026/11-05/hosted-browser-checks.md)
+subsequently passed once on 5 November.
 The [result](../results/2026/11-04/brief-components-checks.md) and
 [raw machine evidence](../results/2026/11-04/brief-components-checks.json) own the
 actual execution proof. Source preparation itself ran no product code.
@@ -133,11 +136,12 @@ is included.
 The [5 November executable packet](hosted-browser-checks.md) retains these eight
 workflows under the owner's later standing authorization and uses one bounded
 temporary public Chromium CI job. It supersedes the connected-Chrome-only
-executor instruction below. Actual browser acceptance remains pending until a
-terminal result is retained; the closed 42-case CI profile is not rerun.
+executor instruction below. The [actual eight-case result](../results/2026/11-05/hosted-browser-checks.md)
+passed once; the closed 42-case CI profile was not rerun.
 
-These four desktop/four narrow scenarios remain UNRUN. Their standing owner
-authorization does not supply missing browser capabilities or a passing result.
+These four desktop/four narrow scenarios passed in the 5 November executable
+packet. The original connected-Chrome executor below remains history; the
+actual public Chromium CI receipt owns the new browser proof.
 Using the existing public documentation deployment, check the four actual demos
 at desktop and narrow width through the connected Chrome profile:
 
