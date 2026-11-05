@@ -1,0 +1,40 @@
+# INACTIVE. Root pins the published preparation and READY deployment before QA activation.
+name: Temporary Agentcn UI hosted browser acceptance
+on:
+  push:
+    branches: [qa/agentcn-hosted-20261105]
+permissions:
+  contents: read
+concurrency:
+  group: agentcn-hosted-20261105
+  cancel-in-progress: false
+jobs:
+  browser:
+    if: github.event_name == 'push' && github.repository == 'alvarovillalbaa/agentcn-ui' && github.event.repository.private == false && github.ref == 'refs/heads/qa/agentcn-hosted-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      CI: 'true'
+      SOURCE_COMMIT: af06c2ed908646eafb66fba2588eda0577228062
+      AGENTCN_EXPECTED_DEPLOYMENT: dpl_8nA56Me6vqT6HEmsGYj4X1bHdMCX
+      AGENTCN_EXPECTED_PAGES: '[{"route":"/docs/components/multi-input/","bytes":42811,"sha256":"80b2fe59cbec823f0d2ade568538bcaaaa60d59c08bd8fd2759fd4deb639c05e"},{"route":"/docs/components/member-picker/","bytes":43287,"sha256":"72753f8dc885ed34847e6e9af47c2571763a331b6c7548fb7e05c19f8e70e2dc"},{"route":"/docs/components/creatable-select/","bytes":54879,"sha256":"85b21f6ad85625438c2d5be84320a67f3672db48f9e6249a4ddd54fbddd6f23e"},{"route":"/docs/components/pricing-table/","bytes":66733,"sha256":"bdf9abc23c9716b8e34f81d1758e1b11805755a99df4a2695297b79e77868915"}]'
+      AGENTCN_PUBLIC_REPOSITORY: ${{ github.event.repository.private == false }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ env.SOURCE_COMMIT }}
+          persist-credentials: false
+          clean: false
+          fetch-depth: 1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: 24.21.0
+          package-manager-cache: false
+      - name: Run only the pinned hosted Agentcn UI packet
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$SOURCE_COMMIT" =~ ^[a-f0-9]{40}$ ]]
+          [[ "$AGENTCN_EXPECTED_DEPLOYMENT" =~ ^dpl_[A-Za-z0-9]+$ ]]
+          [[ "$(git rev-parse HEAD)" == "$SOURCE_COMMIT" ]]
+          node scripts/run-hosted-browser.mjs --source-commit "$SOURCE_COMMIT"
