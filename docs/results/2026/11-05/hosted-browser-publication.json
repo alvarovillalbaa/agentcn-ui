@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "agentcn.hosted-browser-publication.v1",
+  "observedAtUtc": "2026-11-05T05:32:20Z",
+  "checked": {
+    "commit": "af06c2ed908646eafb66fba2588eda0577228062",
+    "tree": "b4fdc7af6e861271a083ce35abe8511afd86303d",
+    "deploymentId": "dpl_8nA56Me6vqT6HEmsGYj4X1bHdMCX",
+    "runId": 41973099355,
+    "jobId": 127065627042,
+    "casesPassed": 8,
+    "receiptPath": "docs/results/2026/11-05/hosted-browser-checks.json",
+    "receiptBytes": 215002,
+    "receiptSha256": "9b092c205504620408dbbc93066a94b304f8071c2badfbf5165fc4ebce60e863",
+    "observedCompiledPages": [
+      {
+        "route": "/docs/components/multi-input/",
+        "bytes": 42811,
+        "sha256": "80b2fe59cbec823f0d2ade568538bcaaaa60d59c08bd8fd2759fd4deb639c05e"
+      },
+      {
+        "route": "/docs/components/member-picker/",
+        "bytes": 43287,
+        "sha256": "72753f8dc885ed34847e6e9af47c2571763a331b6c7548fb7e05c19f8e70e2dc"
+      },
+      {
+        "route": "/docs/components/creatable-select/",
+        "bytes": 54879,
+        "sha256": "85b21f6ad85625438c2d5be84320a67f3672db48f9e6249a4ddd54fbddd6f23e"
+      },
+      {
+        "route": "/docs/components/pricing-table/",
+        "bytes": 66733,
+        "sha256": "bdf9abc23c9716b8e34f81d1758e1b11805755a99df4a2695297b79e77868915"
+      }
+    ]
+  },
+  "publication": {
+    "commit": "da51720442f87123af9be70127744de973c638bb",
+    "tree": "4ce381c5a8c5645a7502ec0235d3326f7b252af8",
+    "nativeVerification": {
+      "head": "da51720442f87123af9be70127744de973c638bb",
+      "tree": "4ce381c5a8c5645a7502ec0235d3326f7b252af8",
+      "leaves": 106,
+      "bytes": 1020629,
+      "trackedCheckoutClean": true,
+      "legacyIgnored": {
+        "count": 13114,
+        "pathSetSha256": "9ac1c464dafe3142ea7d1f205ab8a0cface8c6bd7b9b5be49a1cba0223296702",
+        "unchangedSinceFirstObservation": true,
+        "contentsIndependentlyCompared": false
+      },
+      "noActiveWorkflow": true,
+      "changesSinceChecked": [
+        "M\tAGENTS.md",
+        "M\tREADME.md",
+        "M\tdocs/proposals/brief-components-checks.md",
+        "M\tdocs/proposals/hosted-browser-checks.md",
+        "A\tdocs/results/2026/11-05/hosted-browser-checks.json",
+        "A\tdocs/results/2026/11-05/hosted-browser-checks.md",
+        "A\tdocs/results/2026/11-05/release-readiness.md",
+        "M\tdocs/specs/brief-components.md"
+      ]
+    },
+    "remoteMain": "da51720442f87123af9be70127744de973c638bb",
+    "remoteQa": "da51720442f87123af9be70127744de973c638bb",
+    "qaWorkflowRetired": true,
+    "remoteTreeTruncated": false,
+    "testedInputs": 103,
+    "unchangedTestedInputs": 98,
+    "laterModifiedInputs": [
+      "AGENTS.md",
+      "README.md",
+      "docs/proposals/brief-components-checks.md",
+      "docs/proposals/hosted-browser-checks.md",
+      "docs/specs/brief-components.md"
+    ],
+    "productApiFixturesControllerAndDependenciesUnchanged": true
+  },
+  "deploymentMetadata": {
+    "id": "dpl_61fY1UKp6st1sQWn3yzKAodm83fx",
+    "name": "agentcn-ui",
+    "url": "agentcn-g4hs889h0-my-team-4f230354.vercel.app",
+    "type": "LAMBDAS",
+    "state": "READY",
+    "createdAt": 1793856620647,
+    "creator": {
+      "uid": "zsxQcbiAfBXuwfpA5YtTh7Nm",
+      "username": "alvipedev"
+    },
+    "project": {
+      "id": "prj_ST0sdZyDIHRbGULu3uobbfRwLh0w",
+      "name": "agentcn-ui",
+      "framework": null
+    },
+    "meta": {
+      "githubCommitRef": "main",
+      "githubCommitSha": "da51720442f87123af9be70127744de973c638bb",
+      "githubCommitMessage": "Publish eight hosted component passes and preserve separate release gates",
+      "githubRepo": "agentcn-ui",
+      "githubOrg": "alvarovillalbaa"
+    },
+    "alias": [
+      "agentcn-ui.vercel.app",
+      "agentcn-ui-my-team-4f230354.vercel.app",
+      "agentcn-ui-git-main-my-team-4f230354.vercel.app"
+    ],
+    "target": "production",
+    "regions": [
+      "iad1"
+    ],
+    "buildingAt": 1793856621739,
+    "ready": 1793856642752,
+    "readyState": "READY",
+    "source": "git",
+    "aliasError": null
+  },
+  "publicObservation": {
+    "status": 200,
+    "route": "/docs/components/member-picker/",
+    "bytes": 43287,
+    "sha256": "e2b061e236226e3a2cf5691e1c641ad2918b4c701e3b7a411857598c79fd32a0",
+    "disabledFixtureInMarkup": true,
+    "observedAtUtc": "2026-11-05T05:32:20Z",
+    "origin": "https://agentcn-ui.vercel.app"
+  },
+  "limits": [
+    "The eight browser cases ran on checked af06, not this later documentation deployment. Five status files changed and three records were added; 98/103 checked inputs including demo, library, spec, controller and dependencies remain exact.",
+    "Static export has no HTML deployment marker. Page hashes are actual compiled-response observations, not Git-tracked HTML identities. Later compilation may change build identifiers without changing application source.",
+    "The native checkout is tracked-clean with its 13,114 existing ignored paths preserved by ordered path-set hash after first observation. Ignored contents/task-start bytes were not independently inventoried. This does not relax the separate clean-CI zero-output guard.",
+    "This receipt is itself a later documentation-only addition; final commit/hosting must be verified separately rather than claimed self-referentially.",
+    "The local full source checker remains failed on older missing generated registry input. Npm identity/package metadata lookups failed DNS once and establish neither missing auth nor package absence. New public release/React18 consumers, physical inputs/assistive technology and full-library acceptance remain open."
+  ]
+}
