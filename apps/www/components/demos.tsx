@@ -440,6 +440,12 @@ export function MemberPickerDemo() {
           name: "Operations team",
           description: "Release review",
         },
+        {
+          id: "unavailable",
+          name: "Unavailable team",
+          description: "Disabled demo member",
+          disabled: true,
+        },
       ]}
       maxMembers={2}
     />

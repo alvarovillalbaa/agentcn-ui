@@ -20,7 +20,10 @@ passed all **42 cases once** on 4 November: 28 cases for the four new components
 and 14 current-source React/CLI regressions. This is a locked React 19/jsdom and
 disposable CLI profile, with native drawer behavior covered only by a local
 dialog shim. The eight desktop/narrow browser scenarios, new React 18/public npm
-consumer acceptance and a new package release remain open.
+consumer acceptance and a new package release remain open. The
+[5 November hosted browser packet](docs/proposals/hosted-browser-checks.md)
+is prepared for the eight demo cases; it has not yet run. Its only demo change
+adds an explicitly disabled MemberPicker example using the existing prop.
 
 ## Components
 
@@ -127,11 +130,12 @@ generated registry entries. All 42 exact case names/statuses, 84 source vectors,
 97 tracked identities, 23 child exits/group checks and owned cleanup passed.
 These 20 generated entries do not change the published 0.1.0 archives.
 
-This later status edition changes only this README and the focused-check proposal
-among the 84 checked inputs; the other 82, including all runtime, test, dependency
-and generator inputs, remain unchanged. Raw result JSON and historical 72/84
-seals are preserved. Reproduce the checked source, rather than treat these later
-documentation bytes as the original sealed snapshot.
+The 4 November status edition changed only this README and the focused proposal
+among its 84 checked inputs, leaving 82 exact at that edition. The later browser
+preparation adds isolated acceptance tooling and the small disabled-member demo;
+it does not relabel those bytes as the original 42-case source. Raw result JSON
+and historical 72/84 seals remain preserved. Reproduce the appropriate checked
+source rather than treating a later publication as another execution.
 
 ## Website hosting
 

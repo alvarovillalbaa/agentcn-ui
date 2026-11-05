@@ -12,3 +12,25 @@ Last updated: 2026-10-15
 - CLI changes must preserve overwrite guards, path containment, dry runs, and source ownership. Add focused tests when these contracts change.
 - Generated output, node_modules, secrets, local paths, and package archives do not belong in Git.
 - Keep release claims tied to current npm, deployment, and verification evidence. See docs/runbooks/release.md.
+
+## Approved hosted browser scope — 5 November 2026
+
+The owner's later “I approve everything / Keep going / Do all the work”
+instructions cover the original four demos at desktop and narrow widths:
+eight browser cases in `docs/proposals/hosted-browser-checks.md`, one temporary
+public Ubuntu job per changed candidate, capped at 15 minutes. Pinned browser
+tools/Chromium use owned external runner storage; no local install/build/server
+or application dependency change is included. Keep the 42 passed React/CLI
+cases closed. A small explicitly disabled MemberPicker demo entry exposes the
+already implemented disabled-member behavior; component/library APIs, versions,
+locks and generated files remain unchanged.
+
+Use only the public documentation demos and anonymous registry reads. Preserve
+source-only npm notices, page/registry identities, all tracked source/mode/byte
+guards, request boundaries and owned process/pipe/scratch cleanup. Pin the
+preparation SHA, fresh production READY metadata and four actually served HTML
+hashes; static export has no deployment ID in HTML. The QA-only workflow is
+retired after terminal evidence. No account, invitation, subscription, payment,
+provider/model, Auth/configuration change or package release is part of this
+scope. Normal Vercel deployment regenerates library/registry/docs; do not
+regenerate or hand-edit ignored output locally below Storage Guard's reserve.

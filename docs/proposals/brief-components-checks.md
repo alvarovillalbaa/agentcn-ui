@@ -130,6 +130,12 @@ is included.
 
 ## Focused live browser scope
 
+The [5 November executable packet](hosted-browser-checks.md) retains these eight
+workflows under the owner's later standing authorization and uses one bounded
+temporary public Chromium CI job. It supersedes the connected-Chrome-only
+executor instruction below. Actual browser acceptance remains pending until a
+terminal result is retained; the closed 42-case CI profile is not rerun.
+
 These four desktop/four narrow scenarios remain UNRUN. Their standing owner
 authorization does not supply missing browser capabilities or a passing result.
 Using the existing public documentation deployment, check the four actual demos
@@ -157,5 +163,7 @@ This source/check scope is already authorized by the owner's current instruction
 No server/database, real account, provider/model call, secret, payment, new plan,
 package release or production configuration is proposed. Preserve every failure
 and source pin before any separately reviewed same-scope repair/rerun. A pass
-would establish this exact React19/jsdom/CLI fixture profile only, not native
-browser acceptance, React18 package consumers or completion of the full library.
+of the earlier 42-case packet establishes its React19/jsdom/CLI fixture profile
+only. The new browser packet supplies separate native Chromium evidence only
+after an actual terminal receipt; neither profile establishes React18 public
+package consumers or completion of the full library.
