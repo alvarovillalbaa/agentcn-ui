@@ -1,0 +1,2163 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "68af1aa9d0f7ed4667ff9d2d82712a62c9d11914",
+  "version": "0.2.0",
+  "startedAt": "2026-11-07T21:15:13.199Z",
+  "cases": [
+    {
+      "id": "react18-exports-types-css",
+      "status": "passed"
+    },
+    {
+      "id": "react18-new-four-ssr",
+      "status": "passed"
+    },
+    {
+      "id": "react18-multi-input",
+      "status": "passed"
+    },
+    {
+      "id": "react18-member-picker",
+      "status": "passed"
+    },
+    {
+      "id": "react18-creatable-select",
+      "status": "passed"
+    },
+    {
+      "id": "react18-pricing-table",
+      "status": "passed"
+    },
+    {
+      "id": "react18-typescript",
+      "status": "passed"
+    },
+    {
+      "id": "react19-exports-types-css",
+      "status": "passed"
+    },
+    {
+      "id": "react19-new-four-ssr",
+      "status": "passed"
+    },
+    {
+      "id": "react19-multi-input",
+      "status": "passed"
+    },
+    {
+      "id": "react19-member-picker",
+      "status": "passed"
+    },
+    {
+      "id": "react19-creatable-select",
+      "status": "passed"
+    },
+    {
+      "id": "react19-pricing-table",
+      "status": "passed"
+    },
+    {
+      "id": "react19-typescript",
+      "status": "passed"
+    },
+    {
+      "id": "cli-npm-exec-all20",
+      "status": "passed"
+    },
+    {
+      "id": "cli-npx-all20",
+      "status": "passed"
+    },
+    {
+      "id": "cli-pnpm-dlx-all20",
+      "status": "failed"
+    }
+  ],
+  "archives": [
+    {
+      "name": "alvarovillalbaa-agentcn-ui-0.2.0.tgz",
+      "bytes": 33597,
+      "sha256": "81829d3bfc376339e1f48fc123ded93b471e7bd7c654e5c2afba1a17bf1c226d",
+      "integrity": "sha512-XG7h0wkNRjmgweSUA7A4JbXCqj1n0bH+iNXqPk6lfwFswVSVuJpRFqn/lDWNgM9QNfPA8ASHXhRwo9DHn4ZS+A=="
+    },
+    {
+      "name": "agentcn-ui-0.2.0.tgz",
+      "bytes": 37492,
+      "sha256": "fcfee32999e0df538c265fbd199297d89da9f049b5ffd45720f78812f44c5491",
+      "integrity": "sha512-9EE/GDQnEH9eQ/jM6y/u9aTAjS2J7xEIbLXyjHGU2CCuwedtdi6Cob/1Ix0waLjirMzZytg4Jb3oEBpQZ2XQGA=="
+    }
+  ],
+  "profiles": [
+    {
+      "key": "react18",
+      "react": "18.2.0",
+      "reactTypes": "18.3.27",
+      "reactDomTypes": "18.3.7",
+      "status": "passed",
+      "lockOriginal": {
+        "bytes": 25941,
+        "sha256": "31b360717cd37990d711355b6509a5cc744bea0419839a2696a6f12c2a91ca2b",
+        "gzipBytes": 6865,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "installedTreeOriginal": {
+        "bytes": 14875,
+        "sha256": "bb70be45f1537af4356d79a0c4fc51ef21c2b6236fe5b34d06d4e4e26dde9585",
+        "gzipBytes": 1875,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "exportsAndSsr": {
+        "schemaVersion": 1,
+        "profile": "18.2.0",
+        "cases": [
+          {
+            "id": "exports-types-css",
+            "status": "passed",
+            "rootFunctions": 20,
+            "subpathFunctions": 20,
+            "declarationFiles": 20
+          },
+          {
+            "id": "new-four-ssr",
+            "status": "passed",
+            "components": [
+              "MultiInput",
+              "MemberPicker",
+              "CreatableSelect",
+              "PricingTable"
+            ],
+            "callbacks": 0
+          }
+        ],
+        "passed": true,
+        "exports": [
+          {
+            "name": "agent-run",
+            "component": "AgentRun",
+            "declarationBytes": 595,
+            "declarationSha256": "2d50c4eb828ef42efb690cd8b178ebe1750db8e427e269058216506eca8eb960"
+          },
+          {
+            "name": "tool-call",
+            "component": "ToolCall",
+            "declarationBytes": 444,
+            "declarationSha256": "b4eacb4023796cbef025c0a60e23fe28f70c2a88dbc965f8fbc2fbfda0d1b787"
+          },
+          {
+            "name": "approval-request",
+            "component": "ApprovalRequest",
+            "declarationBytes": 646,
+            "declarationSha256": "236c5ed6de2529ea77fcd47c3cf4a6edef13813860ab5d2b561454f4d4162050"
+          },
+          {
+            "name": "plan-review",
+            "component": "PlanReview",
+            "declarationBytes": 575,
+            "declarationSha256": "49692937b680f72168cf01053c87736f52ade071f678838c06cc0c26d4197464"
+          },
+          {
+            "name": "checkpoint",
+            "component": "Checkpoint",
+            "declarationBytes": 501,
+            "declarationSha256": "7cffa8735b77ae0c78537a67b13e6688813ac31bd26423da4f0b94fcdf8f6ecf"
+          },
+          {
+            "name": "context-window",
+            "component": "ContextWindow",
+            "declarationBytes": 423,
+            "declarationSha256": "6fd9c60cc773ff067dcc7ba44e6c0a748161b723d080f2fc927759bd8ee5b4bd"
+          },
+          {
+            "name": "memory-panel",
+            "component": "MemoryPanel",
+            "declarationBytes": 482,
+            "declarationSha256": "f801705b12141114f877cbbaa762516826eb115580005036c79139511c12c76a"
+          },
+          {
+            "name": "source-stack",
+            "component": "SourceStack",
+            "declarationBytes": 405,
+            "declarationSha256": "ae91745d2b66a1b3e3736dfb1214d9173a4a5f75a2db4d8c14ce4d827b40e001"
+          },
+          {
+            "name": "agent-handoff",
+            "component": "AgentHandoff",
+            "declarationBytes": 492,
+            "declarationSha256": "1cfff1044da605deca686e7ca50cde80d8a2b62c90eeb621e6e83e11570081ec"
+          },
+          {
+            "name": "model-router",
+            "component": "ModelRouter",
+            "declarationBytes": 528,
+            "declarationSha256": "7cec71fe7c6b31f9f1b1078363e9c3ae45974b981f75793e36b85344141b979e"
+          },
+          {
+            "name": "prompt-composer",
+            "component": "PromptComposer",
+            "declarationBytes": 611,
+            "declarationSha256": "9cd0f6119823364f38b434b7abe60f69eb5dd09d024fb9c3c71f8ab91692370a"
+          },
+          {
+            "name": "branch-picker",
+            "component": "BranchPicker",
+            "declarationBytes": 468,
+            "declarationSha256": "4c9e9e89d3ed17b88d0cbbc1f7bf0e2ba106baa3380ac62dda4d3e645c65cba5"
+          },
+          {
+            "name": "artifact-panel",
+            "component": "ArtifactPanel",
+            "declarationBytes": 559,
+            "declarationSha256": "2a354fdf210e914e552f55084f11e27b68cccf45abfecd53ed081c273e81a5e4"
+          },
+          {
+            "name": "stream-status",
+            "component": "StreamStatus",
+            "declarationBytes": 322,
+            "declarationSha256": "c6c52c7a8121d9d95f389eba2a038421698bd5143d928a62ba2b8b72d0555d20"
+          },
+          {
+            "name": "token-usage",
+            "component": "TokenUsage",
+            "declarationBytes": 385,
+            "declarationSha256": "efc030be11e8b7090cf2bf786ed1eb9db33d3d9316a23638650a830bd4c03093"
+          },
+          {
+            "name": "eval-scorecard",
+            "component": "EvalScorecard",
+            "declarationBytes": 480,
+            "declarationSha256": "bb475062d468d334a0246bc76f0115808af398c4f21055f76cf8e2736a7af3b2"
+          },
+          {
+            "name": "multi-input",
+            "component": "MultiInput",
+            "declarationBytes": 511,
+            "declarationSha256": "0977071b5a48d4cd22476764ba22053296217ab8d546fca1d19d582d57b8e16d"
+          },
+          {
+            "name": "member-picker",
+            "component": "MemberPicker",
+            "declarationBytes": 563,
+            "declarationSha256": "1bcf575e046f788179cea131fdbb92fc463dce832fbcaef51b2586929bd951fb"
+          },
+          {
+            "name": "creatable-select",
+            "component": "CreatableSelect",
+            "declarationBytes": 695,
+            "declarationSha256": "a8141285dea82cf602bf537989aca8135581a5bcdf1c775f2e90631b66c578f7"
+          },
+          {
+            "name": "pricing-table",
+            "component": "PricingTable",
+            "declarationBytes": 692,
+            "declarationSha256": "e171e92743e3029553edf48af5129523f80b8c1de89301be18a384168bb4bac5"
+          }
+        ],
+        "css": {
+          "bytes": 15085,
+          "sha256": "7423bdb8cfea2910f2272c17565b21523f8ea09244be32383fc5c2eaee403900"
+        },
+        "ssr": [
+          {
+            "component": "MultiInput",
+            "bytes": 907,
+            "sha256": "369eddfda0869d2ba1cfdd117d736b1bf20853a91420e21af92d97b20983535c"
+          },
+          {
+            "component": "MemberPicker",
+            "bytes": 1049,
+            "sha256": "cd6e662b3597bfead3cda890be2f47fd8f7c959eb25fc5dc126fc91d3f2c3ff2"
+          },
+          {
+            "component": "CreatableSelect",
+            "bytes": 834,
+            "sha256": "b3b3a5fe7280c1cd38ba54935bf37555396fe13da225a49e370599de796d2b6b"
+          },
+          {
+            "component": "PricingTable",
+            "bytes": 902,
+            "sha256": "d9645133f11cd1efe77155f7dba5fdf7d85504692d33bf9c6388bc96cf4186d5"
+          }
+        ]
+      },
+      "dom": {
+        "schemaVersion": 1,
+        "profile": "18.2.0",
+        "dialog": "authored jsdom open/close shim; no native modality claim",
+        "cases": [
+          {
+            "id": "installed-multi-input",
+            "status": "passed",
+            "observation": {
+              "acknowledgedAddsAndRemovals": 2,
+              "emptyRejected": true,
+              "limitAndDisabledObserved": true
+            }
+          },
+          {
+            "id": "installed-member-picker",
+            "status": "passed",
+            "observation": {
+              "controlledMemberIDs": [
+                "b"
+              ],
+              "hiddenSelectionPreserved": true,
+              "disabledAndLimitObserved": true
+            }
+          },
+          {
+            "id": "installed-creatable-select",
+            "status": "passed",
+            "observation": {
+              "creationCallbacks": 2,
+              "rejectionKeptDraft": true,
+              "onlyConsumerSuppliedIDSelected": "created"
+            }
+          },
+          {
+            "id": "installed-pricing-table",
+            "status": "passed",
+            "observation": {
+              "reviewedID": "pro",
+              "callbacks": 2,
+              "failureAndRetryObserved": true,
+              "currentPlanRemainedConsumerControlled": "free"
+            }
+          }
+        ],
+        "mounts": 4,
+        "unmounts": 4,
+        "passed": true
+      },
+      "typecheck": {
+        "commandLabel": "react18-typescript",
+        "typescript": "5.9.3",
+        "reactTypes": "18.3.27",
+        "reactDomTypes": "18.3.7",
+        "skipLibCheck": false,
+        "rootReferences": 20,
+        "subpathReferences": 20,
+        "newComponentJsx": 4
+      }
+    },
+    {
+      "key": "react19",
+      "react": "19.3.1",
+      "reactTypes": "19.2.14",
+      "reactDomTypes": "19.2.3",
+      "status": "passed",
+      "lockOriginal": {
+        "bytes": 24723,
+        "sha256": "c646c59c222faee9218ab3436c5961a70c03d5928a74a28fc1bb8aa80fcb280d",
+        "gzipBytes": 6553,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "installedTreeOriginal": {
+        "bytes": 14035,
+        "sha256": "625b8aabe0ff15fede887236289dfc40089a590a7e4dbe42ed94323d9d133d6d",
+        "gzipBytes": 1784,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "exportsAndSsr": {
+        "schemaVersion": 1,
+        "profile": "19.3.1",
+        "cases": [
+          {
+            "id": "exports-types-css",
+            "status": "passed",
+            "rootFunctions": 20,
+            "subpathFunctions": 20,
+            "declarationFiles": 20
+          },
+          {
+            "id": "new-four-ssr",
+            "status": "passed",
+            "components": [
+              "MultiInput",
+              "MemberPicker",
+              "CreatableSelect",
+              "PricingTable"
+            ],
+            "callbacks": 0
+          }
+        ],
+        "passed": true,
+        "exports": [
+          {
+            "name": "agent-run",
+            "component": "AgentRun",
+            "declarationBytes": 595,
+            "declarationSha256": "2d50c4eb828ef42efb690cd8b178ebe1750db8e427e269058216506eca8eb960"
+          },
+          {
+            "name": "tool-call",
+            "component": "ToolCall",
+            "declarationBytes": 444,
+            "declarationSha256": "b4eacb4023796cbef025c0a60e23fe28f70c2a88dbc965f8fbc2fbfda0d1b787"
+          },
+          {
+            "name": "approval-request",
+            "component": "ApprovalRequest",
+            "declarationBytes": 646,
+            "declarationSha256": "236c5ed6de2529ea77fcd47c3cf4a6edef13813860ab5d2b561454f4d4162050"
+          },
+          {
+            "name": "plan-review",
+            "component": "PlanReview",
+            "declarationBytes": 575,
+            "declarationSha256": "49692937b680f72168cf01053c87736f52ade071f678838c06cc0c26d4197464"
+          },
+          {
+            "name": "checkpoint",
+            "component": "Checkpoint",
+            "declarationBytes": 501,
+            "declarationSha256": "7cffa8735b77ae0c78537a67b13e6688813ac31bd26423da4f0b94fcdf8f6ecf"
+          },
+          {
+            "name": "context-window",
+            "component": "ContextWindow",
+            "declarationBytes": 423,
+            "declarationSha256": "6fd9c60cc773ff067dcc7ba44e6c0a748161b723d080f2fc927759bd8ee5b4bd"
+          },
+          {
+            "name": "memory-panel",
+            "component": "MemoryPanel",
+            "declarationBytes": 482,
+            "declarationSha256": "f801705b12141114f877cbbaa762516826eb115580005036c79139511c12c76a"
+          },
+          {
+            "name": "source-stack",
+            "component": "SourceStack",
+            "declarationBytes": 405,
+            "declarationSha256": "ae91745d2b66a1b3e3736dfb1214d9173a4a5f75a2db4d8c14ce4d827b40e001"
+          },
+          {
+            "name": "agent-handoff",
+            "component": "AgentHandoff",
+            "declarationBytes": 492,
+            "declarationSha256": "1cfff1044da605deca686e7ca50cde80d8a2b62c90eeb621e6e83e11570081ec"
+          },
+          {
+            "name": "model-router",
+            "component": "ModelRouter",
+            "declarationBytes": 528,
+            "declarationSha256": "7cec71fe7c6b31f9f1b1078363e9c3ae45974b981f75793e36b85344141b979e"
+          },
+          {
+            "name": "prompt-composer",
+            "component": "PromptComposer",
+            "declarationBytes": 611,
+            "declarationSha256": "9cd0f6119823364f38b434b7abe60f69eb5dd09d024fb9c3c71f8ab91692370a"
+          },
+          {
+            "name": "branch-picker",
+            "component": "BranchPicker",
+            "declarationBytes": 468,
+            "declarationSha256": "4c9e9e89d3ed17b88d0cbbc1f7bf0e2ba106baa3380ac62dda4d3e645c65cba5"
+          },
+          {
+            "name": "artifact-panel",
+            "component": "ArtifactPanel",
+            "declarationBytes": 559,
+            "declarationSha256": "2a354fdf210e914e552f55084f11e27b68cccf45abfecd53ed081c273e81a5e4"
+          },
+          {
+            "name": "stream-status",
+            "component": "StreamStatus",
+            "declarationBytes": 322,
+            "declarationSha256": "c6c52c7a8121d9d95f389eba2a038421698bd5143d928a62ba2b8b72d0555d20"
+          },
+          {
+            "name": "token-usage",
+            "component": "TokenUsage",
+            "declarationBytes": 385,
+            "declarationSha256": "efc030be11e8b7090cf2bf786ed1eb9db33d3d9316a23638650a830bd4c03093"
+          },
+          {
+            "name": "eval-scorecard",
+            "component": "EvalScorecard",
+            "declarationBytes": 480,
+            "declarationSha256": "bb475062d468d334a0246bc76f0115808af398c4f21055f76cf8e2736a7af3b2"
+          },
+          {
+            "name": "multi-input",
+            "component": "MultiInput",
+            "declarationBytes": 511,
+            "declarationSha256": "0977071b5a48d4cd22476764ba22053296217ab8d546fca1d19d582d57b8e16d"
+          },
+          {
+            "name": "member-picker",
+            "component": "MemberPicker",
+            "declarationBytes": 563,
+            "declarationSha256": "1bcf575e046f788179cea131fdbb92fc463dce832fbcaef51b2586929bd951fb"
+          },
+          {
+            "name": "creatable-select",
+            "component": "CreatableSelect",
+            "declarationBytes": 695,
+            "declarationSha256": "a8141285dea82cf602bf537989aca8135581a5bcdf1c775f2e90631b66c578f7"
+          },
+          {
+            "name": "pricing-table",
+            "component": "PricingTable",
+            "declarationBytes": 692,
+            "declarationSha256": "e171e92743e3029553edf48af5129523f80b8c1de89301be18a384168bb4bac5"
+          }
+        ],
+        "css": {
+          "bytes": 15085,
+          "sha256": "7423bdb8cfea2910f2272c17565b21523f8ea09244be32383fc5c2eaee403900"
+        },
+        "ssr": [
+          {
+            "component": "MultiInput",
+            "bytes": 911,
+            "sha256": "d3be1d70860621ae4fea2b043e38568edd94632d0f2ecbc0408567b11235672f"
+          },
+          {
+            "component": "MemberPicker",
+            "bytes": 1053,
+            "sha256": "50364bc5b7663b26b7fbe6ffc9ccd9fc5b6b38343620a560d073eb81589e630f"
+          },
+          {
+            "component": "CreatableSelect",
+            "bytes": 840,
+            "sha256": "8226c673a368f03eec84a6884726e69c52c26ef54f96607e5481d331c6ea894c"
+          },
+          {
+            "component": "PricingTable",
+            "bytes": 902,
+            "sha256": "d9645133f11cd1efe77155f7dba5fdf7d85504692d33bf9c6388bc96cf4186d5"
+          }
+        ]
+      },
+      "dom": {
+        "schemaVersion": 1,
+        "profile": "19.3.1",
+        "dialog": "authored jsdom open/close shim; no native modality claim",
+        "cases": [
+          {
+            "id": "installed-multi-input",
+            "status": "passed",
+            "observation": {
+              "acknowledgedAddsAndRemovals": 2,
+              "emptyRejected": true,
+              "limitAndDisabledObserved": true
+            }
+          },
+          {
+            "id": "installed-member-picker",
+            "status": "passed",
+            "observation": {
+              "controlledMemberIDs": [
+                "b"
+              ],
+              "hiddenSelectionPreserved": true,
+              "disabledAndLimitObserved": true
+            }
+          },
+          {
+            "id": "installed-creatable-select",
+            "status": "passed",
+            "observation": {
+              "creationCallbacks": 2,
+              "rejectionKeptDraft": true,
+              "onlyConsumerSuppliedIDSelected": "created"
+            }
+          },
+          {
+            "id": "installed-pricing-table",
+            "status": "passed",
+            "observation": {
+              "reviewedID": "pro",
+              "callbacks": 2,
+              "failureAndRetryObserved": true,
+              "currentPlanRemainedConsumerControlled": "free"
+            }
+          }
+        ],
+        "mounts": 4,
+        "unmounts": 4,
+        "passed": true
+      },
+      "typecheck": {
+        "commandLabel": "react19-typescript",
+        "typescript": "5.9.3",
+        "reactTypes": "19.2.14",
+        "reactDomTypes": "19.2.3",
+        "skipLibCheck": false,
+        "rootReferences": 20,
+        "subpathReferences": 20,
+        "newComponentJsx": 4
+      }
+    }
+  ],
+  "cli": [
+    {
+      "mode": "npm-exec",
+      "archiveInvocation": true,
+      "publicPackageNameInstall": false,
+      "targets": [
+        {
+          "name": "agent-run",
+          "files": [
+            {
+              "path": "components/agentcn/agent-run.tsx",
+              "bytes": 2744,
+              "sha256": "6d5d2610aed6886a087eee2510f1561db66253264b66b2f0c76b3e8a5f7e5924"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "tool-call",
+          "files": [
+            {
+              "path": "components/agentcn/tool-call.tsx",
+              "bytes": 1657,
+              "sha256": "265eafd574606a5aeccd2268a54af09d37e073c5ae12647ea7764bd3800fb7b2"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "approval-request",
+          "files": [
+            {
+              "path": "components/agentcn/approval-request.tsx",
+              "bytes": 2250,
+              "sha256": "c314ff32feab510df8d70a60eec25264c074ce78593e9d5f26ab49cdf1469f83"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "plan-review",
+          "files": [
+            {
+              "path": "components/agentcn/plan-review.tsx",
+              "bytes": 2390,
+              "sha256": "e196b2b49f4e508985bdc9fb4d171a280d987471f6af39c993a9aed016ef64da"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "checkpoint",
+          "files": [
+            {
+              "path": "components/agentcn/checkpoint.tsx",
+              "bytes": 1898,
+              "sha256": "d2d786105a270bc4add23279c340d3648c940b70faa65e5fa13bf210ddb4ad63"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "context-window",
+          "files": [
+            {
+              "path": "components/agentcn/context-window.tsx",
+              "bytes": 2194,
+              "sha256": "fac82297684918e44d75b56b421ed85c024f2a2efdff6f546bab110102df1cda"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "memory-panel",
+          "files": [
+            {
+              "path": "components/agentcn/memory-panel.tsx",
+              "bytes": 1877,
+              "sha256": "3ebbf942798659806dcdaa3e9d6b63b3209d58576173417d61e53c08d59da78e"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "source-stack",
+          "files": [
+            {
+              "path": "components/agentcn/source-stack.tsx",
+              "bytes": 1590,
+              "sha256": "a4c88373ac8552537900612549b7c0cdf66e480610af37c1a468eabab6d1253e"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "agent-handoff",
+          "files": [
+            {
+              "path": "components/agentcn/agent-handoff.tsx",
+              "bytes": 1917,
+              "sha256": "2059904a55976fc7dfc8b143371f0cab7a90c6a0dc24fd7bf717d318a49bc0a9"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "model-router",
+          "files": [
+            {
+              "path": "components/agentcn/model-router.tsx",
+              "bytes": 1657,
+              "sha256": "41859a8ce85f44620f71b1efb74de27cfafb0df1d348e2bbfa9ed3cc533eeee3"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "prompt-composer",
+          "files": [
+            {
+              "path": "components/agentcn/prompt-composer.tsx",
+              "bytes": 2550,
+              "sha256": "780b7a8286d7761c26964ce12113b13d8ffdc4de400fb95fa12ed851af36442f"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "branch-picker",
+          "files": [
+            {
+              "path": "components/agentcn/branch-picker.tsx",
+              "bytes": 1372,
+              "sha256": "9281f0a38586c67c361516f231c75d409229e1e1c87c782aeb8ac42db2b3539f"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "artifact-panel",
+          "files": [
+            {
+              "path": "components/agentcn/artifact-panel.tsx",
+              "bytes": 1716,
+              "sha256": "ff56496b367ea8643b5c190da0638ed5aad7d612d37e193deca812d9ffe6b48a"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "stream-status",
+          "files": [
+            {
+              "path": "components/agentcn/stream-status.tsx",
+              "bytes": 1037,
+              "sha256": "86ec17ef4cd51d65b08dfd3d8151af7eae59fc0063de2e8239d91e5e43c36ee2"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "token-usage",
+          "files": [
+            {
+              "path": "components/agentcn/token-usage.tsx",
+              "bytes": 1575,
+              "sha256": "d9a203702a703b7d5a97a32bb743f514d6e1b51b86049ed9dd9ba7146f53e620"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "eval-scorecard",
+          "files": [
+            {
+              "path": "components/agentcn/eval-scorecard.tsx",
+              "bytes": 1896,
+              "sha256": "b600b00a477a2b3865824f57d894b46c9c0921096056439b667bc74f6174ce06"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "multi-input",
+          "files": [
+            {
+              "path": "components/agentcn/multi-input.tsx",
+              "bytes": 5163,
+              "sha256": "08a35409027471fc8709007bc8f5ba99c060c9fee46bbc0898a509dcc09e9e52"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "member-picker",
+          "files": [
+            {
+              "path": "components/agentcn/member-picker.tsx",
+              "bytes": 5071,
+              "sha256": "649b8e41f9397e2a9c068016ccf9d29d802c97e5fc7a17c6c49210972a8e009c"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "creatable-select",
+          "files": [
+            {
+              "path": "components/agentcn/creatable-select.tsx",
+              "bytes": 8897,
+              "sha256": "91dcaf5ba5cd12f56f8b5a19bb0100f2ed15283a12d9ae466889836a0521553c"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "pricing-table",
+          "files": [
+            {
+              "path": "components/agentcn/pricing-table.tsx",
+              "bytes": 12210,
+              "sha256": "b53bae59b238d6513f09a5c44affb11a5ad9f426206a8b521476436e22fd0776"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        }
+      ],
+      "css": {
+        "path": "styles/agentcn.css",
+        "bytes": 15303,
+        "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+      },
+      "config": {
+        "bytes": 264,
+        "sha256": "9262d9d73054d5980747a88d0fe0ea15d5e84dd6a70cd4239e33aec3f046448d",
+        "gzipBytes": 180,
+        "dataBase64": "H4sIAAAAAAACA0WNTQ6CMBCF95yCNC61jVtuM7QD1LQzpDPFEOPdDSC6fN/7ezVtay7iJ8xgutZMqrN0zhV42jHqVPsqWDyTIqn1nB2kBQovMSVIPYCDEUk93Wp0GSKd2h6b9iFM5rq9LFgkMpmuve/ac56ZkFS24786F46Wl90WXRP+LLvR3Z4hoSpukYELih64QIh1LxauFDAcOCBJ1PX7N3BR6BOa5t18ACAx+JMIAQAA",
+        "complete": true
+      },
+      "unrelatedFile": {
+        "bytes": 33,
+        "sha256": "d848525c930e0ef0db1dfbcd70da223670589081f450489b7695857b7f43a5af",
+        "preserved": true
+      },
+      "discovery": {
+        "helpCommandLabel": "npm-exec-help",
+        "listCommandLabel": "npm-exec-list",
+        "names": [
+          "agent-run",
+          "tool-call",
+          "approval-request",
+          "plan-review",
+          "checkpoint",
+          "context-window",
+          "memory-panel",
+          "source-stack",
+          "agent-handoff",
+          "model-router",
+          "prompt-composer",
+          "branch-picker",
+          "artifact-panel",
+          "stream-status",
+          "token-usage",
+          "eval-scorecard",
+          "multi-input",
+          "member-picker",
+          "creatable-select",
+          "pricing-table"
+        ]
+      }
+    },
+    {
+      "mode": "npx",
+      "archiveInvocation": true,
+      "publicPackageNameInstall": false,
+      "targets": [
+        {
+          "name": "agent-run",
+          "files": [
+            {
+              "path": "components/agentcn/agent-run.tsx",
+              "bytes": 2744,
+              "sha256": "6d5d2610aed6886a087eee2510f1561db66253264b66b2f0c76b3e8a5f7e5924"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "tool-call",
+          "files": [
+            {
+              "path": "components/agentcn/tool-call.tsx",
+              "bytes": 1657,
+              "sha256": "265eafd574606a5aeccd2268a54af09d37e073c5ae12647ea7764bd3800fb7b2"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "approval-request",
+          "files": [
+            {
+              "path": "components/agentcn/approval-request.tsx",
+              "bytes": 2250,
+              "sha256": "c314ff32feab510df8d70a60eec25264c074ce78593e9d5f26ab49cdf1469f83"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "plan-review",
+          "files": [
+            {
+              "path": "components/agentcn/plan-review.tsx",
+              "bytes": 2390,
+              "sha256": "e196b2b49f4e508985bdc9fb4d171a280d987471f6af39c993a9aed016ef64da"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "checkpoint",
+          "files": [
+            {
+              "path": "components/agentcn/checkpoint.tsx",
+              "bytes": 1898,
+              "sha256": "d2d786105a270bc4add23279c340d3648c940b70faa65e5fa13bf210ddb4ad63"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "context-window",
+          "files": [
+            {
+              "path": "components/agentcn/context-window.tsx",
+              "bytes": 2194,
+              "sha256": "fac82297684918e44d75b56b421ed85c024f2a2efdff6f546bab110102df1cda"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "memory-panel",
+          "files": [
+            {
+              "path": "components/agentcn/memory-panel.tsx",
+              "bytes": 1877,
+              "sha256": "3ebbf942798659806dcdaa3e9d6b63b3209d58576173417d61e53c08d59da78e"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "source-stack",
+          "files": [
+            {
+              "path": "components/agentcn/source-stack.tsx",
+              "bytes": 1590,
+              "sha256": "a4c88373ac8552537900612549b7c0cdf66e480610af37c1a468eabab6d1253e"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "agent-handoff",
+          "files": [
+            {
+              "path": "components/agentcn/agent-handoff.tsx",
+              "bytes": 1917,
+              "sha256": "2059904a55976fc7dfc8b143371f0cab7a90c6a0dc24fd7bf717d318a49bc0a9"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "model-router",
+          "files": [
+            {
+              "path": "components/agentcn/model-router.tsx",
+              "bytes": 1657,
+              "sha256": "41859a8ce85f44620f71b1efb74de27cfafb0df1d348e2bbfa9ed3cc533eeee3"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "prompt-composer",
+          "files": [
+            {
+              "path": "components/agentcn/prompt-composer.tsx",
+              "bytes": 2550,
+              "sha256": "780b7a8286d7761c26964ce12113b13d8ffdc4de400fb95fa12ed851af36442f"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "branch-picker",
+          "files": [
+            {
+              "path": "components/agentcn/branch-picker.tsx",
+              "bytes": 1372,
+              "sha256": "9281f0a38586c67c361516f231c75d409229e1e1c87c782aeb8ac42db2b3539f"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "artifact-panel",
+          "files": [
+            {
+              "path": "components/agentcn/artifact-panel.tsx",
+              "bytes": 1716,
+              "sha256": "ff56496b367ea8643b5c190da0638ed5aad7d612d37e193deca812d9ffe6b48a"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "stream-status",
+          "files": [
+            {
+              "path": "components/agentcn/stream-status.tsx",
+              "bytes": 1037,
+              "sha256": "86ec17ef4cd51d65b08dfd3d8151af7eae59fc0063de2e8239d91e5e43c36ee2"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "token-usage",
+          "files": [
+            {
+              "path": "components/agentcn/token-usage.tsx",
+              "bytes": 1575,
+              "sha256": "d9a203702a703b7d5a97a32bb743f514d6e1b51b86049ed9dd9ba7146f53e620"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "eval-scorecard",
+          "files": [
+            {
+              "path": "components/agentcn/eval-scorecard.tsx",
+              "bytes": 1896,
+              "sha256": "b600b00a477a2b3865824f57d894b46c9c0921096056439b667bc74f6174ce06"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "multi-input",
+          "files": [
+            {
+              "path": "components/agentcn/multi-input.tsx",
+              "bytes": 5163,
+              "sha256": "08a35409027471fc8709007bc8f5ba99c060c9fee46bbc0898a509dcc09e9e52"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "member-picker",
+          "files": [
+            {
+              "path": "components/agentcn/member-picker.tsx",
+              "bytes": 5071,
+              "sha256": "649b8e41f9397e2a9c068016ccf9d29d802c97e5fc7a17c6c49210972a8e009c"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "creatable-select",
+          "files": [
+            {
+              "path": "components/agentcn/creatable-select.tsx",
+              "bytes": 8897,
+              "sha256": "91dcaf5ba5cd12f56f8b5a19bb0100f2ed15283a12d9ae466889836a0521553c"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "pricing-table",
+          "files": [
+            {
+              "path": "components/agentcn/pricing-table.tsx",
+              "bytes": 12210,
+              "sha256": "b53bae59b238d6513f09a5c44affb11a5ad9f426206a8b521476436e22fd0776"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        }
+      ],
+      "css": {
+        "path": "styles/agentcn.css",
+        "bytes": 15303,
+        "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+      },
+      "config": {
+        "bytes": 264,
+        "sha256": "9262d9d73054d5980747a88d0fe0ea15d5e84dd6a70cd4239e33aec3f046448d",
+        "gzipBytes": 180,
+        "dataBase64": "H4sIAAAAAAACA0WNTQ6CMBCF95yCNC61jVtuM7QD1LQzpDPFEOPdDSC6fN/7ezVtay7iJ8xgutZMqrN0zhV42jHqVPsqWDyTIqn1nB2kBQovMSVIPYCDEUk93Wp0GSKd2h6b9iFM5rq9LFgkMpmuve/ac56ZkFS24786F46Wl90WXRP+LLvR3Z4hoSpukYELih64QIh1LxauFDAcOCBJ1PX7N3BR6BOa5t18ACAx+JMIAQAA",
+        "complete": true
+      },
+      "unrelatedFile": {
+        "bytes": 33,
+        "sha256": "d848525c930e0ef0db1dfbcd70da223670589081f450489b7695857b7f43a5af",
+        "preserved": true
+      }
+    }
+  ],
+  "commands": [
+    {
+      "label": "npm-version",
+      "executable": "npm",
+      "args": [
+        "--version"
+      ],
+      "startedAt": "2026-11-07T21:15:13.203Z",
+      "finishedAt": "2026-11-07T21:15:13.272Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 8,
+        "sha256": "acb90e420303a6e949fec90f74faf64cc372894b3964e310a261689b898f41b0",
+        "gzipBytes": 28,
+        "dataBase64": "H4sIAAAAAAACAzM01DO01DPkAgBx5c4aCAAAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "pnpm-version",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agentcn-package-1ww4c2/tools/node_modules/pnpm/bin/pnpm.cjs",
+        "--version"
+      ],
+      "startedAt": "2026-11-07T21:15:13.273Z",
+      "finishedAt": "2026-11-07T21:15:13.479Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 8,
+        "sha256": "4231fa72abcb210dd8a5bee4d28d4a2b439ef93e67bb7959880349642f82ba91",
+        "gzipBytes": 28,
+        "dataBase64": "H4sIAAAAAAACAzM00DO00DPmAgAi6zM2CAAAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react18-install",
+      "executable": "npm",
+      "args": [
+        "install",
+        "--ignore-scripts",
+        "--omit=optional",
+        "--no-audit",
+        "--no-fund",
+        "--registry=https://registry.npmjs.org/"
+      ],
+      "startedAt": "2026-11-07T21:15:13.480Z",
+      "finishedAt": "2026-11-07T21:15:16.683Z",
+      "timeoutMs": 90000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 25,
+        "sha256": "e441bfcbb4e4602b6b672db43d435e6dcc0abe7dd3dbd353aa35c9bb63c48a88",
+        "gzipBytes": 45,
+        "dataBase64": "H4sIAAAAAAACA+NKTElJTVEwNVcoSEzOTkxPLVbIzFMwLuYCAGKwCOoZAAAA",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react18-installed-tree",
+      "executable": "npm",
+      "args": [
+        "ls",
+        "--all",
+        "--json"
+      ],
+      "startedAt": "2026-11-07T21:15:16.685Z",
+      "finishedAt": "2026-11-07T21:15:17.031Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 14875,
+        "sha256": "bb70be45f1537af4356d79a0c4fc51ef21c2b6236fe5b34d06d4e4e26dde9585",
+        "gzipBytes": 1875,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react18-exports-ssr",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "consumer-exports.mjs"
+      ],
+      "startedAt": "2026-11-07T21:15:17.053Z",
+      "finishedAt": "2026-11-07T21:15:17.133Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 4136,
+        "sha256": "9e4cb4a78ba67cf5aa6f0caf057a0150dedb6c5b896725c7c64f139fa6ee53e7",
+        "gzipBytes": 1751,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 558,
+        "sha256": "b437b11c2e35a82b5c02429bff8e5cc5ad88547810c25d11e701554c8db39678",
+        "gzipBytes": 370,
+        "dataBase64": "H4sIAAAAAAACA2WQzW7bQAyE73kK3toCthbpHwqfChQ5BOgtKXoMqN2RtfGKFJZcKX77QnZSFOiVHHK+md9cJcvxQM3wk8/a/G4YEJ2SwkjUxyxHUiEfQYa6oO6oR+RmoOxGuMoji6hTD4JETUiUxfWfK6qQhIr6zkibz81p0Dqxd/Q4ZqM1l0IFnMiVmKZsE3scqYevwNU/S/bMZUeish/PqbIj0a97YkmvAt9ctllHj0q8aN422Xb/BbRRW0mkUs4bdrMLM0WdZhWIG/nI/opNeImlWV5Qzm9txJIh3tEDQKP7bIcQKjj6s3Vaj6FkOYVmKBfXa097s7rl3mwmFRryC6y7ISJipx8V7NwXPKBsiO+HXHAIIYw6IdQmghpWrafw5JjmwEeIR9nPHE98xP52XT/HjyGqWJtQ7Ypz+y2IJjxNmlqBhe9cFq665FK49Mx/37QcUjYP8Q1jbxeO7tkOXw+fvny4+QPKp52MLgIAAA==",
+        "complete": true
+      }
+    },
+    {
+      "label": "react18-dom",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "consumer-dom.mjs"
+      ],
+      "startedAt": "2026-11-07T21:15:17.134Z",
+      "finishedAt": "2026-11-07T21:15:17.617Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 827,
+        "sha256": "4aceb7c7fc58b5768c9cc7d2abe7e9650216f15321d118b45eaea9ac3574cb48",
+        "gzipBytes": 446,
+        "dataBase64": "H4sIAAAAAAACA43STWsbMRAG4Ht/xTJnOU1CD2VLD8Y2JTRxgp30UkIYa8b2xNJo0YeDMf7vZXfr4tJAfRTSjJ55peG3yfRxNH0Z3U/nT3eT2ctsMn+6ffy6h2TX7PEHxyRBob4y0MSwFMdQw9Xni+uLSzBAgi6soAYseR0iU/WaKPgqNKwfrQuJq7QW/6XSUClm2XLlA6GTvKusQ/FgwGLiBPXPPQhBDaIpo3NMA19cloFoUzIYSBlzSVBDgykxgYGwSBy3mDvfHtBuNLw5phXTkCgNlWbswxZdgvraAPsm72b8yjYzQZ1jYQNOvOSh0lgSLhzTfdfzuH84mH9V7BccB43YDcdzXDZojqGtvetKb8bttLCAZwNrIWKds2PbHn+IfHp9m2/PGirdttL/82xkzG3NIHVdzxK2NRJ0hM4t0G76vGIXlQT9zk0eR1zmoyqo242CpuI5zkvTOGG6GfdTtLa+IRO8B2yiWNHVoEOeo4u8FX5rb2gPxdB9mVPoEsWVyN1757j7OyMDtsTImh8c6ow9ijId8aM/TwM1LCMzHA7PBnwomhPUnwwUPVn8FvbZf/gFoWkPPTsDAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react18-typescript",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agentcn-package-1ww4c2/consumers/react18/node_modules/typescript/bin/tsc",
+        "--project",
+        "tsconfig.json"
+      ],
+      "startedAt": "2026-11-07T21:15:17.617Z",
+      "finishedAt": "2026-11-07T21:15:19.224Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react19-install",
+      "executable": "npm",
+      "args": [
+        "install",
+        "--ignore-scripts",
+        "--omit=optional",
+        "--no-audit",
+        "--no-fund",
+        "--registry=https://registry.npmjs.org/"
+      ],
+      "startedAt": "2026-11-07T21:15:19.225Z",
+      "finishedAt": "2026-11-07T21:15:20.539Z",
+      "timeoutMs": 90000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 25,
+        "sha256": "9685c2ed16300580f58a6b5a9f68db09da428d7c13f9160942406400b7616b43",
+        "gzipBytes": 45,
+        "dataBase64": "H4sIAAAAAAACA+NKTElJTVEwNVEoSEzOTkxPLVbIzFMwLOYCAIg/FroZAAAA",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react19-installed-tree",
+      "executable": "npm",
+      "args": [
+        "ls",
+        "--all",
+        "--json"
+      ],
+      "startedAt": "2026-11-07T21:15:20.540Z",
+      "finishedAt": "2026-11-07T21:15:20.756Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 14035,
+        "sha256": "625b8aabe0ff15fede887236289dfc40089a590a7e4dbe42ed94323d9d133d6d",
+        "gzipBytes": 1784,
+        "dataBase64": "H4sIAAAAAAACA+1bSXOjOhC++1e4fE4jg4mznOafvJKFbJMIxJOEHc/U/PdXEosNyOzOzOEdUhZL+utd3Q38WiyXqxhHdPW+XOEDjRWJQVBMlPsGWJBjeKJAeCzTiIrVk747oAmNAxqTkMrV+/LXYrlcLlc/MDthwU8hY5jtMEYFsTQsb1ouVycqZMhjjbZ2PGdtSJorgkrOTjTQl/Yho+/oyCOKRBrHVKAzF5/oH0WjpCScYPKJDxTc89knHsqZlajGCFwZAQPpqMPPKyw/USHCIKCapz1mkpaXrILmvGKiIOBR5XRVPPfN2Tjuqrz6+6n2/0P+d3H7m1Na/VCXhEpkY6ZGzHM2dkUflUrkO0KCHkKpxMWJk+hDOlwcUJ06gusaMpozaPIWpV0hnuP6QzTSpg3Xn6SOUhU5sRn0QKTUAC0q2FSsOIT1nDaCYgWbhvXucN6h7z8X4wNjusL1h7wfLN6L49/juEXFhiSC7BcyInNEByY0CoW2W2uuWTtvzsYb5RwViMxFeAQZwWEe8nTLt8RR+hN/fiRIK0RSRoniokWErfPquCMlsIMhqByCQegjUuXyXeM0BI3PEidh456afzkb563CwFhRMzgE+QIM5YZ4XVarWc7cvguDED5khySu494EylBJcgwExQoMvb78N25pNVPO2L9pKCjshXYKJcL4YL2xbq+14zU4GiKpBdfsH42zYLCsGuhjxdssbT+u25lICUpQ2mFovVm4ow1dgGSpxSzN9uM+0NRREEOAFe5lX+/FIt0QCQs0BOUSMrLTbNn8x5XkqSAUIpzY47MZo95E760gIqgeg6H/jR4bSki4orEKMQOSSsUjoIxGNFaQNzHtKWt9W1XbEJhIgWBy7CTlOs+1cmyIWksYBNc1ZETH5fCFbV3Zk+kXD1KJdhfViJtaXt/WEnvv7ekWQqd2/QsZwbk33pjvGEVHLI/Z5W4FEByfcHbvU6XwlurC2ipvbZOXsZW3IZ4lP7MEQ+2BZYjOsoSzRrFVl8p3XEtuGFOJlIh5jjdrMPQfmOR/6GaGcyYzTMxIj4S4cXxL1A4SvAFbSI0ZAUN/SEK03tYpvEUBCRaSCsDswEWojtH9f6y7gS5wrDf+fuoDrPgnjcOfVMwAuOhzzrYx1qxiHDDTSA+n8B2vFt8TneIGvhISuY0M3vc7iWHhSFlCRV/n2FpzxATt3PKgVXN7DNu7GWNIRdHfc1tyhj1vTMD6PzyH66LJ1nwx2uAhD9TGefCHdmWzpfS/0HRdLD3SZCV20UoWx8NN1EvytlbgTjswsb2pyisvscJfkGBFjlTCngvQ17sbdj1JcbfjS7ueXORmuH8DZIw8sAZsmWDYpxjfOTGZs88c2OuZGUQqmGwduK5HDlxL6nrCWqzB0Ju5rzkfsTofIAojank60uzT1hMmkjUsBPUzYOjPMmHNKaeCdZn/2UxZh5qfkjDCzPlo7fPXztg+/0pfe0B5ABnJ0U8NjipiQGPCAz0NlXG431PR4cHjBLAiIbCfN549+/yiZRpzZyIz0Am0+JAI/nXJnoC3KPKlsVP3V2QVxOiwegperLvzNPVllHdYduUEPYX1R+eEKwyCmwMwVGfJBAHdpYfOSY0/YdRoEEyc7tID+HcHFDON3mWvobs7cQpj6vVIgqH0yAF0rzCTA+JsOzrOpCXQZCPStn820mZy9oFGGPhcoPlMYIxNukARdN4Cbt+iySq2aVafW4R7bTyj7StcRhpBvoBX69PZaa6l9aLCzu3vbVJZV4AgKJfwNr6Q63RFib+ofEjRYijrR3D69yFFyVfEyBEL2fkOgzfBIAUIgnIJXuMdnhkNcol2nNnatnrL5o8zy5W+Ns71yDzm9kcHt+Lp4QiE88+QtvrT2BC/BUBQOTSj2Lm9S7FAyc5NxHfc8e/HGAgti/6FjNgDi50MhnDRZwChufHWk6qeK14poz6AjPQfLYPOGwJfEZNUhJhZBoTtfXrvHr2Oorv0+rk7ffrk1Jjt2CfMwgCrzsermZBDtUh3YcD0+9Y5Jdm6uY+tXJowWo+Nk/A6qTppH97UJ8UjHaJzaOP3dYY2GZqDGsuQZgL/qWBX1lPBICM5dwIW/rbDa7eTai0NoDOT8Ld36pP5cm+SxhfCA9qr3dxMfMWrANP1cL4071u63/juU2dusOeHoRmoPeN43tiUY1KMTimeN/uYeJfqOV2qQlZ7u8dcTdUeXou8Tfu9K9SZ7ufZz5owWVVcO9l/R+t4X7/HpyK3odL/Fdc734jUI2TC1zYjv7SR5EiDlLXWI2vHex3bkxXkdelfrCEjOJe9HmCr2w9YetiowpP5DoaIMLnH2LP+dmAwX1eyegcpD8BQ68fgQv/9XvwH9v9w7tM2AAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react19-exports-ssr",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "consumer-exports.mjs"
+      ],
+      "startedAt": "2026-11-07T21:15:20.757Z",
+      "finishedAt": "2026-11-07T21:15:20.847Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 4136,
+        "sha256": "7d47fe244361daf746f4db5aef7f5843eaaf63b78a81ef68bcad2f6f06043e29",
+        "gzipBytes": 1748,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react19-dom",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "consumer-dom.mjs"
+      ],
+      "startedAt": "2026-11-07T21:15:20.847Z",
+      "finishedAt": "2026-11-07T21:15:21.341Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 827,
+        "sha256": "e914edf6a50e6aa6332bef52fe17bc76b24264c8d2387b210ec10e318edea2e6",
+        "gzipBytes": 445,
+        "dataBase64": "H4sIAAAAAAACA43SwWobMRAG4HufYpmznOK2l27pwdimhCZOsJNeSgiyZmxPLI2WkeRgjN+97G5cXFqoj0Ka0Te/NPo2nT2MZ8/ju9ni8XY6f55PF483D18PkNyGgv1BmjgK1EMDjcYVe4Iahp+vPl4NwQCy9XENNdiSN1EJq5eEMVSxIXnvfExUpQ2HL5XESmzmHVUhovWc95XzlgMYcDZRgvrnARihBpaUrfeEg1B85gFLUzIYSNnmkqCGxqZECAbiMpHubO58B7BuK/HVE64JR4hpJDinEHfWJ6g/GKDQ5P2cXshlQqizFjLgOXAeCU442aUnvOt6nvaPR/O3isKSdNCw25Je4nJRssa29rYrvZ6008ISngxsGJFkQZ5ce/xe6fz6Nt+eNRK8aaX/5zklm9uaQeq6XiRsazjK2Hq/tG7b56VdVBzlOzV5onaVT6oofj+OkkogXZSm8Ux4PemnaG19Q0L4F7BRdizrQYe8RKe0Y3ptb2gPaey+zDl0ZdkXpe69s+7/zMiAK6ok+d5bmVOwLIQn/Pj300ANKyWC4/HJQIhFcoL6k4EiZ4s3YZ/9u1+MvwpLOwMAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react19-typescript",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agentcn-package-1ww4c2/consumers/react19/node_modules/typescript/bin/tsc",
+        "--project",
+        "tsconfig.json"
+      ],
+      "startedAt": "2026-11-07T21:15:21.342Z",
+      "finishedAt": "2026-11-07T21:15:22.701Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npm-exec-help",
+      "executable": "npm",
+      "args": [
+        "exec",
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-1ww4c2/archives/agentcn-ui-0.2.0.tgz",
+        "--",
+        "agentcn-ui",
+        "--help"
+      ],
+      "startedAt": "2026-11-07T21:15:22.702Z",
+      "finishedAt": "2026-11-07T21:15:23.104Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 1251,
+        "sha256": "72635c74b00513c23a9c941d38ea391b97030a266654a915aded09730ff37108",
+        "gzipBytes": 565,
+        "dataBase64": "H4sIAAAAAAACA3VUQW7bMBC86xVzTA9ygh6DIGha9JBLG8ToAzbUymJCkexyZVmAD31EX9iXFKQdy0BkHQRJyxns7MyKNuzV+HqwuFl9Xt3g35+/MKGPwbPXhDYIHh5rT2q3DIoxVRVgvVVcur4F39rNIAzy4J1Nav0Gz0xGcY0fvNPVa8pUFUBNgztPPa9Wq3vsUdfk3EwUp7kXpDCIyaQNkk6OE6zXgCkMcmQzwqSMu8YKGw0y3c9drQ21bXAN6LwFjFa73OfDI8Ygb60LI6JwYq0AZ9NFmV8ljImhHZ+1aEjJhU1V/Yxqg0+3FVDXZmyWe8KThFc2ilMRVw23NDi9hRlEMuep9qmQRXKsWWSe2jlXtoqTYg/r38q9sZuAPbh/YSlYocYOaQGK1JFE7CFh8A032COFVguoYZ+sTguorDubus9PbRClF8cHxXOA7iJpd38WjvdZnWnOcbo+mHcQadIH4Dt+vUZrHSNXF5AH75YkmhCtC7nbfITEdNgjRBYqVuHqnGbidMH3X4lx9CiV9IRBcxBZyJQdiRL6qOkwO5lqGfwCzZNYr4iOvOcGpiO/4ZlvFJuXpnCELUt+5w8czxwdmZw/3zpryprl2SRQqywQ3loeC0nHLi7rWXdhRC6Xc1uWZIO/dO5YrqrvO+qj4xJwH3eg02/kiyPNMczOVED0sUfjlk7k3S9fy4goRglbcrXw74GTXiQ+Lnk/1aU2e36ydV4S69+q6j84pndH4wQAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npm-exec-list",
+      "executable": "npm",
+      "args": [
+        "exec",
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-1ww4c2/archives/agentcn-ui-0.2.0.tgz",
+        "--",
+        "agentcn-ui",
+        "list"
+      ],
+      "startedAt": "2026-11-07T21:15:23.104Z",
+      "finishedAt": "2026-11-07T21:15:23.405Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 2333,
+        "sha256": "984ecdc51cee94d7c7cab87af472627f1847dd5d1f07836264fd3d792cbbe808",
+        "gzipBytes": 993,
+        "dataBase64": "H4sIAAAAAAACA4VVS44rNwzc+xRcZeX2HR6MIHmLIEEmOQBbTXcLVosKSflz+0Cftj0PE6dXM5JVxU+xiDNFGyRHePl+F7eQmqB53i6+QfAXArqRy/XY/ErBR4KrtwUSZqU9CGleaQ8Oo6MQKsAeME6gRgmMAq1kcj/sjDkMDkP4P+LvURM5wzEQ+JiyacXjbOXv/UtEamikjU7I8YWkvipUQCIsethhSsIXDIPQP5nUKsevecUIjqMJbwH9SRdPV6AbOgN0jcFxKll6PTeahPfAOMFIJxaCBu7jDFjq2p/pYZcCxkEa4uP7ivWDAjn7lBSllrHjePKyAkJB2yjvnKWzqaGYwpXlfNi5hdw5sY8G7xl7feHkA4FbMM6kvYRqNSmIuNIEDcxHwNgJJcfDrqDRzYarjxNv2R3bIfwEK60s93L2d5xI1Aq08ZkiYAjsukSElORCW1/3W8YVJQmp5hKKAcIcirgOu4Y8JIz0FNFXxL/hmSCRqFerXanB9/uLVz8G2gOaiR9zFdqmoZUv5d/DTjmLo0EN3fkt1zczdAvQxU8UXdEezBRJ0GgCjHol0TYxdHMkqau54YNQoEvLrgY5LBgnPp3ezUfX6USB5nY+kl2JepMavi30qKYTVi0atQUNRs5xwjKRK08UBuFsJG8n8rgwa9FFfQHjHRwmHH3wdt9DnYCJpNUQL+hDvzvskvCabHC8JtaN5cjxQqKvDPBtE2mgCQz1DI83tXio9+hA87h61SogXVjMVUdodiOE6ycfOuxGweiWIXl3fqb4Ff3PtxSq9IORRLTifAltUbBFOM8LYAnw+a4ExdkgcK1sHcoUsDZSzJ/Q2Seh/tI08UIJ8EeZgTrGJfQil/6yC6awlQcBRwqtrXRLwTtvMPE1ViN6OE5DKYq1rPCG9sgxkmtTOD/u97XggZ4G7qORSE4vVtviasPcC5OyFW8/Uxyy4kwv3j6WCe9S6Gd/SZmn6ur7x+Q7dAt1j9DNCLQIeUYftVhA2Vdjnmayw46KmatjIYcyvSH7WPgK5dcZNzMXeqLaIqQLh6mnpVjyb0aQY5U1xe48OZgfatjP/L633fTpOxYBFzuffFtghrMCS1MrlFjoYQe9lThNvvZw3w0otBoEv3rTansjyQ8i/or8g1Dc0qZh2ypereizYehDtkUr9SIR16QVTkJlwaw15MPOlV+UFIaO9Z8pd3OITzZummF5JBnubXZLLyNdm6ThxNLXWUrFOCsnFdfwzsd5aCXcpiVg/IEajrwmFKr7cdth1Rw5Ul1cMAleSbbdWTzGx1xirD2o5C2/6hf/AgdkMzodCQAA",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npm-exec-init",
+      "executable": "npm",
+      "args": [
+        "exec",
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-1ww4c2/archives/agentcn-ui-0.2.0.tgz",
+        "--",
+        "agentcn-ui",
+        "init",
+        "--yes"
+      ],
+      "startedAt": "2026-11-07T21:15:23.405Z",
+      "finishedAt": "2026-11-07T21:15:23.719Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 143,
+        "sha256": "08a88b00ccf9f1709dd3fa9bbdc37bb7fbeb2526e77debfea7b0177e44762073",
+        "gzipBytes": 115,
+        "dataBase64": "H4sIAAAAAAACA22NywnDMBBE76piCojlu4tID0JabBlnN+wHou5DMMaXzG3ePJiqVJzwS1mJvXLeTTjVm5uPg2y+5mqW0pM+vqC/3qL+R0BnDAmFijiOMiT8Ad+IocHX0xQdpbWzThqc0xdIqZOMjwAAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npm-exec-all20",
+      "executable": "npm",
+      "args": [
+        "exec",
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-1ww4c2/archives/agentcn-ui-0.2.0.tgz",
+        "--",
+        "agentcn-ui",
+        "add",
+        "--all"
+      ],
+      "startedAt": "2026-11-07T21:15:23.719Z",
+      "finishedAt": "2026-11-07T21:15:24.126Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 1156,
+        "sha256": "2ee17efb8dcb5ff6d0a64d256653faf09fc8744bbc91e1a76398bc105f011e53",
+        "gzipBytes": 338,
+        "dataBase64": "H4sIAAAAAAACA42UMZIUMQxF8zmFcspNsRFXICHgApRG/WfaNW7JyPLuzu2pbigiCuTEgd6X5W/J4uAAHUts76bQGB/5Dg3RX3vxqUuM94v8k/0+NnasJzlVNtY7VqIRz4Y/1CJj/CdPmLUi3FriTO7d7ZVbcfyYGJGQ9MZaHK8VbwlaNsijW9VMajENvEd5q7paJvuO3fxZOisytx02XVBGsDwy5pyPt7GudrtlqrEVrbjNgGeMdNt7lDMyUoqrs8pWepVHimePemOJvEHh4P0wKOZI8GEPaJmD70jQOBptiDmEfc0YOlvUUrXPyDXDFZ5354zytaEMNEiq971K1Xs5ZSd/+bJ38/jLlJKpgG5uOz1tOrlZUOOnzSDz34INiIW+gSXo0+fl5QPVQccs1uMnoK9GPjXqDlrRoStUKgaxg6qO4NawLpefalwH+YQEAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npm-exec-version",
+      "executable": "npm",
+      "args": [
+        "exec",
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-1ww4c2/archives/agentcn-ui-0.2.0.tgz",
+        "--",
+        "agentcn-ui",
+        "--version"
+      ],
+      "startedAt": "2026-11-07T21:15:24.126Z",
+      "finishedAt": "2026-11-07T21:15:24.433Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 6,
+        "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9",
+        "gzipBytes": 26,
+        "dataBase64": "H4sIAAAAAAACAzPQM9Iz4AIARrMrnAYAAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npx-init",
+      "executable": "npx",
+      "args": [
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-1ww4c2/archives/agentcn-ui-0.2.0.tgz",
+        "agentcn-ui",
+        "init",
+        "--yes"
+      ],
+      "startedAt": "2026-11-07T21:15:24.449Z",
+      "finishedAt": "2026-11-07T21:15:24.768Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 143,
+        "sha256": "08a88b00ccf9f1709dd3fa9bbdc37bb7fbeb2526e77debfea7b0177e44762073",
+        "gzipBytes": 115,
+        "dataBase64": "H4sIAAAAAAACA22NywnDMBBE76piCojlu4tID0JabBlnN+wHou5DMMaXzG3ePJiqVJzwS1mJvXLeTTjVm5uPg2y+5mqW0pM+vqC/3qL+R0BnDAmFijiOMiT8Ad+IocHX0xQdpbWzThqc0xdIqZOMjwAAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npx-all20",
+      "executable": "npx",
+      "args": [
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-1ww4c2/archives/agentcn-ui-0.2.0.tgz",
+        "agentcn-ui",
+        "add",
+        "--all"
+      ],
+      "startedAt": "2026-11-07T21:15:24.768Z",
+      "finishedAt": "2026-11-07T21:15:25.095Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 1156,
+        "sha256": "2ee17efb8dcb5ff6d0a64d256653faf09fc8744bbc91e1a76398bc105f011e53",
+        "gzipBytes": 338,
+        "dataBase64": "H4sIAAAAAAACA42UMZIUMQxF8zmFcspNsRFXICHgApRG/WfaNW7JyPLuzu2pbigiCuTEgd6X5W/J4uAAHUts76bQGB/5Dg3RX3vxqUuM94v8k/0+NnasJzlVNtY7VqIRz4Y/1CJj/CdPmLUi3FriTO7d7ZVbcfyYGJGQ9MZaHK8VbwlaNsijW9VMajENvEd5q7paJvuO3fxZOisytx02XVBGsDwy5pyPt7GudrtlqrEVrbjNgGeMdNt7lDMyUoqrs8pWepVHimePemOJvEHh4P0wKOZI8GEPaJmD70jQOBptiDmEfc0YOlvUUrXPyDXDFZ5354zytaEMNEiq971K1Xs5ZSd/+bJ38/jLlJKpgG5uOz1tOrlZUOOnzSDz34INiIW+gSXo0+fl5QPVQccs1uMnoK9GPjXqDlrRoStUKgaxg6qO4NawLpefalwH+YQEAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npx-version",
+      "executable": "npx",
+      "args": [
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-1ww4c2/archives/agentcn-ui-0.2.0.tgz",
+        "agentcn-ui",
+        "--version"
+      ],
+      "startedAt": "2026-11-07T21:15:25.095Z",
+      "finishedAt": "2026-11-07T21:15:25.403Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 6,
+        "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9",
+        "gzipBytes": 26,
+        "dataBase64": "H4sIAAAAAAACAzPQM9Iz4AIARrMrnAYAAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "pnpm-dlx-init",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agentcn-package-1ww4c2/tools/node_modules/pnpm/bin/pnpm.cjs",
+        "--store-dir",
+        "/home/runner/work/_temp/agentcn-package-1ww4c2/consumers/pnpm-store",
+        "dlx",
+        "/home/runner/work/_temp/agentcn-package-1ww4c2/archives/agentcn-ui-0.2.0.tgz",
+        "init",
+        "--yes"
+      ],
+      "startedAt": "2026-11-07T21:15:25.415Z",
+      "finishedAt": "2026-11-07T21:15:25.621Z",
+      "timeoutMs": 45000,
+      "status": 1,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 149,
+        "sha256": "fe9f4de830fcad75bb763cba5e4efc2d8320379c19b3a8836ea6c1662454f7e0",
+        "gzipBytes": 146,
+        "dataBase64": "H4sIAAAAAAACA1XMMQrCQBBG4X5P8ZNmG5MDBMRGbYVADrAkE13czCyT3ahd2lwzJxG1snw8+LZlPTXNpdmWFS3fWR4MickL17BTEqWy92rN0fd4ScZIjj9DyY32gHYiFGXZCQ/+WuUfsJ9dyFQgCQbRjuAY+c+uzFkUNwpxB81cI3Icv40+PM0bJzBWYpUAAAA=",
+        "complete": true
+      }
+    }
+  ],
+  "passed": false,
+  "cleanup": {
+    "directChildrenReaped": false,
+    "allCommandCapturesComplete": false,
+    "childSignalsAbsent": false,
+    "workRemoval": "owned-by-supervisor"
+  },
+  "proofLimits": [
+    "Local npm-generated archive installs are not public registry package-name installs or a published 0.2.0 release.",
+    "Only the four new components receive SSR and controlled jsdom interactions; all twenty receive root/subpath/declaration/type/source checks.",
+    "The jsdom dialog shim does not prove native browser modality, focus, touch, IME or accessibility. The closed 42-case and eight-browser packets are not invoked.",
+    "Child stdout/stderr and consumer lock/tree originals are retained; the outer supervisor owns process-group and final scratch-removal verification."
+  ],
+  "error": "AssertionError [ERR_ASSERTION]: pnpm-dlx-init failed (1)\n    at zero (file:///home/runner/work/_temp/agentcn-package-1ww4c2/source/tests/smoke/packages.mjs:59:32)\n    at file:///home/runner/work/_temp/agentcn-package-1ww4c2/source/tests/smoke/packages.mjs:178:5",
+  "finishedAt": "2026-11-07T21:15:25.622Z"
+}

@@ -2,7 +2,10 @@
 
 Last updated: 2026-11-07
 
-Status: prepared, unrun. This is an additive candidate for the two public
+Status: corrected candidate prepared after the
+[failed first attempt](../results/2026/11-07/package-release-attempt-1.md).
+That original retains sixteen passed cases, one pnpm invocation failure and
+unproved cleanup; it is not a successful packet. This is an additive candidate for the two public
 packages, not a published release. The [readiness observation](../results/2026/11-05/release-readiness.md)
 leaves current npm identity, publish access and exact-version availability
 unverified. The [release runbook](../runbooks/release.md) owns later publication.
@@ -36,6 +39,15 @@ do not infer it from an older Node/npm receipt. Work is bounded to 1,020 seconds
 and clipped against the earliest job clock, preserving 90 seconds for cleanup
 and 30 seconds of margin. The smoke subprocess has a 450-second cap including
 its child closure. The reviewed runner must enforce these limits before work.
+
+The earliest owned step also records kernel start ticks. Process observations
+must retain their bounded identity, read-error and recheck dispositions;
+pre-existing identity exclusions cannot turn a stable unknown read into proof.
+Keep unresolved ownership or cleanup uncertainty fatal.
+
+The exact seventeen cases comprise seven per React profile (exports/types/CSS,
+new-four SSR, the four controlled component interactions and strict TypeScript)
+plus three all-twenty CLI source installations through npm exec, npx and pnpm.
 
 Keep original HOME. Use private nonce-bound external runner storage for caches,
 temporary configuration, source export, archives and consumers. Do not inspect

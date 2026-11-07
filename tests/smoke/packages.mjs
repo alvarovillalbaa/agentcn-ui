@@ -159,7 +159,7 @@ try {
   const cliModes = [
     ['npm-exec', 'npm', ['exec', '--yes', `--package=${cliArchive}`, '--', 'agentcn-ui']],
     ['npx', 'npx', ['--yes', `--package=${cliArchive}`, 'agentcn-ui']],
-    ['pnpm-dlx', process.execPath, [pnpmBin, '--store-dir', path.join(work, 'pnpm-store'), 'dlx', cliArchive]],
+    ['pnpm-dlx', process.execPath, [pnpmBin, `--config.store-dir=${path.join(work, 'pnpm-store')}`, 'dlx', cliArchive]],
   ];
   for (const [mode, executable, prefix] of cliModes) {
     currentCase = `cli-${mode}-all20`;

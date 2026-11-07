@@ -19,6 +19,8 @@ need(process.platform === 'linux' && process.version === 'v24.22.2' && process.e
   && process.env.GITHUB_EVENT_NAME === 'workflow_dispatch' && process.env.AGENTCN_PUBLIC_REPOSITORY === 'true', 'approved_public_main_ci_required');
 const jobStart = Number(process.env.AGENTCN_RELEASE_JOB_STARTED_MS);
 need(Number.isSafeInteger(jobStart) && jobStart <= Date.now() && jobStart > Date.now() - 300000, 'job_start_invalid');
+const taskStartTicks = process.env.AGENTCN_RELEASE_START_TICKS;
+need(/^[1-9][0-9]{0,19}$/.test(taskStartTicks ?? ''), 'task_start_ticks_required');
 const workEnd = Math.min(Date.now() + 1020000, jobStart + 1200000 - 90000 - 30000);
 const repo = fs.realpathSync(process.cwd()), parent = fs.realpathSync(process.env.RUNNER_TEMP ?? '');
 const root = fs.mkdtempSync(path.join(parent, 'agentcn-package-')); fs.chmodSync(root, 0o700);
@@ -40,7 +42,9 @@ const report = { schemaVersion: 'agentcn.package-preparation.v1', sourceCommit, 
   runtime: { node: process.version, executableSha256: sha(fs.readFileSync(process.execPath)), platform: process.platform, architecture: process.arch },
   limits: { jobSeconds: 1200, workMaximumSeconds: 1020, cleanupSeconds: 90, marginSeconds: 30, streamBytes: STREAM, emittedGzipBytes: PROOF, termGraceSeconds: 5, killDrainSeconds: 5 },
   timing: { jobStartedMs: jobStart, admittedAtMs: Date.now(), workEndMs: workEnd }, commands: [], sourceGuards: [], archives: [], registry: [], errors: [],
-  cleanup: { passed: false, rootRemoved: false, ownedProcessesRemaining: null, uncertain: false, processes: [] },
+  processBaseline: { taskStartTicks, limit: 2048, complete: false, identities: [], ancestors: [], errors: [], exclusionScope: 'exact_unchanged_pre_task_identities_and_supervisor_ancestors_only' },
+  cleanup: { passed: false, rootRemoved: false, ownedProcessesRemaining: null, uncertain: false, processes: [], scanErrors: [], scanErrorCount: 0,
+    baselineSkipped: [], ancestorSkipped: [], dispositions: { vanished: 0, pid_reused: 0, stable_unreadable: 0, identity_recheck_failed: 0 } },
   proofLimits: ['Candidate archives and authored disposable React consumers only; no publication, authentication, model/provider, website build or hosted/browser QA.',
     'The old 42 cases and eight hosted browser cases are not repeated. Archive-path npm/npx/pnpm consumers do not prove installation of a public 0.2.0 version.',
     'Only the active temporary workflow is omitted from an exact tracked-source export. Dependencies and generated ignored outputs live only in owned scratch.',
@@ -66,42 +70,108 @@ function retain(name, bytes) {
   evidence.push({ name, bytes: bytes.length, sha256: sha(bytes), gzipBytes: packed.length, packed });
 }
 function groupAbsent(pgid) { try { process.kill(-pgid, 0); return false; } catch (e) { return e.code === 'ESRCH' ? true : null; } }
+function readProc(file, limit) {
+  const fd = fs.openSync(file, 'r');
+  try {
+    const buffer = Buffer.alloc(limit + 1); let bytes = 0;
+    while (bytes < buffer.length) {
+      const count = fs.readSync(fd, buffer, bytes, buffer.length - bytes, null);
+      if (count === 0) break; bytes += count;
+    }
+    need(bytes <= limit, 'process_read_bound'); return buffer.subarray(0, bytes);
+  }
+  finally { fs.closeSync(fd); }
+}
 function proc(pid) {
   const base = `/proc/${pid}`, s = fs.statSync(base); if (s.uid !== process.getuid()) return null;
-  const a = fs.readFileSync(path.join(base, 'stat'), 'utf8'), f = a.slice(a.lastIndexOf(')') + 2).trim().split(/\s+/);
-  need(f.length >= 20 && /^\d+$/.test(f[19]), 'proc_shape');
-  return { pid, uid: s.uid, ppid: Number(f[1]), pgid: Number(f[2]), starttime: f[19], state: f[0] };
+  const fields = () => {
+    const text = readProc(path.join(base, 'stat'), 8192).toString(), close = text.lastIndexOf(')'); need(close > 0, 'proc_shape');
+    const parts = text.slice(close + 2).trim().split(/\s+/);
+    need(parts.length >= 20 && /^\d+$/.test(parts[19]) && /^\d+$/.test(parts[1]) && /^\d+$/.test(parts[2]), 'proc_shape'); return parts;
+  };
+  const before = fields(), after = fields(), current = fs.statSync(base);
+  need(s.uid === current.uid && before[19] === after[19] && before[2] === after[2], 'proc_identity_changed');
+  return { pid, uid: current.uid, ppid: Number(after[1]), pgid: Number(after[2]), starttime: after[19], state: after[0] };
 }
 function same(a, b) { return a && b && a.pid === b.pid && a.uid === b.uid && a.pgid === b.pgid && a.starttime === b.starttime; }
+const baselineProcesses = new Map(), ancestors = new Map(), skippedBaseline = new Set(), skippedAncestors = new Set();
+function captureProcessBaseline() {
+  const supervisor = proc(process.pid); need(supervisor && BigInt(taskStartTicks) <= BigInt(supervisor.starttime), 'task_cutoff_after_supervisor');
+  const names = fs.readdirSync('/proc').filter(x => /^\d+$/.test(x)); need(names.length <= 16384, 'proc_scan_bound');
+  for (const name of names) {
+    try {
+      const item = proc(Number(name)); if (!item) continue;
+      need(baselineProcesses.size < report.processBaseline.limit, 'process_baseline_bound'); baselineProcesses.set(item.pid, item); report.processBaseline.identities.push(item);
+    } catch (error) {
+      if (!['ENOENT', 'ESRCH'].includes(error.code)) { report.processBaseline.errors.push({ pid: Number(name), errno: processErrorCode(error) }); throw error; }
+    }
+  }
+  let parentInfo = supervisor;
+  while (parentInfo.ppid > 1 && !ancestors.has(parentInfo.ppid)) {
+    need(ancestors.size < 64, 'ancestor_chain_bound');
+    const item = proc(parentInfo.ppid); if (!item) break;
+    ancestors.set(item.pid, item); report.processBaseline.ancestors.push(item); parentInfo = item;
+  }
+  report.processBaseline.complete = true;
+}
+function excludedProcess(info) {
+  if (observed.has(`${info.pid}:${info.starttime}`)) return false;
+  if (same(ancestors.get(info.pid), info)) {
+    const key = `${info.pid}:${info.starttime}`; if (!skippedAncestors.has(key)) { skippedAncestors.add(key); report.cleanup.ancestorSkipped.push(info); } return true;
+  }
+  if (report.processBaseline.complete && same(baselineProcesses.get(info.pid), info) && BigInt(info.starttime) < BigInt(taskStartTicks)) {
+    const key = `${info.pid}:${info.starttime}`; if (!skippedBaseline.has(key)) { skippedBaseline.add(key); report.cleanup.baselineSkipped.push(info); } return true;
+  }
+  return false;
+}
+function processErrorCode(error) {
+  if (typeof error?.code === 'string' && /^[A-Z0-9_]{1,32}$/.test(error.code)) return error.code;
+  return /^[a-z0-9_]{1,32}$/.test(error?.message ?? '') ? error.message.toUpperCase() : 'UNKNOWN';
+}
 function scan() {
-  const names = fs.readdirSync('/proc').filter(x => /^\d+$/.test(x)); need(names.length <= 16384, 'proc_scan_bound'); const rows = [];
+  const names = fs.readdirSync('/proc').filter(x => /^\d+$/.test(x)); need(names.length <= 16384, 'proc_scan_bound'); const rows = []; let inspected = 0;
   for (const name of names) {
     const pid = Number(name); if (pid === process.pid) continue;
-    let info;
+    let info, phase = 'identity';
     try {
       info = proc(pid); if (!info) continue;
+      need(++inspected <= report.processBaseline.limit, 'process_scan_bound');
+      if (excludedProcess(info)) continue;
       const key = `${pid}:${info.starttime}`;
       if (!observed.has(key)) {
-        const raw = fs.readFileSync(`/proc/${pid}/environ`); need(raw.length <= 1048576, 'process_environment_bound');
+        phase = 'environment'; const raw = readProc(`/proc/${pid}/environ`, 1048576);
         const fields = raw.toString().split('\0');
         if (!fields.includes(`AGENTCN_RELEASE_ROOT=${root}`) || !fields.includes(`AGENTCN_RELEASE_NONCE=${nonce}`)) continue;
       }
-      const after = proc(pid); if (!same(info, after)) continue;
+      phase = 'identity_after'; const after = proc(pid);
+      if (!after) { const error = new Error('process_identity_changed'); throw error; }
+      if (info.starttime !== after.starttime) continue;
+      need(same(info, after), 'process_identity_changed');
       if (!observed.has(key)) { observed.set(key, info); report.cleanup.processes.push(info); }
       rows.push(info);
     } catch (e) {
-      let after; try { after = proc(pid); } catch (again) { if (again.code === 'ENOENT' || again.code === 'ESRCH') continue; }
-      if (!after || (info && !same(info, after))) continue;
-      // Pre-existing system processes do not inherit the unique nonce. Unreadable new processes remain uncertain.
-      if (baselineProcesses.has(`${pid}:${after.starttime}`)) continue;
-      report.cleanup.uncertain = true; report.errors.push('owned_process_scan_uncertain');
+      const record = { pid, phase, identityBefore: info ?? null, errno: processErrorCode(e), identityAfter: null, recheckErrno: null, disposition: null };
+      let after;
+      try { after = proc(pid); record.identityAfter = after; }
+      catch (again) {
+        record.recheckErrno = processErrorCode(again);
+        if (['ENOENT', 'ESRCH'].includes(again.code)) record.disposition = 'vanished';
+        else record.disposition = 'identity_recheck_failed';
+      }
+      if (!record.disposition) {
+        if (info && after && info.starttime !== after.starttime) record.disposition = 'pid_reused';
+        else record.disposition = 'stable_unreadable';
+      }
+      report.cleanup.scanErrorCount++;
+      report.cleanup.dispositions[record.disposition]++;
+      if (report.cleanup.scanErrors.length < 64) report.cleanup.scanErrors.push(record);
+      if (!['vanished', 'pid_reused'].includes(record.disposition)) {
+        report.cleanup.uncertain = true;
+        if (!report.errors.includes('owned_process_scan_uncertain')) report.errors.push('owned_process_scan_uncertain');
+      }
     }
   }
   return rows;
-}
-const baselineProcesses = new Set();
-for (const name of fs.readdirSync('/proc').filter(x => /^\d+$/.test(x))) {
-  try { const item = proc(Number(name)); if (item) baselineProcesses.add(`${item.pid}:${item.starttime}`); } catch (e) { if (!['ENOENT', 'ESRCH'].includes(e.code)) throw e; }
 }
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 async function run(label, executable, args, seconds, { cwd = source, allowFailure = false, cleanup = false } = {}) {
@@ -367,7 +437,10 @@ function validateSmoke(receipt, original, parentStdout) {
     for (const step of ['init', 'all20', 'version']) {
       const cmd = childRows.get(`${row.mode}-${step}`).row;
       need(cmd.args.includes(row.mode === 'pnpm-dlx' ? archive : `--package=${archive}`), 'smoke_cli_actual_archive_arguments');
-      if (row.mode === 'pnpm-dlx') need(cmd.executable === process.execPath && cmd.args[0] === env.AGENTCN_RELEASE_PNPM_BIN && cmd.args.includes('dlx'), 'smoke_pnpm_actual_binary');
+      if (row.mode === 'pnpm-dlx') {
+        const suffix = step === 'init' ? ['init', '--yes'] : step === 'all20' ? ['add', '--all'] : ['--version'];
+        exact([cmd.executable, ...cmd.args], [process.execPath, env.AGENTCN_RELEASE_PNPM_BIN, `--config.store-dir=${path.join(root, 'consumers', 'pnpm-store')}`, 'dlx', archive, ...suffix], 'smoke_pnpm_owned_exact_arguments');
+      }
     }
     if (row.mode === 'npm-exec') { need(row.discovery.helpCommandLabel === 'npm-exec-help' && row.discovery.listCommandLabel === 'npm-exec-list', 'smoke_cli_discovery_labels'); exact(row.discovery.names, catalog.catalog.map(item => item.name), 'smoke_cli_discovery_names'); }
   }
@@ -375,6 +448,7 @@ function validateSmoke(receipt, original, parentStdout) {
 }
 let npmCli;
 try {
+  captureProcessBaseline();
   await guard('before'); exportSource(); guardExport('before');
   npmCli = fs.realpathSync(path.join(path.dirname(process.execPath), 'npm'));
   report.runtime.npmCliSha256 = sha(read(npmCli));

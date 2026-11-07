@@ -1,0 +1,5 @@
+
+> agentcn-ui-workspace@0.1.0 check:source
+> node scripts/check-source.mjs
+
+Syntax/import checks passed for 55 source files; 20 registry items have API documentation and examples. This is not a Next.js build or browser check.

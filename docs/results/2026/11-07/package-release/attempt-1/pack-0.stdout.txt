@@ -1,0 +1,366 @@
+[
+  {
+    "id": "@alvarovillalbaa/agentcn-ui@0.2.0",
+    "name": "@alvarovillalbaa/agentcn-ui",
+    "version": "0.2.0",
+    "size": 33597,
+    "unpackedSize": 154654,
+    "shasum": "4a32f0bc8048e4178023c7ba3b723bc30c760457",
+    "integrity": "sha512-XG7h0wkNRjmgweSUA7A4JbXCqj1n0bH+iNXqPk6lfwFswVSVuJpRFqn/lDWNgM9QNfPA8ASHXhRwo9DHn4ZS+A==",
+    "filename": "alvarovillalbaa-agentcn-ui-0.2.0.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 1078,
+        "mode": 384
+      },
+      {
+        "path": "README.md",
+        "size": 1350,
+        "mode": 384
+      },
+      {
+        "path": "dist/_shared.d.ts",
+        "size": 1201,
+        "mode": 420
+      },
+      {
+        "path": "dist/_shared.js",
+        "size": 2377,
+        "mode": 420
+      },
+      {
+        "path": "dist/agent-handoff.d.ts",
+        "size": 492,
+        "mode": 420
+      },
+      {
+        "path": "dist/agent-handoff.js",
+        "size": 1437,
+        "mode": 420
+      },
+      {
+        "path": "dist/agent-run.d.ts",
+        "size": 595,
+        "mode": 420
+      },
+      {
+        "path": "dist/agent-run.js",
+        "size": 1887,
+        "mode": 420
+      },
+      {
+        "path": "dist/approval-request.d.ts",
+        "size": 646,
+        "mode": 420
+      },
+      {
+        "path": "dist/approval-request.js",
+        "size": 1670,
+        "mode": 420
+      },
+      {
+        "path": "dist/artifact-panel.d.ts",
+        "size": 559,
+        "mode": 420
+      },
+      {
+        "path": "dist/artifact-panel.js",
+        "size": 1385,
+        "mode": 420
+      },
+      {
+        "path": "dist/branch-picker.d.ts",
+        "size": 468,
+        "mode": 420
+      },
+      {
+        "path": "dist/branch-picker.js",
+        "size": 916,
+        "mode": 420
+      },
+      {
+        "path": "dist/checkpoint.d.ts",
+        "size": 501,
+        "mode": 420
+      },
+      {
+        "path": "dist/checkpoint.js",
+        "size": 1528,
+        "mode": 420
+      },
+      {
+        "path": "dist/context-window.d.ts",
+        "size": 423,
+        "mode": 420
+      },
+      {
+        "path": "dist/context-window.js",
+        "size": 1799,
+        "mode": 420
+      },
+      {
+        "path": "dist/creatable-select.d.ts",
+        "size": 695,
+        "mode": 420
+      },
+      {
+        "path": "dist/creatable-select.js",
+        "size": 8417,
+        "mode": 420
+      },
+      {
+        "path": "dist/eval-scorecard.d.ts",
+        "size": 480,
+        "mode": 420
+      },
+      {
+        "path": "dist/eval-scorecard.js",
+        "size": 1373,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.d.ts",
+        "size": 2415,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.js",
+        "size": 1017,
+        "mode": 420
+      },
+      {
+        "path": "dist/member-picker.d.ts",
+        "size": 563,
+        "mode": 420
+      },
+      {
+        "path": "dist/member-picker.js",
+        "size": 4532,
+        "mode": 420
+      },
+      {
+        "path": "dist/memory-panel.d.ts",
+        "size": 482,
+        "mode": 420
+      },
+      {
+        "path": "dist/memory-panel.js",
+        "size": 1263,
+        "mode": 420
+      },
+      {
+        "path": "dist/model-router.d.ts",
+        "size": 528,
+        "mode": 420
+      },
+      {
+        "path": "dist/model-router.js",
+        "size": 1185,
+        "mode": 420
+      },
+      {
+        "path": "dist/multi-input.d.ts",
+        "size": 511,
+        "mode": 420
+      },
+      {
+        "path": "dist/multi-input.js",
+        "size": 5268,
+        "mode": 420
+      },
+      {
+        "path": "dist/plan-review.d.ts",
+        "size": 575,
+        "mode": 420
+      },
+      {
+        "path": "dist/plan-review.js",
+        "size": 1638,
+        "mode": 420
+      },
+      {
+        "path": "dist/pricing-table.d.ts",
+        "size": 692,
+        "mode": 420
+      },
+      {
+        "path": "dist/pricing-table.js",
+        "size": 11022,
+        "mode": 420
+      },
+      {
+        "path": "dist/prompt-composer.d.ts",
+        "size": 611,
+        "mode": 420
+      },
+      {
+        "path": "dist/prompt-composer.js",
+        "size": 1985,
+        "mode": 420
+      },
+      {
+        "path": "dist/source-stack.d.ts",
+        "size": 405,
+        "mode": 420
+      },
+      {
+        "path": "dist/source-stack.js",
+        "size": 1129,
+        "mode": 420
+      },
+      {
+        "path": "dist/stream-status.d.ts",
+        "size": 322,
+        "mode": 420
+      },
+      {
+        "path": "dist/stream-status.js",
+        "size": 898,
+        "mode": 420
+      },
+      {
+        "path": "dist/token-usage.d.ts",
+        "size": 385,
+        "mode": 420
+      },
+      {
+        "path": "dist/token-usage.js",
+        "size": 1353,
+        "mode": 420
+      },
+      {
+        "path": "dist/tool-call.d.ts",
+        "size": 444,
+        "mode": 420
+      },
+      {
+        "path": "dist/tool-call.js",
+        "size": 1277,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 942,
+        "mode": 384
+      },
+      {
+        "path": "src/_shared.tsx",
+        "size": 2641,
+        "mode": 384
+      },
+      {
+        "path": "src/agent-handoff.tsx",
+        "size": 1923,
+        "mode": 384
+      },
+      {
+        "path": "src/agent-run.tsx",
+        "size": 2750,
+        "mode": 384
+      },
+      {
+        "path": "src/approval-request.tsx",
+        "size": 2256,
+        "mode": 384
+      },
+      {
+        "path": "src/artifact-panel.tsx",
+        "size": 1722,
+        "mode": 384
+      },
+      {
+        "path": "src/branch-picker.tsx",
+        "size": 1378,
+        "mode": 384
+      },
+      {
+        "path": "src/checkpoint.tsx",
+        "size": 1904,
+        "mode": 384
+      },
+      {
+        "path": "src/context-window.tsx",
+        "size": 2200,
+        "mode": 384
+      },
+      {
+        "path": "src/creatable-select.tsx",
+        "size": 8903,
+        "mode": 384
+      },
+      {
+        "path": "src/eval-scorecard.tsx",
+        "size": 1902,
+        "mode": 384
+      },
+      {
+        "path": "src/index.ts",
+        "size": 2434,
+        "mode": 384
+      },
+      {
+        "path": "src/member-picker.tsx",
+        "size": 5077,
+        "mode": 384
+      },
+      {
+        "path": "src/memory-panel.tsx",
+        "size": 1883,
+        "mode": 384
+      },
+      {
+        "path": "src/model-router.tsx",
+        "size": 1663,
+        "mode": 384
+      },
+      {
+        "path": "src/multi-input.tsx",
+        "size": 5169,
+        "mode": 384
+      },
+      {
+        "path": "src/plan-review.tsx",
+        "size": 2396,
+        "mode": 384
+      },
+      {
+        "path": "src/pricing-table.tsx",
+        "size": 12216,
+        "mode": 384
+      },
+      {
+        "path": "src/prompt-composer.tsx",
+        "size": 2553,
+        "mode": 384
+      },
+      {
+        "path": "src/source-stack.tsx",
+        "size": 1596,
+        "mode": 384
+      },
+      {
+        "path": "src/stream-status.tsx",
+        "size": 1040,
+        "mode": 384
+      },
+      {
+        "path": "src/token-usage.tsx",
+        "size": 1581,
+        "mode": 384
+      },
+      {
+        "path": "src/tool-call.tsx",
+        "size": 1663,
+        "mode": 384
+      },
+      {
+        "path": "styles.css",
+        "size": 15085,
+        "mode": 384
+      }
+    ],
+    "entryCount": 70,
+    "bundled": []
+  }
+]
