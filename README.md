@@ -32,9 +32,11 @@ adds an explicitly disabled MemberPicker example using the existing prop.
 The additive **0.2.0 candidate** aligns both public packages and prepares
 twenty-component archives. Its [archive and installed-consumer checks](docs/proposals/package-release-checks.md)
 are a separate packet for React 18/19 and the packaged CLI. The
-[first attempt](docs/results/2026/11-07/package-release-attempt-1.md) built both
-archives and passed sixteen of seventeen consumer cases; pnpm invocation and
-cleanup acceptance failed. A corrected packet must pass before release.
+[second attempt](docs/results/2026/11-07/package-release-attempt-2.md) passed all
+seventeen consumer cases with byte-identical archives, including pnpm.
+Cleanup remained unproved; a corrected packet must pass before release. The
+[first failed attempt](docs/results/2026/11-07/package-release-attempt-1.md)
+remains preserved.
 Version alignment does not publish npm packages. The four source-only notices
 remain until public archive integrity and fresh public consumers are verified.
 

@@ -3,9 +3,12 @@
 Last updated: 2026-11-07
 
 Status: corrected candidate prepared after the
-[failed first attempt](../results/2026/11-07/package-release-attempt-1.md).
-That original retains sixteen passed cases, one pnpm invocation failure and
-unproved cleanup; it is not a successful packet. This is an additive candidate for the two public
+[second attempt](../results/2026/11-07/package-release-attempt-2.md) passed all
+seventeen consumer cases but retained unproved cleanup. Its four environment
+read errors bind to exact direct-launch identities; the correction uses that
+launch ledger before environment discovery. Unknown reads stay fatal. The
+[first failed attempt](../results/2026/11-07/package-release-attempt-1.md)
+remains unchanged. This is an additive candidate for the two public
 packages, not a published release. The [readiness observation](../results/2026/11-05/release-readiness.md)
 leaves current npm identity, publish access and exact-version availability
 unverified. The [release runbook](../runbooks/release.md) owns later publication.

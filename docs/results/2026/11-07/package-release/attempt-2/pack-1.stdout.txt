@@ -1,0 +1,151 @@
+[
+  {
+    "id": "agentcn-ui@0.2.0",
+    "name": "agentcn-ui",
+    "version": "0.2.0",
+    "size": 37492,
+    "unpackedSize": 480126,
+    "shasum": "aff3f333770084f4c794e4a2c74c7d99dbadf327",
+    "integrity": "sha512-9EE/GDQnEH9eQ/jM6y/u9aTAjS2J7xEIbLXyjHGU2CCuwedtdi6Cob/1Ix0waLjirMzZytg4Jb3oEBpQZ2XQGA==",
+    "filename": "agentcn-ui-0.2.0.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 1078,
+        "mode": 384
+      },
+      {
+        "path": "README.md",
+        "size": 1327,
+        "mode": 384
+      },
+      {
+        "path": "bin/agentcn.mjs",
+        "size": 9910,
+        "mode": 493
+      },
+      {
+        "path": "lib/config.mjs",
+        "size": 3751,
+        "mode": 384
+      },
+      {
+        "path": "lib/install.mjs",
+        "size": 2615,
+        "mode": 384
+      },
+      {
+        "path": "package.json",
+        "size": 591,
+        "mode": 384
+      },
+      {
+        "path": "registry/agent-handoff.json",
+        "size": 21460,
+        "mode": 420
+      },
+      {
+        "path": "registry/agent-run.json",
+        "size": 22317,
+        "mode": 420
+      },
+      {
+        "path": "registry/approval-request.json",
+        "size": 21835,
+        "mode": 420
+      },
+      {
+        "path": "registry/artifact-panel.json",
+        "size": 21258,
+        "mode": 420
+      },
+      {
+        "path": "registry/branch-picker.json",
+        "size": 20873,
+        "mode": 420
+      },
+      {
+        "path": "registry/catalog.json",
+        "size": 7608,
+        "mode": 420
+      },
+      {
+        "path": "registry/checkpoint.json",
+        "size": 21405,
+        "mode": 420
+      },
+      {
+        "path": "registry/context-window.json",
+        "size": 21735,
+        "mode": 420
+      },
+      {
+        "path": "registry/creatable-select.json",
+        "size": 28728,
+        "mode": 420
+      },
+      {
+        "path": "registry/eval-scorecard.json",
+        "size": 21419,
+        "mode": 420
+      },
+      {
+        "path": "registry/member-picker.json",
+        "size": 24725,
+        "mode": 420
+      },
+      {
+        "path": "registry/memory-panel.json",
+        "size": 21393,
+        "mode": 420
+      },
+      {
+        "path": "registry/model-router.json",
+        "size": 21146,
+        "mode": 420
+      },
+      {
+        "path": "registry/multi-input.json",
+        "size": 24846,
+        "mode": 420
+      },
+      {
+        "path": "registry/plan-review.json",
+        "size": 21920,
+        "mode": 420
+      },
+      {
+        "path": "registry/pricing-table.json",
+        "size": 32168,
+        "mode": 420
+      },
+      {
+        "path": "registry/prompt-composer.json",
+        "size": 22136,
+        "mode": 420
+      },
+      {
+        "path": "registry/source-stack.json",
+        "size": 21096,
+        "mode": 420
+      },
+      {
+        "path": "registry/stream-status.json",
+        "size": 20546,
+        "mode": 420
+      },
+      {
+        "path": "registry/token-usage.json",
+        "size": 21076,
+        "mode": 420
+      },
+      {
+        "path": "registry/tool-call.json",
+        "size": 21164,
+        "mode": 420
+      }
+    ],
+    "entryCount": 27,
+    "bundled": []
+  }
+]

@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "5a61839cf66be45658d2c5c6c5ac603eb752e48a",
+  "runId": 42415723475,
+  "jobId": 128533258302,
+  "overallStatus": "failed",
+  "jobLog": {
+    "bytes": 346743,
+    "sha256": "897f41566d8c8e61295d348e38cb88721147e5966a0f73c4c5c8467cb96650bb",
+    "url": "https://github.com/alvarovillalbaa/agentcn-ui/actions/runs/42415723475/job/128533258302"
+  },
+  "files": [
+    {
+      "name": "guard-before-1.stdout.txt",
+      "bytes": 41,
+      "sha256": "b43bb1f2333dd3ef6029ac99c76b7093b73994cd5a2f5821f069c3f143fd26e5",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-before-1.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-before-2.stdout.txt",
+      "bytes": 16574,
+      "sha256": "c2d800651442c5ac4bfce2da103936f796f3b132f13d50d7fbfc96a8ca2f5258",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-before-2.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-before-3.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-before-3.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-before-4.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-before-4.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "npm-version.stdout.txt",
+      "bytes": 8,
+      "sha256": "acb90e420303a6e949fec90f74faf64cc372894b3964e310a261689b898f41b0",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "npm-version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "registry-0.stdout.txt",
+      "bytes": 206,
+      "sha256": "e8e6cacba03d3bfa358dfd2cdf2eb183498bab0076963b4b324e4a6deb3ebb6b",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "registry-0.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "registry-1.stdout.txt",
+      "bytes": 189,
+      "sha256": "aeef3a2f59c04c5da23f17a5ce1f74b0e21e55ed047df09ccd1f28e4fbe2317b",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "registry-1.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "npm-ci.stdout.txt",
+      "bytes": 25,
+      "sha256": "1e6f6f8ca434265d1bf5821bec1bf276d1ccbea4c272bd541bd007282e048708",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "npm-ci.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "build-library.stdout.txt",
+      "bytes": 184,
+      "sha256": "f22c05f3aa92c35052b99417282894962907afda6a9895f4413475199382bc84",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "build-library.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "check-source.stdout.txt",
+      "bytes": 226,
+      "sha256": "38b425ad7be4fa99a0019f156aa555a0060b4d240219951e443874493e11333e",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "check-source.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-build-1.stdout.txt",
+      "bytes": 41,
+      "sha256": "b43bb1f2333dd3ef6029ac99c76b7093b73994cd5a2f5821f069c3f143fd26e5",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-build-1.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-build-2.stdout.txt",
+      "bytes": 16574,
+      "sha256": "c2d800651442c5ac4bfce2da103936f796f3b132f13d50d7fbfc96a8ca2f5258",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-build-2.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-build-3.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-build-3.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-build-4.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-build-4.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "pack-0.stdout.txt",
+      "bytes": 7372,
+      "sha256": "72b6b0ecb0f1bbb9ceb29367c08a562a83ed257020cb597d6fcd8153863536a7",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "pack-0.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "pack-1.stdout.txt",
+      "bytes": 3190,
+      "sha256": "baf4f3a64e80a644d0ccafc64e28df53897118c6021f0e488a5d60d5054eb8cb",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "pack-1.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "alvarovillalbaa-agentcn-ui-0.2.0.tgz",
+      "bytes": 33597,
+      "sha256": "81829d3bfc376339e1f48fc123ded93b471e7bd7c654e5c2afba1a17bf1c226d",
+      "retention": "byte-identical original archive retained outside Git; also encoded in original job logs"
+    },
+    {
+      "name": "agentcn-ui-0.2.0.tgz",
+      "bytes": 37492,
+      "sha256": "fcfee32999e0df538c265fbd199297d89da9f049b5ffd45720f78812f44c5491",
+      "retention": "byte-identical original archive retained outside Git; also encoded in original job logs"
+    },
+    {
+      "name": "pnpm-metadata.stdout.txt",
+      "bytes": 585,
+      "sha256": "c697ca41054fefd764d6b2f4b358796f4611bf3b9addb6138da2f6579ecb9d0e",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "pnpm-metadata.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "pnpm-install.stdout.txt",
+      "bytes": 26,
+      "sha256": "6cb594fa430f03e49b1aa69de663112ed56381a6758374ebfcf1a4bae09925ca",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "pnpm-install.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "tools-lock.json",
+      "bytes": 721,
+      "sha256": "f724bc36579c5100027e86913b7ca5ba2fb91ae9f20dbdb726012280c6026be9",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "pnpm-version.stdout.txt",
+      "bytes": 8,
+      "sha256": "4231fa72abcb210dd8a5bee4d28d4a2b439ef93e67bb7959880349642f82ba91",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "pnpm-version.stderr.txt",
+      "bytes": 121,
+      "sha256": "8840018c8a92dd6b93f37a1b43898dd0b3a69c6898bdda811c4ecd7fd3c0d88c",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "package-smoke.stdout.txt",
+      "bytes": 1075,
+      "sha256": "55d4a9a1d73ea2da1740a699d63119dd24a54b8a6f0d8f8d4243ae3d8172ac0a",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "package-smoke.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "smoke-smoke.json",
+      "bytes": 125758,
+      "sha256": "4685da90f99cc86ceeeb2314ed6b8c87d3d431c325e808e9877cf6523f6b39e2",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-smoke-1.stdout.txt",
+      "bytes": 41,
+      "sha256": "b43bb1f2333dd3ef6029ac99c76b7093b73994cd5a2f5821f069c3f143fd26e5",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-smoke-1.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-smoke-2.stdout.txt",
+      "bytes": 16574,
+      "sha256": "c2d800651442c5ac4bfce2da103936f796f3b132f13d50d7fbfc96a8ca2f5258",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-smoke-2.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-smoke-3.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-smoke-3.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-smoke-4.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-smoke-4.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-1.stdout.txt",
+      "bytes": 41,
+      "sha256": "b43bb1f2333dd3ef6029ac99c76b7093b73994cd5a2f5821f069c3f143fd26e5",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-1.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-2.stdout.txt",
+      "bytes": 16574,
+      "sha256": "c2d800651442c5ac4bfce2da103936f796f3b132f13d50d7fbfc96a8ca2f5258",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-2.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-3.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-3.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-4.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "guard-after-4.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retention": "verbatim decoded original"
+    },
+    {
+      "name": "receipt.json",
+      "bytes": 502624,
+      "sha256": "8fb27716cded5f90cbb831593e95c48e6a1b55c1c14daf760aabf400f767a78e",
+      "retention": "verbatim decoded original"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "agentcn-ui",
+  "version": "0.1.0",
+  "versions": [
+    "0.0.0-stage",
+    "0.1.0"
+  ],
+  "dist-tags": {
+    "latest": "0.1.0"
+  },
+  "maintainers[0].name": "alvarovillalbaa"
+}

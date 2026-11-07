@@ -1,0 +1,5 @@
+
+> agentcn-ui-workspace@0.1.0 build:library
+> tsc -p packages/react/tsconfig.json && node scripts/build-registry.mjs
+
+Built 20 self-contained registry entries for the website and CLI.

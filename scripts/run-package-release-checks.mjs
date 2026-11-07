@@ -136,9 +136,11 @@ function scan() {
     try {
       info = proc(pid); if (!info) continue;
       need(++inspected <= report.processBaseline.limit, 'process_scan_bound');
-      if (excludedProcess(info)) continue;
+      const direct = report.commands.find(command => same(command.identity, info));
+      if (!direct && excludedProcess(info)) continue;
       const key = `${pid}:${info.starttime}`;
-      if (!observed.has(key)) {
+      const ownershipMethod = direct ? 'direct_command_identity' : observed.has(key) ? 'previously_observed_owned_identity' : 'nonce_environment';
+      if (!direct && !observed.has(key)) {
         phase = 'environment'; const raw = readProc(`/proc/${pid}/environ`, 1048576);
         const fields = raw.toString().split('\0');
         if (!fields.includes(`AGENTCN_RELEASE_ROOT=${root}`) || !fields.includes(`AGENTCN_RELEASE_NONCE=${nonce}`)) continue;
@@ -147,8 +149,9 @@ function scan() {
       if (!after) { const error = new Error('process_identity_changed'); throw error; }
       if (info.starttime !== after.starttime) continue;
       need(same(info, after), 'process_identity_changed');
-      if (!observed.has(key)) { observed.set(key, info); report.cleanup.processes.push(info); }
-      rows.push(info);
+      const owned = { ...info, ownershipMethod, directCommandLabel: direct?.label ?? null };
+      if (!observed.has(key)) { observed.set(key, owned); report.cleanup.processes.push(owned); }
+      rows.push(owned);
     } catch (e) {
       const record = { pid, phase, identityBefore: info ?? null, errno: processErrorCode(e), identityAfter: null, recheckErrno: null, disposition: null };
       let after;
