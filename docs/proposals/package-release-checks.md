@@ -2,14 +2,14 @@
 
 Last updated: 2026-11-07
 
-Status: corrected candidate prepared after the
-[second attempt](../results/2026/11-07/package-release-attempt-2.md) passed all
-seventeen consumer cases but retained unproved cleanup. Its four environment
-read errors bind to exact direct-launch identities; the correction uses that
-launch ledger before environment discovery. Unknown reads stay fatal. The
-[first failed attempt](../results/2026/11-07/package-release-attempt-1.md)
-remains unchanged. This is an additive candidate for the two public
-packages, not a published release. The [readiness observation](../results/2026/11-05/release-readiness.md)
+Status: **accepted archive/installed-consumer packet** in the
+[third attempt](../results/2026/11-07/package-release-checks.md): all seventeen
+cases, twenty-three inner commands and owned cleanup passed. The
+[first failed attempt](../results/2026/11-07/package-release-attempt-1.md) and
+[second failed attempt](../results/2026/11-07/package-release-attempt-2.md)
+remain unchanged; the second had seventeen consumer passes but unproved cleanup.
+The corrected launch-identity ledger leaves unknown reads fatal. This is an additive candidate for the two public
+packages, not a published npm release. The [readiness observation](../results/2026/11-05/release-readiness.md)
 leaves current npm identity, publish access and exact-version availability
 unverified. The [release runbook](../runbooks/release.md) owns later publication.
 

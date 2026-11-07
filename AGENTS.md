@@ -56,3 +56,11 @@ exact public archive integrity and public installed consumers are verified.
 Current npm identity/access must be checked separately; a DNS failure proves
 neither missing authentication nor permission. Never move local npm credentials
 into public CI. No account, plan, model/provider or payment is part of this work.
+
+The seventeen-case archive packet passed at
+`b7f8cc08b5d78b2e2635024959b4d6553b14bad7`, including verified owned cleanup;
+see `docs/results/2026/11-07/package-release-checks.md`. The temporary workflow
+is disabled and removed. Keep this scope closed. Both reviewed archives are
+published as GitHub prerelease `v0.2.0-candidate.1`; public npm 0.2.0 and fresh
+public package-name consumers remain pending. Keep the source-only notices
+until those distinct registry gates pass.

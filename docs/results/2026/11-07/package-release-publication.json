@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "agentcn.package-candidate-publication.v1",
+  "checkedSource": "b7f8cc08b5d78b2e2635024959b4d6553b14bad7",
+  "checkedTree": "f53a7557422ab558d81048ba35f2cd3cc86d4586",
+  "acceptance": {
+    "runId": 42416199167,
+    "jobId": 128534721346,
+    "status": "passed",
+    "cases": 17,
+    "innerCommands": 23,
+    "outerCommands": 28,
+    "originals": {
+      "files": 61,
+      "bytes": 927183,
+      "gzipBytes": 229194,
+      "logBytes": 355456,
+      "logSha256": "891324f3741f9b9a309b9fdf2753597008e6989279d4e4cc660623dd2a13e4ae",
+      "status": "passed",
+      "errors": [],
+      "cleanup": {
+        "passed": true,
+        "rootRemoved": true,
+        "ownedProcessesRemaining": 0,
+        "uncertain": false,
+        "scanErrors": [
+          {
+            "pid": 2877,
+            "phase": "identity",
+            "identityBefore": null,
+            "errno": "ENOENT",
+            "identityAfter": null,
+            "recheckErrno": "ENOENT",
+            "disposition": "vanished"
+          }
+        ],
+        "scanErrorCount": 1,
+        "dispositions": {
+          "vanished": 1,
+          "pid_reused": 0,
+          "stable_unreadable": 0,
+          "identity_recheck_failed": 0
+        }
+      },
+      "smokeValidation": {
+        "passed": true,
+        "exactCases": 17,
+        "originalCommandStreams": 46,
+        "reactProfiles": 2,
+        "rootExportsPerProfile": 20,
+        "subpathsPerProfile": 20,
+        "declarationsPerProfile": 20,
+        "strictTypechecks": 2,
+        "newComponentSsr": 8,
+        "authoredDomCases": 8,
+        "cliArchiveModes": 3,
+        "copiedComponentTargetsPerMode": 20,
+        "receiptSha256": "1e765c05b7c156e58cc8934a02780e3e4569ee446a7f3b6df7f908687803b8dc"
+      },
+      "cases": [
+        {
+          "id": "react18-exports-types-css",
+          "status": "passed"
+        },
+        {
+          "id": "react18-new-four-ssr",
+          "status": "passed"
+        },
+        {
+          "id": "react18-multi-input",
+          "status": "passed"
+        },
+        {
+          "id": "react18-member-picker",
+          "status": "passed"
+        },
+        {
+          "id": "react18-creatable-select",
+          "status": "passed"
+        },
+        {
+          "id": "react18-pricing-table",
+          "status": "passed"
+        },
+        {
+          "id": "react18-typescript",
+          "status": "passed"
+        },
+        {
+          "id": "react19-exports-types-css",
+          "status": "passed"
+        },
+        {
+          "id": "react19-new-four-ssr",
+          "status": "passed"
+        },
+        {
+          "id": "react19-multi-input",
+          "status": "passed"
+        },
+        {
+          "id": "react19-member-picker",
+          "status": "passed"
+        },
+        {
+          "id": "react19-creatable-select",
+          "status": "passed"
+        },
+        {
+          "id": "react19-pricing-table",
+          "status": "passed"
+        },
+        {
+          "id": "react19-typescript",
+          "status": "passed"
+        },
+        {
+          "id": "cli-npm-exec-all20",
+          "status": "passed"
+        },
+        {
+          "id": "cli-npx-all20",
+          "status": "passed"
+        },
+        {
+          "id": "cli-pnpm-dlx-all20",
+          "status": "passed"
+        }
+      ],
+      "times": [
+        "2026-11-07T21:30:55.413Z",
+        "2026-11-07T21:31:32.456Z"
+      ],
+      "sourceGuards": [
+        {
+          "label": "before",
+          "count": 228,
+          "passed": true
+        },
+        {
+          "label": "after-build",
+          "count": 228,
+          "passed": true
+        },
+        {
+          "label": "after-smoke",
+          "count": 228,
+          "passed": true
+        },
+        {
+          "label": "after",
+          "count": 228,
+          "passed": true
+        }
+      ],
+      "archives": [
+        {
+          "name": "@alvarovillalbaa/agentcn-ui",
+          "filename": "alvarovillalbaa-agentcn-ui-0.2.0.tgz",
+          "bytes": 33597,
+          "sha256": "81829d3bfc376339e1f48fc123ded93b471e7bd7c654e5c2afba1a17bf1c226d",
+          "integrity": "sha512-XG7h0wkNRjmgweSUA7A4JbXCqj1n0bH+iNXqPk6lfwFswVSVuJpRFqn/lDWNgM9QNfPA8ASHXhRwo9DHn4ZS+A==",
+          "members": 70
+        },
+        {
+          "name": "agentcn-ui",
+          "filename": "agentcn-ui-0.2.0.tgz",
+          "bytes": 37492,
+          "sha256": "fcfee32999e0df538c265fbd199297d89da9f049b5ffd45720f78812f44c5491",
+          "integrity": "sha512-9EE/GDQnEH9eQ/jM6y/u9aTAjS2J7xEIbLXyjHGU2CCuwedtdi6Cob/1Ix0waLjirMzZytg4Jb3oEBpQZ2XQGA==",
+          "members": 27
+        }
+      ]
+    }
+  },
+  "github": {
+    "assets": [
+      {
+        "browser_download_url": "https://github.com/alvarovillalbaa/agentcn-ui/releases/download/v0.2.0-candidate.1/agentcn-ui-0.2.0.tgz",
+        "digest": "sha256:fcfee32999e0df538c265fbd199297d89da9f049b5ffd45720f78812f44c5491",
+        "id": 722005070,
+        "name": "agentcn-ui-0.2.0.tgz",
+        "size": 37492,
+        "state": "uploaded"
+      },
+      {
+        "browser_download_url": "https://github.com/alvarovillalbaa/agentcn-ui/releases/download/v0.2.0-candidate.1/alvarovillalbaa-agentcn-ui-0.2.0.tgz",
+        "digest": "sha256:81829d3bfc376339e1f48fc123ded93b471e7bd7c654e5c2afba1a17bf1c226d",
+        "id": 722005074,
+        "name": "alvarovillalbaa-agentcn-ui-0.2.0.tgz",
+        "size": 33597,
+        "state": "uploaded"
+      }
+    ],
+    "draft": false,
+    "html_url": "https://github.com/alvarovillalbaa/agentcn-ui/releases/tag/v0.2.0-candidate.1",
+    "id": 437857909,
+    "prerelease": true,
+    "published_at": "2026-11-07T21:37:59Z",
+    "tag_name": "v0.2.0-candidate.1",
+    "target_commitish": "b7f8cc08b5d78b2e2635024959b4d6553b14bad7",
+    "tagRef": {
+      "ref": "refs/tags/v0.2.0-candidate.1",
+      "node_id": "REF_kwDOVKzqhrxyZWZzL3RhZ3MvdjAuMi4wLWNhbmRpZGF0ZS4x",
+      "url": "https://api.github.com/repos/alvarovillalbaa/agentcn-ui/git/refs/tags/v0.2.0-candidate.1",
+      "object": {
+        "sha": "b7f8cc08b5d78b2e2635024959b4d6553b14bad7",
+        "type": "commit",
+        "url": "https://api.github.com/repos/alvarovillalbaa/agentcn-ui/git/commits/b7f8cc08b5d78b2e2635024959b4d6553b14bad7"
+      }
+    },
+    "stableLatestAfter": "v0.1.0",
+    "assetDigestBoundary": "GitHub-reported uploaded asset SHA-256 and size equal the independently reviewed original bytes. No anonymous asset download was executed in this packet."
+  },
+  "npm": {
+    "status": "not_published_in_this_work",
+    "latestObserved": "0.1.0",
+    "version020PublishedAtAnonymousObservation": false,
+    "currentAuthenticatedIdentity": null,
+    "identityObservation": {
+      "command": "npm whoami --registry=https://registry.npmjs.org --fetch-retries=0 --fetch-timeout=15000",
+      "exitCode": 1,
+      "error": "ENOTFOUND registry.npmjs.org",
+      "identity": null,
+      "cacheRemoved": true,
+      "observedOnUtc": "2026-11-07",
+      "timeRecorded": false,
+      "executionWindowUtc": {
+        "notBefore": "2026-11-07T20:54:46Z",
+        "notAfter": "2026-11-07T20:56:42Z"
+      }
+    },
+    "repositoryLevelActionSecrets": {
+      "names": [],
+      "observedAtUtc": "2026-11-07T21:00:52Z",
+      "limits": "Repository-level names only; does not establish npm account or organizational/environment credential access."
+    },
+    "limit": "Anonymous metadata and historical maintainer identity do not prove current authenticated publish access. No credentials copied to CI, login, token creation or npm publication was performed."
+  },
+  "website": {
+    "id": "dpl_GmfyZBpMB9puFbD68uBDkZUKEbXT",
+    "readyState": "READY",
+    "target": "production",
+    "checkedSource": "b7f8cc08b5d78b2e2635024959b4d6553b14bad7",
+    "aliases": [
+      "agentcn-ui.vercel.app",
+      "agentcn-ui-my-team-4f230354.vercel.app",
+      "agentcn-ui-git-main-my-team-4f230354.vercel.app"
+    ],
+    "limit": "Provider commit/READY/alias metadata only; this packet did not repeat website browser acceptance."
+  },
+  "temporaryWorkflow": {
+    "id": 410670221,
+    "providerState": "disabled_manually",
+    "path": ".github/workflows/package-release-checks.yml",
+    "activeFileRemovedInClosingSource": true,
+    "inactiveExample": "docs/proposals/package-release.workflow.yml.example"
+  },
+  "proofLimits": [
+    "Selected React18/19 archive consumers and all20 exports/types/source targets, with behavior checks only for the new four components.",
+    "The two failed original packets remain failed. Current public npm integrity/package-name consumers remain pending.",
+    "No local install/build/server/database/browser, model/provider call, paid plan or new account."
+  ],
+  "temporaryControlRequest": {
+    "relativeName": "draft-request.json",
+    "uid": 501,
+    "mode": 384,
+    "device": 16777230,
+    "inode": 590108651,
+    "bytes": 1507,
+    "sha256": "3f9e5e0a3c75edf8bb38aca05a84889918071af4b4e4ffa06808cee0f224317a",
+    "regular": true,
+    "symlink": false,
+    "openerCheck": {
+      "exitCode": 1,
+      "stdoutAndStderrEmpty": true
+    },
+    "removed": true,
+    "retainedOriginalsAndReviewedArchives": true
+  }
+}

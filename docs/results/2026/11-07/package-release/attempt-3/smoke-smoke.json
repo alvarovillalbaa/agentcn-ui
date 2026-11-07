@@ -1,0 +1,2654 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "b7f8cc08b5d78b2e2635024959b4d6553b14bad7",
+  "version": "0.2.0",
+  "startedAt": "2026-11-07T21:31:13.983Z",
+  "cases": [
+    {
+      "id": "react18-exports-types-css",
+      "status": "passed"
+    },
+    {
+      "id": "react18-new-four-ssr",
+      "status": "passed"
+    },
+    {
+      "id": "react18-multi-input",
+      "status": "passed"
+    },
+    {
+      "id": "react18-member-picker",
+      "status": "passed"
+    },
+    {
+      "id": "react18-creatable-select",
+      "status": "passed"
+    },
+    {
+      "id": "react18-pricing-table",
+      "status": "passed"
+    },
+    {
+      "id": "react18-typescript",
+      "status": "passed"
+    },
+    {
+      "id": "react19-exports-types-css",
+      "status": "passed"
+    },
+    {
+      "id": "react19-new-four-ssr",
+      "status": "passed"
+    },
+    {
+      "id": "react19-multi-input",
+      "status": "passed"
+    },
+    {
+      "id": "react19-member-picker",
+      "status": "passed"
+    },
+    {
+      "id": "react19-creatable-select",
+      "status": "passed"
+    },
+    {
+      "id": "react19-pricing-table",
+      "status": "passed"
+    },
+    {
+      "id": "react19-typescript",
+      "status": "passed"
+    },
+    {
+      "id": "cli-npm-exec-all20",
+      "status": "passed"
+    },
+    {
+      "id": "cli-npx-all20",
+      "status": "passed"
+    },
+    {
+      "id": "cli-pnpm-dlx-all20",
+      "status": "passed"
+    }
+  ],
+  "archives": [
+    {
+      "name": "alvarovillalbaa-agentcn-ui-0.2.0.tgz",
+      "bytes": 33597,
+      "sha256": "81829d3bfc376339e1f48fc123ded93b471e7bd7c654e5c2afba1a17bf1c226d",
+      "integrity": "sha512-XG7h0wkNRjmgweSUA7A4JbXCqj1n0bH+iNXqPk6lfwFswVSVuJpRFqn/lDWNgM9QNfPA8ASHXhRwo9DHn4ZS+A==",
+      "unchanged": true
+    },
+    {
+      "name": "agentcn-ui-0.2.0.tgz",
+      "bytes": 37492,
+      "sha256": "fcfee32999e0df538c265fbd199297d89da9f049b5ffd45720f78812f44c5491",
+      "integrity": "sha512-9EE/GDQnEH9eQ/jM6y/u9aTAjS2J7xEIbLXyjHGU2CCuwedtdi6Cob/1Ix0waLjirMzZytg4Jb3oEBpQZ2XQGA==",
+      "unchanged": true
+    }
+  ],
+  "profiles": [
+    {
+      "key": "react18",
+      "react": "18.2.0",
+      "reactTypes": "18.3.27",
+      "reactDomTypes": "18.3.7",
+      "status": "passed",
+      "lockOriginal": {
+        "bytes": 25941,
+        "sha256": "6998e0fa8d244a7fcb6fe372aca1939f76b78f0bedb98aba7ef79b7d9286a5c4",
+        "gzipBytes": 6865,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "installedTreeOriginal": {
+        "bytes": 14875,
+        "sha256": "f040432eb208ef2d10aec9e49eae551bffd75ed671c54a51871fc1ced10c1546",
+        "gzipBytes": 1877,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "exportsAndSsr": {
+        "schemaVersion": 1,
+        "profile": "18.2.0",
+        "cases": [
+          {
+            "id": "exports-types-css",
+            "status": "passed",
+            "rootFunctions": 20,
+            "subpathFunctions": 20,
+            "declarationFiles": 20
+          },
+          {
+            "id": "new-four-ssr",
+            "status": "passed",
+            "components": [
+              "MultiInput",
+              "MemberPicker",
+              "CreatableSelect",
+              "PricingTable"
+            ],
+            "callbacks": 0
+          }
+        ],
+        "passed": true,
+        "exports": [
+          {
+            "name": "agent-run",
+            "component": "AgentRun",
+            "declarationBytes": 595,
+            "declarationSha256": "2d50c4eb828ef42efb690cd8b178ebe1750db8e427e269058216506eca8eb960"
+          },
+          {
+            "name": "tool-call",
+            "component": "ToolCall",
+            "declarationBytes": 444,
+            "declarationSha256": "b4eacb4023796cbef025c0a60e23fe28f70c2a88dbc965f8fbc2fbfda0d1b787"
+          },
+          {
+            "name": "approval-request",
+            "component": "ApprovalRequest",
+            "declarationBytes": 646,
+            "declarationSha256": "236c5ed6de2529ea77fcd47c3cf4a6edef13813860ab5d2b561454f4d4162050"
+          },
+          {
+            "name": "plan-review",
+            "component": "PlanReview",
+            "declarationBytes": 575,
+            "declarationSha256": "49692937b680f72168cf01053c87736f52ade071f678838c06cc0c26d4197464"
+          },
+          {
+            "name": "checkpoint",
+            "component": "Checkpoint",
+            "declarationBytes": 501,
+            "declarationSha256": "7cffa8735b77ae0c78537a67b13e6688813ac31bd26423da4f0b94fcdf8f6ecf"
+          },
+          {
+            "name": "context-window",
+            "component": "ContextWindow",
+            "declarationBytes": 423,
+            "declarationSha256": "6fd9c60cc773ff067dcc7ba44e6c0a748161b723d080f2fc927759bd8ee5b4bd"
+          },
+          {
+            "name": "memory-panel",
+            "component": "MemoryPanel",
+            "declarationBytes": 482,
+            "declarationSha256": "f801705b12141114f877cbbaa762516826eb115580005036c79139511c12c76a"
+          },
+          {
+            "name": "source-stack",
+            "component": "SourceStack",
+            "declarationBytes": 405,
+            "declarationSha256": "ae91745d2b66a1b3e3736dfb1214d9173a4a5f75a2db4d8c14ce4d827b40e001"
+          },
+          {
+            "name": "agent-handoff",
+            "component": "AgentHandoff",
+            "declarationBytes": 492,
+            "declarationSha256": "1cfff1044da605deca686e7ca50cde80d8a2b62c90eeb621e6e83e11570081ec"
+          },
+          {
+            "name": "model-router",
+            "component": "ModelRouter",
+            "declarationBytes": 528,
+            "declarationSha256": "7cec71fe7c6b31f9f1b1078363e9c3ae45974b981f75793e36b85344141b979e"
+          },
+          {
+            "name": "prompt-composer",
+            "component": "PromptComposer",
+            "declarationBytes": 611,
+            "declarationSha256": "9cd0f6119823364f38b434b7abe60f69eb5dd09d024fb9c3c71f8ab91692370a"
+          },
+          {
+            "name": "branch-picker",
+            "component": "BranchPicker",
+            "declarationBytes": 468,
+            "declarationSha256": "4c9e9e89d3ed17b88d0cbbc1f7bf0e2ba106baa3380ac62dda4d3e645c65cba5"
+          },
+          {
+            "name": "artifact-panel",
+            "component": "ArtifactPanel",
+            "declarationBytes": 559,
+            "declarationSha256": "2a354fdf210e914e552f55084f11e27b68cccf45abfecd53ed081c273e81a5e4"
+          },
+          {
+            "name": "stream-status",
+            "component": "StreamStatus",
+            "declarationBytes": 322,
+            "declarationSha256": "c6c52c7a8121d9d95f389eba2a038421698bd5143d928a62ba2b8b72d0555d20"
+          },
+          {
+            "name": "token-usage",
+            "component": "TokenUsage",
+            "declarationBytes": 385,
+            "declarationSha256": "efc030be11e8b7090cf2bf786ed1eb9db33d3d9316a23638650a830bd4c03093"
+          },
+          {
+            "name": "eval-scorecard",
+            "component": "EvalScorecard",
+            "declarationBytes": 480,
+            "declarationSha256": "bb475062d468d334a0246bc76f0115808af398c4f21055f76cf8e2736a7af3b2"
+          },
+          {
+            "name": "multi-input",
+            "component": "MultiInput",
+            "declarationBytes": 511,
+            "declarationSha256": "0977071b5a48d4cd22476764ba22053296217ab8d546fca1d19d582d57b8e16d"
+          },
+          {
+            "name": "member-picker",
+            "component": "MemberPicker",
+            "declarationBytes": 563,
+            "declarationSha256": "1bcf575e046f788179cea131fdbb92fc463dce832fbcaef51b2586929bd951fb"
+          },
+          {
+            "name": "creatable-select",
+            "component": "CreatableSelect",
+            "declarationBytes": 695,
+            "declarationSha256": "a8141285dea82cf602bf537989aca8135581a5bcdf1c775f2e90631b66c578f7"
+          },
+          {
+            "name": "pricing-table",
+            "component": "PricingTable",
+            "declarationBytes": 692,
+            "declarationSha256": "e171e92743e3029553edf48af5129523f80b8c1de89301be18a384168bb4bac5"
+          }
+        ],
+        "css": {
+          "bytes": 15085,
+          "sha256": "7423bdb8cfea2910f2272c17565b21523f8ea09244be32383fc5c2eaee403900"
+        },
+        "ssr": [
+          {
+            "component": "MultiInput",
+            "bytes": 907,
+            "sha256": "369eddfda0869d2ba1cfdd117d736b1bf20853a91420e21af92d97b20983535c"
+          },
+          {
+            "component": "MemberPicker",
+            "bytes": 1049,
+            "sha256": "cd6e662b3597bfead3cda890be2f47fd8f7c959eb25fc5dc126fc91d3f2c3ff2"
+          },
+          {
+            "component": "CreatableSelect",
+            "bytes": 834,
+            "sha256": "b3b3a5fe7280c1cd38ba54935bf37555396fe13da225a49e370599de796d2b6b"
+          },
+          {
+            "component": "PricingTable",
+            "bytes": 902,
+            "sha256": "d9645133f11cd1efe77155f7dba5fdf7d85504692d33bf9c6388bc96cf4186d5"
+          }
+        ]
+      },
+      "dom": {
+        "schemaVersion": 1,
+        "profile": "18.2.0",
+        "dialog": "authored jsdom open/close shim; no native modality claim",
+        "cases": [
+          {
+            "id": "installed-multi-input",
+            "status": "passed",
+            "observation": {
+              "acknowledgedAddsAndRemovals": 2,
+              "emptyRejected": true,
+              "limitAndDisabledObserved": true
+            }
+          },
+          {
+            "id": "installed-member-picker",
+            "status": "passed",
+            "observation": {
+              "controlledMemberIDs": [
+                "b"
+              ],
+              "hiddenSelectionPreserved": true,
+              "disabledAndLimitObserved": true
+            }
+          },
+          {
+            "id": "installed-creatable-select",
+            "status": "passed",
+            "observation": {
+              "creationCallbacks": 2,
+              "rejectionKeptDraft": true,
+              "onlyConsumerSuppliedIDSelected": "created"
+            }
+          },
+          {
+            "id": "installed-pricing-table",
+            "status": "passed",
+            "observation": {
+              "reviewedID": "pro",
+              "callbacks": 2,
+              "failureAndRetryObserved": true,
+              "currentPlanRemainedConsumerControlled": "free"
+            }
+          }
+        ],
+        "mounts": 4,
+        "unmounts": 4,
+        "passed": true
+      },
+      "typecheck": {
+        "commandLabel": "react18-typescript",
+        "typescript": "5.9.3",
+        "reactTypes": "18.3.27",
+        "reactDomTypes": "18.3.7",
+        "skipLibCheck": false,
+        "rootReferences": 20,
+        "subpathReferences": 20,
+        "newComponentJsx": 4
+      }
+    },
+    {
+      "key": "react19",
+      "react": "19.3.1",
+      "reactTypes": "19.2.14",
+      "reactDomTypes": "19.2.3",
+      "status": "passed",
+      "lockOriginal": {
+        "bytes": 24723,
+        "sha256": "d521945d898e292d5850301f0e43e35bd475194e780efdca53208d34b3ae4303",
+        "gzipBytes": 6553,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "installedTreeOriginal": {
+        "bytes": 14035,
+        "sha256": "ec27ef148bb3d6de7f7d9e603b006fd443694826e8e0590e8bda287bd36b451e",
+        "gzipBytes": 1787,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "exportsAndSsr": {
+        "schemaVersion": 1,
+        "profile": "19.3.1",
+        "cases": [
+          {
+            "id": "exports-types-css",
+            "status": "passed",
+            "rootFunctions": 20,
+            "subpathFunctions": 20,
+            "declarationFiles": 20
+          },
+          {
+            "id": "new-four-ssr",
+            "status": "passed",
+            "components": [
+              "MultiInput",
+              "MemberPicker",
+              "CreatableSelect",
+              "PricingTable"
+            ],
+            "callbacks": 0
+          }
+        ],
+        "passed": true,
+        "exports": [
+          {
+            "name": "agent-run",
+            "component": "AgentRun",
+            "declarationBytes": 595,
+            "declarationSha256": "2d50c4eb828ef42efb690cd8b178ebe1750db8e427e269058216506eca8eb960"
+          },
+          {
+            "name": "tool-call",
+            "component": "ToolCall",
+            "declarationBytes": 444,
+            "declarationSha256": "b4eacb4023796cbef025c0a60e23fe28f70c2a88dbc965f8fbc2fbfda0d1b787"
+          },
+          {
+            "name": "approval-request",
+            "component": "ApprovalRequest",
+            "declarationBytes": 646,
+            "declarationSha256": "236c5ed6de2529ea77fcd47c3cf4a6edef13813860ab5d2b561454f4d4162050"
+          },
+          {
+            "name": "plan-review",
+            "component": "PlanReview",
+            "declarationBytes": 575,
+            "declarationSha256": "49692937b680f72168cf01053c87736f52ade071f678838c06cc0c26d4197464"
+          },
+          {
+            "name": "checkpoint",
+            "component": "Checkpoint",
+            "declarationBytes": 501,
+            "declarationSha256": "7cffa8735b77ae0c78537a67b13e6688813ac31bd26423da4f0b94fcdf8f6ecf"
+          },
+          {
+            "name": "context-window",
+            "component": "ContextWindow",
+            "declarationBytes": 423,
+            "declarationSha256": "6fd9c60cc773ff067dcc7ba44e6c0a748161b723d080f2fc927759bd8ee5b4bd"
+          },
+          {
+            "name": "memory-panel",
+            "component": "MemoryPanel",
+            "declarationBytes": 482,
+            "declarationSha256": "f801705b12141114f877cbbaa762516826eb115580005036c79139511c12c76a"
+          },
+          {
+            "name": "source-stack",
+            "component": "SourceStack",
+            "declarationBytes": 405,
+            "declarationSha256": "ae91745d2b66a1b3e3736dfb1214d9173a4a5f75a2db4d8c14ce4d827b40e001"
+          },
+          {
+            "name": "agent-handoff",
+            "component": "AgentHandoff",
+            "declarationBytes": 492,
+            "declarationSha256": "1cfff1044da605deca686e7ca50cde80d8a2b62c90eeb621e6e83e11570081ec"
+          },
+          {
+            "name": "model-router",
+            "component": "ModelRouter",
+            "declarationBytes": 528,
+            "declarationSha256": "7cec71fe7c6b31f9f1b1078363e9c3ae45974b981f75793e36b85344141b979e"
+          },
+          {
+            "name": "prompt-composer",
+            "component": "PromptComposer",
+            "declarationBytes": 611,
+            "declarationSha256": "9cd0f6119823364f38b434b7abe60f69eb5dd09d024fb9c3c71f8ab91692370a"
+          },
+          {
+            "name": "branch-picker",
+            "component": "BranchPicker",
+            "declarationBytes": 468,
+            "declarationSha256": "4c9e9e89d3ed17b88d0cbbc1f7bf0e2ba106baa3380ac62dda4d3e645c65cba5"
+          },
+          {
+            "name": "artifact-panel",
+            "component": "ArtifactPanel",
+            "declarationBytes": 559,
+            "declarationSha256": "2a354fdf210e914e552f55084f11e27b68cccf45abfecd53ed081c273e81a5e4"
+          },
+          {
+            "name": "stream-status",
+            "component": "StreamStatus",
+            "declarationBytes": 322,
+            "declarationSha256": "c6c52c7a8121d9d95f389eba2a038421698bd5143d928a62ba2b8b72d0555d20"
+          },
+          {
+            "name": "token-usage",
+            "component": "TokenUsage",
+            "declarationBytes": 385,
+            "declarationSha256": "efc030be11e8b7090cf2bf786ed1eb9db33d3d9316a23638650a830bd4c03093"
+          },
+          {
+            "name": "eval-scorecard",
+            "component": "EvalScorecard",
+            "declarationBytes": 480,
+            "declarationSha256": "bb475062d468d334a0246bc76f0115808af398c4f21055f76cf8e2736a7af3b2"
+          },
+          {
+            "name": "multi-input",
+            "component": "MultiInput",
+            "declarationBytes": 511,
+            "declarationSha256": "0977071b5a48d4cd22476764ba22053296217ab8d546fca1d19d582d57b8e16d"
+          },
+          {
+            "name": "member-picker",
+            "component": "MemberPicker",
+            "declarationBytes": 563,
+            "declarationSha256": "1bcf575e046f788179cea131fdbb92fc463dce832fbcaef51b2586929bd951fb"
+          },
+          {
+            "name": "creatable-select",
+            "component": "CreatableSelect",
+            "declarationBytes": 695,
+            "declarationSha256": "a8141285dea82cf602bf537989aca8135581a5bcdf1c775f2e90631b66c578f7"
+          },
+          {
+            "name": "pricing-table",
+            "component": "PricingTable",
+            "declarationBytes": 692,
+            "declarationSha256": "e171e92743e3029553edf48af5129523f80b8c1de89301be18a384168bb4bac5"
+          }
+        ],
+        "css": {
+          "bytes": 15085,
+          "sha256": "7423bdb8cfea2910f2272c17565b21523f8ea09244be32383fc5c2eaee403900"
+        },
+        "ssr": [
+          {
+            "component": "MultiInput",
+            "bytes": 911,
+            "sha256": "d3be1d70860621ae4fea2b043e38568edd94632d0f2ecbc0408567b11235672f"
+          },
+          {
+            "component": "MemberPicker",
+            "bytes": 1053,
+            "sha256": "50364bc5b7663b26b7fbe6ffc9ccd9fc5b6b38343620a560d073eb81589e630f"
+          },
+          {
+            "component": "CreatableSelect",
+            "bytes": 840,
+            "sha256": "8226c673a368f03eec84a6884726e69c52c26ef54f96607e5481d331c6ea894c"
+          },
+          {
+            "component": "PricingTable",
+            "bytes": 902,
+            "sha256": "d9645133f11cd1efe77155f7dba5fdf7d85504692d33bf9c6388bc96cf4186d5"
+          }
+        ]
+      },
+      "dom": {
+        "schemaVersion": 1,
+        "profile": "19.3.1",
+        "dialog": "authored jsdom open/close shim; no native modality claim",
+        "cases": [
+          {
+            "id": "installed-multi-input",
+            "status": "passed",
+            "observation": {
+              "acknowledgedAddsAndRemovals": 2,
+              "emptyRejected": true,
+              "limitAndDisabledObserved": true
+            }
+          },
+          {
+            "id": "installed-member-picker",
+            "status": "passed",
+            "observation": {
+              "controlledMemberIDs": [
+                "b"
+              ],
+              "hiddenSelectionPreserved": true,
+              "disabledAndLimitObserved": true
+            }
+          },
+          {
+            "id": "installed-creatable-select",
+            "status": "passed",
+            "observation": {
+              "creationCallbacks": 2,
+              "rejectionKeptDraft": true,
+              "onlyConsumerSuppliedIDSelected": "created"
+            }
+          },
+          {
+            "id": "installed-pricing-table",
+            "status": "passed",
+            "observation": {
+              "reviewedID": "pro",
+              "callbacks": 2,
+              "failureAndRetryObserved": true,
+              "currentPlanRemainedConsumerControlled": "free"
+            }
+          }
+        ],
+        "mounts": 4,
+        "unmounts": 4,
+        "passed": true
+      },
+      "typecheck": {
+        "commandLabel": "react19-typescript",
+        "typescript": "5.9.3",
+        "reactTypes": "19.2.14",
+        "reactDomTypes": "19.2.3",
+        "skipLibCheck": false,
+        "rootReferences": 20,
+        "subpathReferences": 20,
+        "newComponentJsx": 4
+      }
+    }
+  ],
+  "cli": [
+    {
+      "mode": "npm-exec",
+      "archiveInvocation": true,
+      "publicPackageNameInstall": false,
+      "targets": [
+        {
+          "name": "agent-run",
+          "files": [
+            {
+              "path": "components/agentcn/agent-run.tsx",
+              "bytes": 2744,
+              "sha256": "6d5d2610aed6886a087eee2510f1561db66253264b66b2f0c76b3e8a5f7e5924"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "tool-call",
+          "files": [
+            {
+              "path": "components/agentcn/tool-call.tsx",
+              "bytes": 1657,
+              "sha256": "265eafd574606a5aeccd2268a54af09d37e073c5ae12647ea7764bd3800fb7b2"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "approval-request",
+          "files": [
+            {
+              "path": "components/agentcn/approval-request.tsx",
+              "bytes": 2250,
+              "sha256": "c314ff32feab510df8d70a60eec25264c074ce78593e9d5f26ab49cdf1469f83"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "plan-review",
+          "files": [
+            {
+              "path": "components/agentcn/plan-review.tsx",
+              "bytes": 2390,
+              "sha256": "e196b2b49f4e508985bdc9fb4d171a280d987471f6af39c993a9aed016ef64da"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "checkpoint",
+          "files": [
+            {
+              "path": "components/agentcn/checkpoint.tsx",
+              "bytes": 1898,
+              "sha256": "d2d786105a270bc4add23279c340d3648c940b70faa65e5fa13bf210ddb4ad63"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "context-window",
+          "files": [
+            {
+              "path": "components/agentcn/context-window.tsx",
+              "bytes": 2194,
+              "sha256": "fac82297684918e44d75b56b421ed85c024f2a2efdff6f546bab110102df1cda"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "memory-panel",
+          "files": [
+            {
+              "path": "components/agentcn/memory-panel.tsx",
+              "bytes": 1877,
+              "sha256": "3ebbf942798659806dcdaa3e9d6b63b3209d58576173417d61e53c08d59da78e"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "source-stack",
+          "files": [
+            {
+              "path": "components/agentcn/source-stack.tsx",
+              "bytes": 1590,
+              "sha256": "a4c88373ac8552537900612549b7c0cdf66e480610af37c1a468eabab6d1253e"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "agent-handoff",
+          "files": [
+            {
+              "path": "components/agentcn/agent-handoff.tsx",
+              "bytes": 1917,
+              "sha256": "2059904a55976fc7dfc8b143371f0cab7a90c6a0dc24fd7bf717d318a49bc0a9"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "model-router",
+          "files": [
+            {
+              "path": "components/agentcn/model-router.tsx",
+              "bytes": 1657,
+              "sha256": "41859a8ce85f44620f71b1efb74de27cfafb0df1d348e2bbfa9ed3cc533eeee3"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "prompt-composer",
+          "files": [
+            {
+              "path": "components/agentcn/prompt-composer.tsx",
+              "bytes": 2550,
+              "sha256": "780b7a8286d7761c26964ce12113b13d8ffdc4de400fb95fa12ed851af36442f"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "branch-picker",
+          "files": [
+            {
+              "path": "components/agentcn/branch-picker.tsx",
+              "bytes": 1372,
+              "sha256": "9281f0a38586c67c361516f231c75d409229e1e1c87c782aeb8ac42db2b3539f"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "artifact-panel",
+          "files": [
+            {
+              "path": "components/agentcn/artifact-panel.tsx",
+              "bytes": 1716,
+              "sha256": "ff56496b367ea8643b5c190da0638ed5aad7d612d37e193deca812d9ffe6b48a"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "stream-status",
+          "files": [
+            {
+              "path": "components/agentcn/stream-status.tsx",
+              "bytes": 1037,
+              "sha256": "86ec17ef4cd51d65b08dfd3d8151af7eae59fc0063de2e8239d91e5e43c36ee2"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "token-usage",
+          "files": [
+            {
+              "path": "components/agentcn/token-usage.tsx",
+              "bytes": 1575,
+              "sha256": "d9a203702a703b7d5a97a32bb743f514d6e1b51b86049ed9dd9ba7146f53e620"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "eval-scorecard",
+          "files": [
+            {
+              "path": "components/agentcn/eval-scorecard.tsx",
+              "bytes": 1896,
+              "sha256": "b600b00a477a2b3865824f57d894b46c9c0921096056439b667bc74f6174ce06"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "multi-input",
+          "files": [
+            {
+              "path": "components/agentcn/multi-input.tsx",
+              "bytes": 5163,
+              "sha256": "08a35409027471fc8709007bc8f5ba99c060c9fee46bbc0898a509dcc09e9e52"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "member-picker",
+          "files": [
+            {
+              "path": "components/agentcn/member-picker.tsx",
+              "bytes": 5071,
+              "sha256": "649b8e41f9397e2a9c068016ccf9d29d802c97e5fc7a17c6c49210972a8e009c"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "creatable-select",
+          "files": [
+            {
+              "path": "components/agentcn/creatable-select.tsx",
+              "bytes": 8897,
+              "sha256": "91dcaf5ba5cd12f56f8b5a19bb0100f2ed15283a12d9ae466889836a0521553c"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "pricing-table",
+          "files": [
+            {
+              "path": "components/agentcn/pricing-table.tsx",
+              "bytes": 12210,
+              "sha256": "b53bae59b238d6513f09a5c44affb11a5ad9f426206a8b521476436e22fd0776"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        }
+      ],
+      "css": {
+        "path": "styles/agentcn.css",
+        "bytes": 15303,
+        "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+      },
+      "config": {
+        "bytes": 264,
+        "sha256": "9262d9d73054d5980747a88d0fe0ea15d5e84dd6a70cd4239e33aec3f046448d",
+        "gzipBytes": 180,
+        "dataBase64": "H4sIAAAAAAACA0WNTQ6CMBCF95yCNC61jVtuM7QD1LQzpDPFEOPdDSC6fN/7ezVtay7iJ8xgutZMqrN0zhV42jHqVPsqWDyTIqn1nB2kBQovMSVIPYCDEUk93Wp0GSKd2h6b9iFM5rq9LFgkMpmuve/ac56ZkFS24786F46Wl90WXRP+LLvR3Z4hoSpukYELih64QIh1LxauFDAcOCBJ1PX7N3BR6BOa5t18ACAx+JMIAQAA",
+        "complete": true
+      },
+      "unrelatedFile": {
+        "bytes": 33,
+        "sha256": "d848525c930e0ef0db1dfbcd70da223670589081f450489b7695857b7f43a5af",
+        "preserved": true
+      },
+      "discovery": {
+        "helpCommandLabel": "npm-exec-help",
+        "listCommandLabel": "npm-exec-list",
+        "names": [
+          "agent-run",
+          "tool-call",
+          "approval-request",
+          "plan-review",
+          "checkpoint",
+          "context-window",
+          "memory-panel",
+          "source-stack",
+          "agent-handoff",
+          "model-router",
+          "prompt-composer",
+          "branch-picker",
+          "artifact-panel",
+          "stream-status",
+          "token-usage",
+          "eval-scorecard",
+          "multi-input",
+          "member-picker",
+          "creatable-select",
+          "pricing-table"
+        ]
+      }
+    },
+    {
+      "mode": "npx",
+      "archiveInvocation": true,
+      "publicPackageNameInstall": false,
+      "targets": [
+        {
+          "name": "agent-run",
+          "files": [
+            {
+              "path": "components/agentcn/agent-run.tsx",
+              "bytes": 2744,
+              "sha256": "6d5d2610aed6886a087eee2510f1561db66253264b66b2f0c76b3e8a5f7e5924"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "tool-call",
+          "files": [
+            {
+              "path": "components/agentcn/tool-call.tsx",
+              "bytes": 1657,
+              "sha256": "265eafd574606a5aeccd2268a54af09d37e073c5ae12647ea7764bd3800fb7b2"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "approval-request",
+          "files": [
+            {
+              "path": "components/agentcn/approval-request.tsx",
+              "bytes": 2250,
+              "sha256": "c314ff32feab510df8d70a60eec25264c074ce78593e9d5f26ab49cdf1469f83"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "plan-review",
+          "files": [
+            {
+              "path": "components/agentcn/plan-review.tsx",
+              "bytes": 2390,
+              "sha256": "e196b2b49f4e508985bdc9fb4d171a280d987471f6af39c993a9aed016ef64da"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "checkpoint",
+          "files": [
+            {
+              "path": "components/agentcn/checkpoint.tsx",
+              "bytes": 1898,
+              "sha256": "d2d786105a270bc4add23279c340d3648c940b70faa65e5fa13bf210ddb4ad63"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "context-window",
+          "files": [
+            {
+              "path": "components/agentcn/context-window.tsx",
+              "bytes": 2194,
+              "sha256": "fac82297684918e44d75b56b421ed85c024f2a2efdff6f546bab110102df1cda"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "memory-panel",
+          "files": [
+            {
+              "path": "components/agentcn/memory-panel.tsx",
+              "bytes": 1877,
+              "sha256": "3ebbf942798659806dcdaa3e9d6b63b3209d58576173417d61e53c08d59da78e"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "source-stack",
+          "files": [
+            {
+              "path": "components/agentcn/source-stack.tsx",
+              "bytes": 1590,
+              "sha256": "a4c88373ac8552537900612549b7c0cdf66e480610af37c1a468eabab6d1253e"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "agent-handoff",
+          "files": [
+            {
+              "path": "components/agentcn/agent-handoff.tsx",
+              "bytes": 1917,
+              "sha256": "2059904a55976fc7dfc8b143371f0cab7a90c6a0dc24fd7bf717d318a49bc0a9"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "model-router",
+          "files": [
+            {
+              "path": "components/agentcn/model-router.tsx",
+              "bytes": 1657,
+              "sha256": "41859a8ce85f44620f71b1efb74de27cfafb0df1d348e2bbfa9ed3cc533eeee3"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "prompt-composer",
+          "files": [
+            {
+              "path": "components/agentcn/prompt-composer.tsx",
+              "bytes": 2550,
+              "sha256": "780b7a8286d7761c26964ce12113b13d8ffdc4de400fb95fa12ed851af36442f"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "branch-picker",
+          "files": [
+            {
+              "path": "components/agentcn/branch-picker.tsx",
+              "bytes": 1372,
+              "sha256": "9281f0a38586c67c361516f231c75d409229e1e1c87c782aeb8ac42db2b3539f"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "artifact-panel",
+          "files": [
+            {
+              "path": "components/agentcn/artifact-panel.tsx",
+              "bytes": 1716,
+              "sha256": "ff56496b367ea8643b5c190da0638ed5aad7d612d37e193deca812d9ffe6b48a"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "stream-status",
+          "files": [
+            {
+              "path": "components/agentcn/stream-status.tsx",
+              "bytes": 1037,
+              "sha256": "86ec17ef4cd51d65b08dfd3d8151af7eae59fc0063de2e8239d91e5e43c36ee2"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "token-usage",
+          "files": [
+            {
+              "path": "components/agentcn/token-usage.tsx",
+              "bytes": 1575,
+              "sha256": "d9a203702a703b7d5a97a32bb743f514d6e1b51b86049ed9dd9ba7146f53e620"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "eval-scorecard",
+          "files": [
+            {
+              "path": "components/agentcn/eval-scorecard.tsx",
+              "bytes": 1896,
+              "sha256": "b600b00a477a2b3865824f57d894b46c9c0921096056439b667bc74f6174ce06"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "multi-input",
+          "files": [
+            {
+              "path": "components/agentcn/multi-input.tsx",
+              "bytes": 5163,
+              "sha256": "08a35409027471fc8709007bc8f5ba99c060c9fee46bbc0898a509dcc09e9e52"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "member-picker",
+          "files": [
+            {
+              "path": "components/agentcn/member-picker.tsx",
+              "bytes": 5071,
+              "sha256": "649b8e41f9397e2a9c068016ccf9d29d802c97e5fc7a17c6c49210972a8e009c"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "creatable-select",
+          "files": [
+            {
+              "path": "components/agentcn/creatable-select.tsx",
+              "bytes": 8897,
+              "sha256": "91dcaf5ba5cd12f56f8b5a19bb0100f2ed15283a12d9ae466889836a0521553c"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "pricing-table",
+          "files": [
+            {
+              "path": "components/agentcn/pricing-table.tsx",
+              "bytes": 12210,
+              "sha256": "b53bae59b238d6513f09a5c44affb11a5ad9f426206a8b521476436e22fd0776"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        }
+      ],
+      "css": {
+        "path": "styles/agentcn.css",
+        "bytes": 15303,
+        "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+      },
+      "config": {
+        "bytes": 264,
+        "sha256": "9262d9d73054d5980747a88d0fe0ea15d5e84dd6a70cd4239e33aec3f046448d",
+        "gzipBytes": 180,
+        "dataBase64": "H4sIAAAAAAACA0WNTQ6CMBCF95yCNC61jVtuM7QD1LQzpDPFEOPdDSC6fN/7ezVtay7iJ8xgutZMqrN0zhV42jHqVPsqWDyTIqn1nB2kBQovMSVIPYCDEUk93Wp0GSKd2h6b9iFM5rq9LFgkMpmuve/ac56ZkFS24786F46Wl90WXRP+LLvR3Z4hoSpukYELih64QIh1LxauFDAcOCBJ1PX7N3BR6BOa5t18ACAx+JMIAQAA",
+        "complete": true
+      },
+      "unrelatedFile": {
+        "bytes": 33,
+        "sha256": "d848525c930e0ef0db1dfbcd70da223670589081f450489b7695857b7f43a5af",
+        "preserved": true
+      }
+    },
+    {
+      "mode": "pnpm-dlx",
+      "archiveInvocation": true,
+      "publicPackageNameInstall": false,
+      "targets": [
+        {
+          "name": "agent-run",
+          "files": [
+            {
+              "path": "components/agentcn/agent-run.tsx",
+              "bytes": 2744,
+              "sha256": "6d5d2610aed6886a087eee2510f1561db66253264b66b2f0c76b3e8a5f7e5924"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "tool-call",
+          "files": [
+            {
+              "path": "components/agentcn/tool-call.tsx",
+              "bytes": 1657,
+              "sha256": "265eafd574606a5aeccd2268a54af09d37e073c5ae12647ea7764bd3800fb7b2"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "approval-request",
+          "files": [
+            {
+              "path": "components/agentcn/approval-request.tsx",
+              "bytes": 2250,
+              "sha256": "c314ff32feab510df8d70a60eec25264c074ce78593e9d5f26ab49cdf1469f83"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "plan-review",
+          "files": [
+            {
+              "path": "components/agentcn/plan-review.tsx",
+              "bytes": 2390,
+              "sha256": "e196b2b49f4e508985bdc9fb4d171a280d987471f6af39c993a9aed016ef64da"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "checkpoint",
+          "files": [
+            {
+              "path": "components/agentcn/checkpoint.tsx",
+              "bytes": 1898,
+              "sha256": "d2d786105a270bc4add23279c340d3648c940b70faa65e5fa13bf210ddb4ad63"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "context-window",
+          "files": [
+            {
+              "path": "components/agentcn/context-window.tsx",
+              "bytes": 2194,
+              "sha256": "fac82297684918e44d75b56b421ed85c024f2a2efdff6f546bab110102df1cda"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "memory-panel",
+          "files": [
+            {
+              "path": "components/agentcn/memory-panel.tsx",
+              "bytes": 1877,
+              "sha256": "3ebbf942798659806dcdaa3e9d6b63b3209d58576173417d61e53c08d59da78e"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "source-stack",
+          "files": [
+            {
+              "path": "components/agentcn/source-stack.tsx",
+              "bytes": 1590,
+              "sha256": "a4c88373ac8552537900612549b7c0cdf66e480610af37c1a468eabab6d1253e"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "agent-handoff",
+          "files": [
+            {
+              "path": "components/agentcn/agent-handoff.tsx",
+              "bytes": 1917,
+              "sha256": "2059904a55976fc7dfc8b143371f0cab7a90c6a0dc24fd7bf717d318a49bc0a9"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "model-router",
+          "files": [
+            {
+              "path": "components/agentcn/model-router.tsx",
+              "bytes": 1657,
+              "sha256": "41859a8ce85f44620f71b1efb74de27cfafb0df1d348e2bbfa9ed3cc533eeee3"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "prompt-composer",
+          "files": [
+            {
+              "path": "components/agentcn/prompt-composer.tsx",
+              "bytes": 2550,
+              "sha256": "780b7a8286d7761c26964ce12113b13d8ffdc4de400fb95fa12ed851af36442f"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "branch-picker",
+          "files": [
+            {
+              "path": "components/agentcn/branch-picker.tsx",
+              "bytes": 1372,
+              "sha256": "9281f0a38586c67c361516f231c75d409229e1e1c87c782aeb8ac42db2b3539f"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "artifact-panel",
+          "files": [
+            {
+              "path": "components/agentcn/artifact-panel.tsx",
+              "bytes": 1716,
+              "sha256": "ff56496b367ea8643b5c190da0638ed5aad7d612d37e193deca812d9ffe6b48a"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "stream-status",
+          "files": [
+            {
+              "path": "components/agentcn/stream-status.tsx",
+              "bytes": 1037,
+              "sha256": "86ec17ef4cd51d65b08dfd3d8151af7eae59fc0063de2e8239d91e5e43c36ee2"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "token-usage",
+          "files": [
+            {
+              "path": "components/agentcn/token-usage.tsx",
+              "bytes": 1575,
+              "sha256": "d9a203702a703b7d5a97a32bb743f514d6e1b51b86049ed9dd9ba7146f53e620"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "eval-scorecard",
+          "files": [
+            {
+              "path": "components/agentcn/eval-scorecard.tsx",
+              "bytes": 1896,
+              "sha256": "b600b00a477a2b3865824f57d894b46c9c0921096056439b667bc74f6174ce06"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "multi-input",
+          "files": [
+            {
+              "path": "components/agentcn/multi-input.tsx",
+              "bytes": 5163,
+              "sha256": "08a35409027471fc8709007bc8f5ba99c060c9fee46bbc0898a509dcc09e9e52"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "member-picker",
+          "files": [
+            {
+              "path": "components/agentcn/member-picker.tsx",
+              "bytes": 5071,
+              "sha256": "649b8e41f9397e2a9c068016ccf9d29d802c97e5fc7a17c6c49210972a8e009c"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "creatable-select",
+          "files": [
+            {
+              "path": "components/agentcn/creatable-select.tsx",
+              "bytes": 8897,
+              "sha256": "91dcaf5ba5cd12f56f8b5a19bb0100f2ed15283a12d9ae466889836a0521553c"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        },
+        {
+          "name": "pricing-table",
+          "files": [
+            {
+              "path": "components/agentcn/pricing-table.tsx",
+              "bytes": 12210,
+              "sha256": "b53bae59b238d6513f09a5c44affb11a5ad9f426206a8b521476436e22fd0776"
+            },
+            {
+              "path": "components/agentcn/_shared.tsx",
+              "bytes": 2641,
+              "sha256": "0fd24039359cbc8ea5f4730976a3a6b8373f1b36804137f16ea818757129be07"
+            },
+            {
+              "path": "styles/agentcn.css",
+              "bytes": 15303,
+              "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+            }
+          ]
+        }
+      ],
+      "css": {
+        "path": "styles/agentcn.css",
+        "bytes": 15303,
+        "sha256": "c7168a9cce4f2fad1fe9da061f1e0a355174052db9b67adc67913c60050f9c3c"
+      },
+      "config": {
+        "bytes": 264,
+        "sha256": "9262d9d73054d5980747a88d0fe0ea15d5e84dd6a70cd4239e33aec3f046448d",
+        "gzipBytes": 180,
+        "dataBase64": "H4sIAAAAAAACA0WNTQ6CMBCF95yCNC61jVtuM7QD1LQzpDPFEOPdDSC6fN/7ezVtay7iJ8xgutZMqrN0zhV42jHqVPsqWDyTIqn1nB2kBQovMSVIPYCDEUk93Wp0GSKd2h6b9iFM5rq9LFgkMpmuve/ac56ZkFS24786F46Wl90WXRP+LLvR3Z4hoSpukYELih64QIh1LxauFDAcOCBJ1PX7N3BR6BOa5t18ACAx+JMIAQAA",
+        "complete": true
+      },
+      "unrelatedFile": {
+        "bytes": 33,
+        "sha256": "d848525c930e0ef0db1dfbcd70da223670589081f450489b7695857b7f43a5af",
+        "preserved": true
+      }
+    }
+  ],
+  "commands": [
+    {
+      "label": "npm-version",
+      "executable": "npm",
+      "args": [
+        "--version"
+      ],
+      "startedAt": "2026-11-07T21:31:13.987Z",
+      "finishedAt": "2026-11-07T21:31:14.079Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 8,
+        "sha256": "acb90e420303a6e949fec90f74faf64cc372894b3964e310a261689b898f41b0",
+        "gzipBytes": 28,
+        "dataBase64": "H4sIAAAAAAACAzM01DO01DPkAgBx5c4aCAAAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "pnpm-version",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agentcn-package-5uyp8J/tools/node_modules/pnpm/bin/pnpm.cjs",
+        "--version"
+      ],
+      "startedAt": "2026-11-07T21:31:14.080Z",
+      "finishedAt": "2026-11-07T21:31:14.367Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 8,
+        "sha256": "4231fa72abcb210dd8a5bee4d28d4a2b439ef93e67bb7959880349642f82ba91",
+        "gzipBytes": 28,
+        "dataBase64": "H4sIAAAAAAACAzM00DO00DPmAgAi6zM2CAAAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react18-install",
+      "executable": "npm",
+      "args": [
+        "install",
+        "--ignore-scripts",
+        "--omit=optional",
+        "--no-audit",
+        "--no-fund",
+        "--registry=https://registry.npmjs.org/"
+      ],
+      "startedAt": "2026-11-07T21:31:14.369Z",
+      "finishedAt": "2026-11-07T21:31:17.770Z",
+      "timeoutMs": 90000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 25,
+        "sha256": "e441bfcbb4e4602b6b672db43d435e6dcc0abe7dd3dbd353aa35c9bb63c48a88",
+        "gzipBytes": 45,
+        "dataBase64": "H4sIAAAAAAACA+NKTElJTVEwNVcoSEzOTkxPLVbIzFMwLuYCAGKwCOoZAAAA",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react18-installed-tree",
+      "executable": "npm",
+      "args": [
+        "ls",
+        "--all",
+        "--json"
+      ],
+      "startedAt": "2026-11-07T21:31:17.773Z",
+      "finishedAt": "2026-11-07T21:31:18.069Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 14875,
+        "sha256": "f040432eb208ef2d10aec9e49eae551bffd75ed671c54a51871fc1ced10c1546",
+        "gzipBytes": 1877,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react18-exports-ssr",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "consumer-exports.mjs"
+      ],
+      "startedAt": "2026-11-07T21:31:18.072Z",
+      "finishedAt": "2026-11-07T21:31:18.174Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 4136,
+        "sha256": "9e4cb4a78ba67cf5aa6f0caf057a0150dedb6c5b896725c7c64f139fa6ee53e7",
+        "gzipBytes": 1751,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 558,
+        "sha256": "046e599e0784c79a0fdbe656159d5fac86c6adbee423ceefa3d9362f09334562",
+        "gzipBytes": 370,
+        "dataBase64": "H4sIAAAAAAACA2WQQWvcQAyF7/kVujWFXQ+lpIQ9FUoPDb0lpccgzzzbkx1LZqTxZv998W5SCr1KT3rfe7+5SpbxQM3wk8/a/PswIDolhZGoT1lGUiGfQIa6ou6oR+RmoOxGuMoji6hTD4JETUiUxfWfK6qQhIr6wUibL81p0Dqzd/Q0ZaNTLoUKOJErMc3ZZvY4UQ8/AVf/LNkzlx2Jyn46p8qORL9+EEt6E/jmss06elLiVfO2ybb7L6BN2koilXLesJtdmCnqvKhA3Mgn9jdswmsszfKKcn5vI5YM8Y4eAZrcFzuEUMHRX6zTOoaS5RiaoVxcrz3tzeqWe7OZVWjIr7DuhoiInb5VsHNf8IiyId4OueAQQph0RqhNBDWctB7Ds2NeAo8Qj7JfOB55xP6unZf7hxBVrM2odsX5dB9EE55nTa3AwlcuK1ddcylceua/b1oOKZuH+I6xtwtH92KHL4fPdx9v/gCpZhhQLgIAAA==",
+        "complete": true
+      }
+    },
+    {
+      "label": "react18-dom",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "consumer-dom.mjs"
+      ],
+      "startedAt": "2026-11-07T21:31:18.175Z",
+      "finishedAt": "2026-11-07T21:31:18.800Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 827,
+        "sha256": "4aceb7c7fc58b5768c9cc7d2abe7e9650216f15321d118b45eaea9ac3574cb48",
+        "gzipBytes": 446,
+        "dataBase64": "H4sIAAAAAAACA43STWsbMRAG4Ht/xTJnOU1CD2VLD8Y2JTRxgp30UkIYa8b2xNJo0YeDMf7vZXfr4tJAfRTSjJ55peG3yfRxNH0Z3U/nT3eT2ctsMn+6ffy6h2TX7PEHxyRBob4y0MSwFMdQw9Xni+uLSzBAgi6soAYseR0iU/WaKPgqNKwfrQuJq7QW/6XSUClm2XLlA6GTvKusQ/FgwGLiBPXPPQhBDaIpo3NMA19cloFoUzIYSBlzSVBDgykxgYGwSBy3mDvfHtBuNLw5phXTkCgNlWbswxZdgvraAPsm72b8yjYzQZ1jYQNOvOSh0lgSLhzTfdfzuH84mH9V7BccB43YDcdzXDZojqGtvetKb8bttLCAZwNrIWKds2PbHn+IfHp9m2/PGirdttL/82xkzG3NIHVdzxK2NRJ0hM4t0G76vGIXlQT9zk0eR1zmoyqo242CpuI5zkvTOGG6GfdTtLa+IRO8B2yiWNHVoEOeo4u8FX5rb2gPxdB9mVPoEsWVyN1757j7OyMDtsTImh8c6ow9ijId8aM/TwM1LCMzHA7PBnwomhPUnwwUPVn8FvbZf/gFoWkPPTsDAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react18-typescript",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agentcn-package-5uyp8J/consumers/react18/node_modules/typescript/bin/tsc",
+        "--project",
+        "tsconfig.json"
+      ],
+      "startedAt": "2026-11-07T21:31:18.800Z",
+      "finishedAt": "2026-11-07T21:31:20.860Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react19-install",
+      "executable": "npm",
+      "args": [
+        "install",
+        "--ignore-scripts",
+        "--omit=optional",
+        "--no-audit",
+        "--no-fund",
+        "--registry=https://registry.npmjs.org/"
+      ],
+      "startedAt": "2026-11-07T21:31:20.861Z",
+      "finishedAt": "2026-11-07T21:31:22.594Z",
+      "timeoutMs": 90000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 25,
+        "sha256": "54733397a09314b23439867fd7994a462a01b8a4b8280d9efd8d773e58d7bdd9",
+        "gzipBytes": 45,
+        "dataBase64": "H4sIAAAAAAACA+NKTElJTVEwNVEoSEzOTkxPLVbIzFMwKuYCANGBULgZAAAA",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react19-installed-tree",
+      "executable": "npm",
+      "args": [
+        "ls",
+        "--all",
+        "--json"
+      ],
+      "startedAt": "2026-11-07T21:31:22.597Z",
+      "finishedAt": "2026-11-07T21:31:22.888Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 14035,
+        "sha256": "ec27ef148bb3d6de7f7d9e603b006fd443694826e8e0590e8bda287bd36b451e",
+        "gzipBytes": 1787,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react19-exports-ssr",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "consumer-exports.mjs"
+      ],
+      "startedAt": "2026-11-07T21:31:22.891Z",
+      "finishedAt": "2026-11-07T21:31:23.000Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 4136,
+        "sha256": "7d47fe244361daf746f4db5aef7f5843eaaf63b78a81ef68bcad2f6f06043e29",
+        "gzipBytes": 1748,
+        "dataBase64": "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",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react19-dom",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "consumer-dom.mjs"
+      ],
+      "startedAt": "2026-11-07T21:31:23.001Z",
+      "finishedAt": "2026-11-07T21:31:23.643Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 827,
+        "sha256": "e914edf6a50e6aa6332bef52fe17bc76b24264c8d2387b210ec10e318edea2e6",
+        "gzipBytes": 445,
+        "dataBase64": "H4sIAAAAAAACA43SwWobMRAG4HufYpmznOK2l27pwdimhCZOsJNeSgiyZmxPLI2WkeRgjN+97G5cXFqoj0Ka0Te/NPo2nT2MZ8/ju9ni8XY6f55PF483D18PkNyGgv1BmjgK1EMDjcYVe4Iahp+vPl4NwQCy9XENNdiSN1EJq5eEMVSxIXnvfExUpQ2HL5XESmzmHVUhovWc95XzlgMYcDZRgvrnARihBpaUrfeEg1B85gFLUzIYSNnmkqCGxqZECAbiMpHubO58B7BuK/HVE64JR4hpJDinEHfWJ6g/GKDQ5P2cXshlQqizFjLgOXAeCU442aUnvOt6nvaPR/O3isKSdNCw25Je4nJRssa29rYrvZ6008ISngxsGJFkQZ5ce/xe6fz6Nt+eNRK8aaX/5zklm9uaQeq6XiRsazjK2Hq/tG7b56VdVBzlOzV5onaVT6oofj+OkkogXZSm8Ux4PemnaG19Q0L4F7BRdizrQYe8RKe0Y3ptb2gPaey+zDl0ZdkXpe69s+7/zMiAK6ok+d5bmVOwLIQn/Pj300ANKyWC4/HJQIhFcoL6k4EiZ4s3YZ/9u1+MvwpLOwMAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "react19-typescript",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agentcn-package-5uyp8J/consumers/react19/node_modules/typescript/bin/tsc",
+        "--project",
+        "tsconfig.json"
+      ],
+      "startedAt": "2026-11-07T21:31:23.644Z",
+      "finishedAt": "2026-11-07T21:31:25.440Z",
+      "timeoutMs": 30000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npm-exec-help",
+      "executable": "npm",
+      "args": [
+        "exec",
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-5uyp8J/archives/agentcn-ui-0.2.0.tgz",
+        "--",
+        "agentcn-ui",
+        "--help"
+      ],
+      "startedAt": "2026-11-07T21:31:25.441Z",
+      "finishedAt": "2026-11-07T21:31:25.865Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 1251,
+        "sha256": "72635c74b00513c23a9c941d38ea391b97030a266654a915aded09730ff37108",
+        "gzipBytes": 565,
+        "dataBase64": "H4sIAAAAAAACA3VUQW7bMBC86xVzTA9ygh6DIGha9JBLG8ToAzbUymJCkexyZVmAD31EX9iXFKQdy0BkHQRJyxns7MyKNuzV+HqwuFl9Xt3g35+/MKGPwbPXhDYIHh5rT2q3DIoxVRVgvVVcur4F39rNIAzy4J1Nav0Gz0xGcY0fvNPVa8pUFUBNgztPPa9Wq3vsUdfk3EwUp7kXpDCIyaQNkk6OE6zXgCkMcmQzwqSMu8YKGw0y3c9drQ21bXAN6LwFjFa73OfDI8Ygb60LI6JwYq0AZ9NFmV8ljImhHZ+1aEjJhU1V/Yxqg0+3FVDXZmyWe8KThFc2ilMRVw23NDi9hRlEMuep9qmQRXKsWWSe2jlXtoqTYg/r38q9sZuAPbh/YSlYocYOaQGK1JFE7CFh8A032COFVguoYZ+sTguorDubus9PbRClF8cHxXOA7iJpd38WjvdZnWnOcbo+mHcQadIH4Dt+vUZrHSNXF5AH75YkmhCtC7nbfITEdNgjRBYqVuHqnGbidMH3X4lx9CiV9IRBcxBZyJQdiRL6qOkwO5lqGfwCzZNYr4iOvOcGpiO/4ZlvFJuXpnCELUt+5w8czxwdmZw/3zpryprl2SRQqywQ3loeC0nHLi7rWXdhRC6Xc1uWZIO/dO5YrqrvO+qj4xJwH3eg02/kiyPNMczOVED0sUfjlk7k3S9fy4goRglbcrXw74GTXiQ+Lnk/1aU2e36ydV4S69+q6j84pndH4wQAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npm-exec-list",
+      "executable": "npm",
+      "args": [
+        "exec",
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-5uyp8J/archives/agentcn-ui-0.2.0.tgz",
+        "--",
+        "agentcn-ui",
+        "list"
+      ],
+      "startedAt": "2026-11-07T21:31:25.865Z",
+      "finishedAt": "2026-11-07T21:31:26.262Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 2333,
+        "sha256": "984ecdc51cee94d7c7cab87af472627f1847dd5d1f07836264fd3d792cbbe808",
+        "gzipBytes": 993,
+        "dataBase64": "H4sIAAAAAAACA4VVS44rNwzc+xRcZeX2HR6MIHmLIEEmOQBbTXcLVosKSflz+0Cftj0PE6dXM5JVxU+xiDNFGyRHePl+F7eQmqB53i6+QfAXArqRy/XY/ErBR4KrtwUSZqU9CGleaQ8Oo6MQKsAeME6gRgmMAq1kcj/sjDkMDkP4P+LvURM5wzEQ+JiyacXjbOXv/UtEamikjU7I8YWkvipUQCIsethhSsIXDIPQP5nUKsevecUIjqMJbwH9SRdPV6AbOgN0jcFxKll6PTeahPfAOMFIJxaCBu7jDFjq2p/pYZcCxkEa4uP7ivWDAjn7lBSllrHjePKyAkJB2yjvnKWzqaGYwpXlfNi5hdw5sY8G7xl7feHkA4FbMM6kvYRqNSmIuNIEDcxHwNgJJcfDrqDRzYarjxNv2R3bIfwEK60s93L2d5xI1Aq08ZkiYAjsukSElORCW1/3W8YVJQmp5hKKAcIcirgOu4Y8JIz0FNFXxL/hmSCRqFerXanB9/uLVz8G2gOaiR9zFdqmoZUv5d/DTjmLo0EN3fkt1zczdAvQxU8UXdEezBRJ0GgCjHol0TYxdHMkqau54YNQoEvLrgY5LBgnPp3ezUfX6USB5nY+kl2JepMavi30qKYTVi0atQUNRs5xwjKRK08UBuFsJG8n8rgwa9FFfQHjHRwmHH3wdt9DnYCJpNUQL+hDvzvskvCabHC8JtaN5cjxQqKvDPBtE2mgCQz1DI83tXio9+hA87h61SogXVjMVUdodiOE6ycfOuxGweiWIXl3fqb4Ff3PtxSq9IORRLTifAltUbBFOM8LYAnw+a4ExdkgcK1sHcoUsDZSzJ/Q2Seh/tI08UIJ8EeZgTrGJfQil/6yC6awlQcBRwqtrXRLwTtvMPE1ViN6OE5DKYq1rPCG9sgxkmtTOD/u97XggZ4G7qORSE4vVtviasPcC5OyFW8/Uxyy4kwv3j6WCe9S6Gd/SZmn6ur7x+Q7dAt1j9DNCLQIeUYftVhA2Vdjnmayw46KmatjIYcyvSH7WPgK5dcZNzMXeqLaIqQLh6mnpVjyb0aQY5U1xe48OZgfatjP/L633fTpOxYBFzuffFtghrMCS1MrlFjoYQe9lThNvvZw3w0otBoEv3rTansjyQ8i/or8g1Dc0qZh2ypereizYehDtkUr9SIR16QVTkJlwaw15MPOlV+UFIaO9Z8pd3OITzZummF5JBnubXZLLyNdm6ThxNLXWUrFOCsnFdfwzsd5aCXcpiVg/IEajrwmFKr7cdth1Rw5Ul1cMAleSbbdWTzGx1xirD2o5C2/6hf/AgdkMzodCQAA",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npm-exec-init",
+      "executable": "npm",
+      "args": [
+        "exec",
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-5uyp8J/archives/agentcn-ui-0.2.0.tgz",
+        "--",
+        "agentcn-ui",
+        "init",
+        "--yes"
+      ],
+      "startedAt": "2026-11-07T21:31:26.263Z",
+      "finishedAt": "2026-11-07T21:31:26.661Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 143,
+        "sha256": "08a88b00ccf9f1709dd3fa9bbdc37bb7fbeb2526e77debfea7b0177e44762073",
+        "gzipBytes": 115,
+        "dataBase64": "H4sIAAAAAAACA22NywnDMBBE76piCojlu4tID0JabBlnN+wHou5DMMaXzG3ePJiqVJzwS1mJvXLeTTjVm5uPg2y+5mqW0pM+vqC/3qL+R0BnDAmFijiOMiT8Ad+IocHX0xQdpbWzThqc0xdIqZOMjwAAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npm-exec-all20",
+      "executable": "npm",
+      "args": [
+        "exec",
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-5uyp8J/archives/agentcn-ui-0.2.0.tgz",
+        "--",
+        "agentcn-ui",
+        "add",
+        "--all"
+      ],
+      "startedAt": "2026-11-07T21:31:26.661Z",
+      "finishedAt": "2026-11-07T21:31:27.091Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 1156,
+        "sha256": "2ee17efb8dcb5ff6d0a64d256653faf09fc8744bbc91e1a76398bc105f011e53",
+        "gzipBytes": 338,
+        "dataBase64": "H4sIAAAAAAACA42UMZIUMQxF8zmFcspNsRFXICHgApRG/WfaNW7JyPLuzu2pbigiCuTEgd6X5W/J4uAAHUts76bQGB/5Dg3RX3vxqUuM94v8k/0+NnasJzlVNtY7VqIRz4Y/1CJj/CdPmLUi3FriTO7d7ZVbcfyYGJGQ9MZaHK8VbwlaNsijW9VMajENvEd5q7paJvuO3fxZOisytx02XVBGsDwy5pyPt7GudrtlqrEVrbjNgGeMdNt7lDMyUoqrs8pWepVHimePemOJvEHh4P0wKOZI8GEPaJmD70jQOBptiDmEfc0YOlvUUrXPyDXDFZ5354zytaEMNEiq971K1Xs5ZSd/+bJ38/jLlJKpgG5uOz1tOrlZUOOnzSDz34INiIW+gSXo0+fl5QPVQccs1uMnoK9GPjXqDlrRoStUKgaxg6qO4NawLpefalwH+YQEAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npm-exec-version",
+      "executable": "npm",
+      "args": [
+        "exec",
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-5uyp8J/archives/agentcn-ui-0.2.0.tgz",
+        "--",
+        "agentcn-ui",
+        "--version"
+      ],
+      "startedAt": "2026-11-07T21:31:27.091Z",
+      "finishedAt": "2026-11-07T21:31:27.491Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 6,
+        "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9",
+        "gzipBytes": 26,
+        "dataBase64": "H4sIAAAAAAACAzPQM9Iz4AIARrMrnAYAAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npx-init",
+      "executable": "npx",
+      "args": [
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-5uyp8J/archives/agentcn-ui-0.2.0.tgz",
+        "agentcn-ui",
+        "init",
+        "--yes"
+      ],
+      "startedAt": "2026-11-07T21:31:27.512Z",
+      "finishedAt": "2026-11-07T21:31:27.917Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 143,
+        "sha256": "08a88b00ccf9f1709dd3fa9bbdc37bb7fbeb2526e77debfea7b0177e44762073",
+        "gzipBytes": 115,
+        "dataBase64": "H4sIAAAAAAACA22NywnDMBBE76piCojlu4tID0JabBlnN+wHou5DMMaXzG3ePJiqVJzwS1mJvXLeTTjVm5uPg2y+5mqW0pM+vqC/3qL+R0BnDAmFijiOMiT8Ad+IocHX0xQdpbWzThqc0xdIqZOMjwAAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npx-all20",
+      "executable": "npx",
+      "args": [
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-5uyp8J/archives/agentcn-ui-0.2.0.tgz",
+        "agentcn-ui",
+        "add",
+        "--all"
+      ],
+      "startedAt": "2026-11-07T21:31:27.917Z",
+      "finishedAt": "2026-11-07T21:31:28.332Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 1156,
+        "sha256": "2ee17efb8dcb5ff6d0a64d256653faf09fc8744bbc91e1a76398bc105f011e53",
+        "gzipBytes": 338,
+        "dataBase64": "H4sIAAAAAAACA42UMZIUMQxF8zmFcspNsRFXICHgApRG/WfaNW7JyPLuzu2pbigiCuTEgd6X5W/J4uAAHUts76bQGB/5Dg3RX3vxqUuM94v8k/0+NnasJzlVNtY7VqIRz4Y/1CJj/CdPmLUi3FriTO7d7ZVbcfyYGJGQ9MZaHK8VbwlaNsijW9VMajENvEd5q7paJvuO3fxZOisytx02XVBGsDwy5pyPt7GudrtlqrEVrbjNgGeMdNt7lDMyUoqrs8pWepVHimePemOJvEHh4P0wKOZI8GEPaJmD70jQOBptiDmEfc0YOlvUUrXPyDXDFZ5354zytaEMNEiq971K1Xs5ZSd/+bJ38/jLlJKpgG5uOz1tOrlZUOOnzSDz34INiIW+gSXo0+fl5QPVQccs1uMnoK9GPjXqDlrRoStUKgaxg6qO4NawLpefalwH+YQEAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "npx-version",
+      "executable": "npx",
+      "args": [
+        "--yes",
+        "--package=/home/runner/work/_temp/agentcn-package-5uyp8J/archives/agentcn-ui-0.2.0.tgz",
+        "agentcn-ui",
+        "--version"
+      ],
+      "startedAt": "2026-11-07T21:31:28.333Z",
+      "finishedAt": "2026-11-07T21:31:28.733Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 6,
+        "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9",
+        "gzipBytes": 26,
+        "dataBase64": "H4sIAAAAAAACAzPQM9Iz4AIARrMrnAYAAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "pnpm-dlx-init",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agentcn-package-5uyp8J/tools/node_modules/pnpm/bin/pnpm.cjs",
+        "--config.store-dir=/home/runner/work/_temp/agentcn-package-5uyp8J/consumers/pnpm-store",
+        "dlx",
+        "/home/runner/work/_temp/agentcn-package-5uyp8J/archives/agentcn-ui-0.2.0.tgz",
+        "init",
+        "--yes"
+      ],
+      "startedAt": "2026-11-07T21:31:28.752Z",
+      "finishedAt": "2026-11-07T21:31:29.278Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 143,
+        "sha256": "08a88b00ccf9f1709dd3fa9bbdc37bb7fbeb2526e77debfea7b0177e44762073",
+        "gzipBytes": 115,
+        "dataBase64": "H4sIAAAAAAACA22NywnDMBBE76piCojlu4tID0JabBlnN+wHou5DMMaXzG3ePJiqVJzwS1mJvXLeTTjVm5uPg2y+5mqW0pM+vqC/3qL+R0BnDAmFijiOMiT8Ad+IocHX0xQdpbWzThqc0xdIqZOMjwAAAA==",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 129,
+        "sha256": "74b3afc56f8a53f1ef6b1248429a619475a2c64fe672720e5a5a1f537707f853",
+        "gzipBytes": 95,
+        "dataBase64": "H4sIAAAAAAACAwsoyk8vSi0utlIoSi3OzylLTVEw0FEoSi0thrBS8svzcvITU1JTFAx1FBJTQAwDroDE5OzE9NRiKwVtQy5trgBMQwwJGWIIEs5L5QIAtKgaYoEAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "pnpm-dlx-all20",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agentcn-package-5uyp8J/tools/node_modules/pnpm/bin/pnpm.cjs",
+        "--config.store-dir=/home/runner/work/_temp/agentcn-package-5uyp8J/consumers/pnpm-store",
+        "dlx",
+        "/home/runner/work/_temp/agentcn-package-5uyp8J/archives/agentcn-ui-0.2.0.tgz",
+        "add",
+        "--all"
+      ],
+      "startedAt": "2026-11-07T21:31:29.278Z",
+      "finishedAt": "2026-11-07T21:31:29.662Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 1156,
+        "sha256": "2ee17efb8dcb5ff6d0a64d256653faf09fc8744bbc91e1a76398bc105f011e53",
+        "gzipBytes": 338,
+        "dataBase64": "H4sIAAAAAAACA42UMZIUMQxF8zmFcspNsRFXICHgApRG/WfaNW7JyPLuzu2pbigiCuTEgd6X5W/J4uAAHUts76bQGB/5Dg3RX3vxqUuM94v8k/0+NnasJzlVNtY7VqIRz4Y/1CJj/CdPmLUi3FriTO7d7ZVbcfyYGJGQ9MZaHK8VbwlaNsijW9VMajENvEd5q7paJvuO3fxZOisytx02XVBGsDwy5pyPt7GudrtlqrEVrbjNgGeMdNt7lDMyUoqrs8pWepVHimePemOJvEHh4P0wKOZI8GEPaJmD70jQOBptiDmEfc0YOlvUUrXPyDXDFZ5354zytaEMNEiq971K1Xs5ZSd/+bJ38/jLlJKpgG5uOz1tOrlZUOOnzSDz34INiIW+gSXo0+fl5QPVQccs1uMnoK9GPjXqDlrRoStUKgaxg6qO4NawLpefalwH+YQEAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    },
+    {
+      "label": "pnpm-dlx-version",
+      "executable": "/opt/hostedtoolcache/node/24.22.2/x64/bin/node",
+      "args": [
+        "/home/runner/work/_temp/agentcn-package-5uyp8J/tools/node_modules/pnpm/bin/pnpm.cjs",
+        "--config.store-dir=/home/runner/work/_temp/agentcn-package-5uyp8J/consumers/pnpm-store",
+        "dlx",
+        "/home/runner/work/_temp/agentcn-package-5uyp8J/archives/agentcn-ui-0.2.0.tgz",
+        "--version"
+      ],
+      "startedAt": "2026-11-07T21:31:29.662Z",
+      "finishedAt": "2026-11-07T21:31:30.011Z",
+      "timeoutMs": 45000,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "reaped": true,
+      "complete": true,
+      "stdout": {
+        "bytes": 6,
+        "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9",
+        "gzipBytes": 26,
+        "dataBase64": "H4sIAAAAAAACAzPQM9Iz4AIARrMrnAYAAAA=",
+        "complete": true
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "gzipBytes": 20,
+        "dataBase64": "H4sIAAAAAAACAwMAAAAAAAAAAAA=",
+        "complete": true
+      }
+    }
+  ],
+  "passed": true,
+  "cleanup": {
+    "directChildrenReaped": true,
+    "allCommandCapturesComplete": true,
+    "childSignalsAbsent": true,
+    "workRemoval": "owned-by-supervisor"
+  },
+  "proofLimits": [
+    "Local npm-generated archive installs are not public registry package-name installs or a published 0.2.0 release.",
+    "Only the four new components receive SSR and controlled jsdom interactions; all twenty receive root/subpath/declaration/type/source checks.",
+    "The jsdom dialog shim does not prove native browser modality, focus, touch, IME or accessibility. The closed 42-case and eight-browser packets are not invoked.",
+    "Child stdout/stderr and consumer lock/tree originals are retained; the outer supervisor owns process-group and final scratch-removal verification."
+  ],
+  "finishedAt": "2026-11-07T21:31:30.030Z"
+}

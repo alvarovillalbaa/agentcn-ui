@@ -31,14 +31,14 @@ adds an explicitly disabled MemberPicker example using the existing prop.
 
 The additive **0.2.0 candidate** aligns both public packages and prepares
 twenty-component archives. Its [archive and installed-consumer checks](docs/proposals/package-release-checks.md)
-are a separate packet for React 18/19 and the packaged CLI. The
-[second attempt](docs/results/2026/11-07/package-release-attempt-2.md) passed all
-seventeen consumer cases with byte-identical archives, including pnpm.
-Cleanup remained unproved; a corrected packet must pass before release. The
-[first failed attempt](docs/results/2026/11-07/package-release-attempt-1.md)
-remains preserved.
+passed all **seventeen cases**, including React 18/19 strict TypeScript,
+installed exports and packaged npm exec/npx/pnpm source installation.
+[Reviewed archives are published on GitHub](https://github.com/alvarovillalbaa/agentcn-ui/releases/tag/v0.2.0-candidate.1).
+The [accepted receipt](docs/results/2026/11-07/package-release-checks.md)
+records verified cleanup and preserves both failed attempts. The temporary
+workflow is retired. Public npm 0.2.0 publication remains pending.
 Version alignment does not publish npm packages. The four source-only notices
-remain until public archive integrity and fresh public consumers are verified.
+remain until npm registry integrity and fresh public package-name consumers are verified.
 
 ## Components
 

@@ -5,18 +5,20 @@ Last updated: 2026-11-07
 Recorded public release: 0.1.0, covering the original sixteen components. See
 [public release evidence](../results/2026/10-15/public-release.md) for its checks
 and limits. The website is hosted on Vercel, Clous Team (Pro). The prepared
-additive **0.2.0 candidate** includes all twenty source components; it is not
-published merely because manifests and CLI literals are aligned. Current npm
+additive **0.2.0 candidate** includes all twenty source components and has
+[accepted archive/installed-consumer evidence](../results/2026/11-07/package-release-checks.md).
+It is not published to npm merely because those checks passed. Current npm
 identity, access and exact-version availability remain unverified in the
 [readiness observation](../results/2026/11-05/release-readiness.md).
 
 The [0.2.0 archive/consumer proposal](../proposals/package-release-checks.md)
-defines the next bounded CI packet. Preparation changes only the two public
+records the completed bounded CI packet. Preparation changed only the two public
 versions, matching workspace lock metadata, website library dependency and CLI
 help/version literals. Preserve private app versions and configuration schema
 version 1. Keep MultiInput, MemberPicker, CreatableSelect and PricingTable marked
 source-only until actual public publication, integrity and consumers pass.
-This procedure describes work to perform, not proof that it has been performed.
+The accepted archive packet does not complete the later authenticated npm,
+public-registry consumer or website publication steps below.
 
 1. Use a clean checkout and Node.js 22+. Run `npm ci` against the committed lockfile. Keep registry dependencies and workspace links portable. Never commit node_modules or external local paths.
 2. For the 0.2.0 packet, follow the scoped proposal: build/generate only in the owned CI export and run the new archive/consumer fixture and static source guards. Do not run the closed `npm test` 42-case suite or eight-browser scope as part of version alignment. A website build or new browser acceptance requires its own scope; retain `git diff --check` for source edits.
@@ -27,6 +29,31 @@ This procedure describes work to perform, not proof that it has been performed.
 7. Vercel connects to `main` with Root Directory `apps/www`. `apps/www/vercel.json` installs and builds from the workspace root and serves the Next.js static export in `out`. Leave `NEXT_PUBLIC_BASE_PATH` unset for `/`. When authorized, push reviewed source; verify the exact Vercel commit, READY state, production alias, HTTP responses, and `npm run check:export` against a root-path export. Do not publish the old `gh-pages` branch. See [deployment evidence](../deployment.md).
 8. Verify the live home, gallery, docs, blocks, `/create`, and every `/r/<component>.json` endpoint. If claiming shadcn CLI interoperability, additionally validate against its current schemas and test a real shadcn install. The project has its own installer; registry JSON shape alone is not proof of third-party CLI compatibility.
 9. Replace release-pending notices only after npm and the site have been verified. Add the deployed homepage to package metadata and the repository About section. Tag the reviewed commit and create release notes after the release is confirmed.
+
+## Exact reviewed 0.2.0 archives
+
+GitHub candidate publication is separate from npm publication. The
+[`v0.2.0-candidate.1` prerelease](https://github.com/alvarovillalbaa/agentcn-ui/releases/tag/v0.2.0-candidate.1)
+is public; use a fresh directory to download the two reviewed assets. Verify
+both hashes before using an existing authenticated npm session with the required
+package permissions. These commands have not published npm 0.2.0:
+
+```sh
+set -eu
+curl --fail --location --proto '=https' --proto-redir '=https' --output alvarovillalbaa-agentcn-ui-0.2.0.tgz https://github.com/alvarovillalbaa/agentcn-ui/releases/download/v0.2.0-candidate.1/alvarovillalbaa-agentcn-ui-0.2.0.tgz
+curl --fail --location --proto '=https' --proto-redir '=https' --output agentcn-ui-0.2.0.tgz https://github.com/alvarovillalbaa/agentcn-ui/releases/download/v0.2.0-candidate.1/agentcn-ui-0.2.0.tgz
+shasum -a 256 -c <<'SHA256'
+81829d3bfc376339e1f48fc123ded93b471e7bd7c654e5c2afba1a17bf1c226d  alvarovillalbaa-agentcn-ui-0.2.0.tgz
+fcfee32999e0df538c265fbd199297d89da9f049b5ffd45720f78812f44c5491  agentcn-ui-0.2.0.tgz
+SHA256
+npm publish ./alvarovillalbaa-agentcn-ui-0.2.0.tgz --access public
+npm publish ./agentcn-ui-0.2.0.tgz --access public
+```
+
+Stop if either hash differs, authenticated access is unavailable or either exact
+version already exists. Never overwrite or rebuild these reviewed archives for
+publication. After publication, compare public registry integrity and perform
+fresh exact-version public consumers before removing source-only notices.
 
 The initial deployment was explicitly approved by the user. That initial
 release configured no custom CI workflow or custom domain; later focused
