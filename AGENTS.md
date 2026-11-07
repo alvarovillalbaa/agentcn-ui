@@ -1,6 +1,6 @@
 # Working on agentcn-ui
 
-Last updated: 2026-11-05
+Last updated: 2026-11-07
 
 - Read README.md and git status before changing anything. Preserve unrelated work.
 - Components live in packages/react/src; catalog.mjs owns names, presets, and palettes.
@@ -40,3 +40,19 @@ see `docs/results/2026/11-05/hosted-browser-checks.md`. Do not rerun closed scop
 merely because an earlier approval note is stale. Preserve the separately
 failed local source-check/legacy ignored-output observation; clean CI guards
 must remain strict. New npm/React 18 consumers and full-library proof stay open.
+
+## Twenty-component package preparation — 7 November 2026
+
+The owner's continued instruction to do all the work covers preparation of an
+additive 0.2.0 candidate: aligned public versions, reviewed React/CLI archives,
+clean installed React 18/19 consumers and packaged npm/npx/pnpm CLI execution.
+Use one temporary public Ubuntu workflow, capped at 20 minutes, with owned
+external storage. Keep the accepted 42 source cases and eight browser cases
+closed. Do not install, build or regenerate ignored output on the local host
+below Storage Guard's reserve.
+
+The candidate is not a public release. Keep the four source-only notices until
+exact public archive integrity and public installed consumers are verified.
+Current npm identity/access must be checked separately; a DNS failure proves
+neither missing authentication nor permission. Never move local npm credentials
+into public CI. No account, plan, model/provider or payment is part of this work.

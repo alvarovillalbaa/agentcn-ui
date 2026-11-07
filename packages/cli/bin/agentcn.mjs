@@ -13,7 +13,7 @@ import {
 } from "../lib/config.mjs";
 import { addComponents, writePlan } from "../lib/install.mjs";
 
-const help = `agentcn-ui 0.1.0 — components for AI-native apps
+const help = `agentcn-ui 0.2.0 — components for AI-native apps
 
   init                         Configure an existing React / Next.js app
   add <name...> | --all        Copy component source and styles into your app
@@ -47,7 +47,7 @@ async function main() {
     return;
   }
   if (raw.includes("--version")) {
-    console.log("0.1.0");
+    console.log("0.2.0");
     return;
   }
   const command = raw.shift();

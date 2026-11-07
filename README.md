@@ -1,6 +1,6 @@
 # agentcn/ui
 
-Last updated: 2026-11-05
+Last updated: 2026-11-07
 
 **Interfaces for apps that think.** An MIT-licensed React component library for AI-native apps: agent execution, human approvals, context, memory, artifacts, and evaluation.
 
@@ -28,6 +28,12 @@ records the unverified npm transport/identity boundary. The
 [5 November hosted browser packet](docs/proposals/hosted-browser-checks.md)
 records that result. Its only demo change
 adds an explicitly disabled MemberPicker example using the existing prop.
+
+The additive **0.2.0 candidate** aligns both public packages and prepares
+twenty-component archives. Its [archive and installed-consumer checks](docs/proposals/package-release-checks.md)
+are a separate, initially unrun packet for React 18/19 and the packaged CLI.
+Version alignment does not publish npm packages. The four source-only notices
+remain until public archive integrity and fresh public consumers are verified.
 
 ## Components
 

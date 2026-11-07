@@ -1,6 +1,6 @@
 {
   "name": "@alvarovillalbaa/agentcn-ui",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "React components for human-controlled AI apps: agent runs, approvals, context, memory and evaluation.",
   "type": "module",
   "license": "MIT",

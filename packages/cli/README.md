@@ -1,8 +1,13 @@
 # agentcn-ui
 
-Last updated: 2026-10-15
+Last updated: 2026-11-07
 
 Copy editable React components for AI-native apps into your project. Requires Node.js 22+.
+
+Version 0.2.0 bundles twenty component targets, including `multi-input`,
+`member-picker`, `creatable-select` and `pricing-table`. Version 0.1.0 bundles
+the original sixteen. The repository's release evidence records public
+availability separately from archive preparation.
 
 ```sh
 npx agentcn-ui@latest init
