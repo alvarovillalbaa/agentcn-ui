@@ -1,0 +1,24 @@
+create     components/agentcn/agent-run.tsx
+create     components/agentcn/_shared.tsx
+unchanged  styles/agentcn.css
+create     components/agentcn/tool-call.tsx
+create     components/agentcn/approval-request.tsx
+create     components/agentcn/plan-review.tsx
+create     components/agentcn/checkpoint.tsx
+create     components/agentcn/context-window.tsx
+create     components/agentcn/memory-panel.tsx
+create     components/agentcn/source-stack.tsx
+create     components/agentcn/agent-handoff.tsx
+create     components/agentcn/model-router.tsx
+create     components/agentcn/prompt-composer.tsx
+create     components/agentcn/branch-picker.tsx
+create     components/agentcn/artifact-panel.tsx
+create     components/agentcn/stream-status.tsx
+create     components/agentcn/token-usage.tsx
+create     components/agentcn/eval-scorecard.tsx
+create     components/agentcn/multi-input.tsx
+create     components/agentcn/member-picker.tsx
+create     components/agentcn/creatable-select.tsx
+create     components/agentcn/pricing-table.tsx
+
+Import styles/agentcn.css once from your root layout or stylesheet. React 18.2+ is required. No runtime dependencies are installed.

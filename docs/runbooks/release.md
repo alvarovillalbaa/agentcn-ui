@@ -1,6 +1,6 @@
 # Release agentcn-ui
 
-Last updated: 2026-11-07
+Last updated: 2026-11-10
 
 Recorded public release: 0.1.0, covering the original sixteen components. See
 [public release evidence](../results/2026/10-15/public-release.md) for its checks
@@ -31,6 +31,15 @@ public-registry consumer or website publication steps below.
 9. Replace release-pending notices only after npm and the site have been verified. Add the deployed homepage to package metadata and the repository About section. Tag the reviewed commit and create release notes after the release is confirmed.
 
 ## Exact reviewed 0.2.0 archives
+
+The [five public archive cases](../results/2026/11-10/public-archive-checks.md)
+now verify anonymous asset download,React18/19 URL installation/strict types and
+npm exec/npx/pnpm dlx public-URL CLI installation of all twenty components.
+Use the [candidate quickstart](../../README.md#try-the-twenty-component-candidate)
+to try those existing archives without npm publication. This does not qualify
+authenticated npm ownership or package-name consumers. Both exact0.2.0 npm
+versions still returnedE404 on10November;the localwhoami ENOTFOUND leaves
+current access unknown. Retain every npm publication gate and source-only notice.
 
 GitHub candidate publication is separate from npm publication. The
 [`v0.2.0-candidate.1` prerelease](https://github.com/alvarovillalbaa/agentcn-ui/releases/tag/v0.2.0-candidate.1)

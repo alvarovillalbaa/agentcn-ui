@@ -1,0 +1,15 @@
+{
+  "name": "agentcn-public-react18",
+  "private": true,
+  "type": "module",
+  "ownerNote": "Retain this authored manifest field.",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.9.3",
+    "@types/react": "18.3.27",
+    "@types/react-dom": "18.3.7",
+    "@alvarovillalbaa/agentcn-ui": "https://github.com/alvarovillalbaa/agentcn-ui/releases/download/v0.2.0-candidate.1/alvarovillalbaa-agentcn-ui-0.2.0.tgz",
+    "agentcn-ui": "https://github.com/alvarovillalbaa/agentcn-ui/releases/download/v0.2.0-candidate.1/agentcn-ui-0.2.0.tgz"
+  }
+}

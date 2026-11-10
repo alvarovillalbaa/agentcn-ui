@@ -22,7 +22,7 @@ disposable CLI profile, with native drawer behavior covered only by a local
 dialog shim. The separate [eight hosted browser cases](docs/results/2026/11-05/hosted-browser-checks.md)
 passed once on 5 November: all four demos at desktop/narrow widths, including
 native dialog modality, keyboard/focus, real controlled-demo state and registry
-source identity. New React 18/public npm consumers and a new release remain open;
+source identity. Public npm0.2.0 consumers and a new npm release remain open;
 the [release-readiness observation](docs/results/2026/11-05/release-readiness.md)
 records the unverified npm transport/identity boundary. The
 [5 November hosted browser packet](docs/proposals/hosted-browser-checks.md)
@@ -39,6 +39,29 @@ records verified cleanup and preserves both failed attempts. The temporary
 workflow is retired. Public npm 0.2.0 publication remains pending.
 Version alignment does not publish npm packages. The four source-only notices
 remain until npm registry integrity and fresh public package-name consumers are verified.
+
+## Try the twenty-component candidate
+
+The [public GitHub archive path](docs/results/2026/11-10/public-archive-checks.md)
+now has fresh React18/19 strict-consumer and npm exec/npx/pnpm URL checks.
+This is the existing **0.2.0 candidate**, separate from npm's sixteen-component
+0.1.0 release. In an existing React TypeScript app:
+
+```sh
+npm install --ignore-scripts --save-exact https://github.com/alvarovillalbaa/agentcn-ui/releases/download/v0.2.0-candidate.1/alvarovillalbaa-agentcn-ui-0.2.0.tgz
+```
+
+Use the package imports shown below. To own all twenty components' source:
+
+```sh
+npx --yes --package=https://github.com/alvarovillalbaa/agentcn-ui/releases/download/v0.2.0-candidate.1/agentcn-ui-0.2.0.tgz agentcn-ui init --yes
+npx --yes --package=https://github.com/alvarovillalbaa/agentcn-ui/releases/download/v0.2.0-candidate.1/agentcn-ui-0.2.0.tgz agentcn-ui add --all
+```
+
+Review the generated configuration and files in your app. The
+[release runbook](docs/runbooks/release.md#exact-reviewed-020-archives) lists the
+unchanged archive hashes. npm0.2.0 publication remains pending;the current
+source-only notices describe that npm boundary.
 
 ## Components
 

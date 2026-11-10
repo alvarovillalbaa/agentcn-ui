@@ -1,0 +1,22 @@
+{
+  "packageArchivesInGit": false,
+  "canonicalRelease": "v0.2.0-candidate.1",
+  "assets": [
+    {
+      "file": "alvarovillalbaa-agentcn-ui-0.2.0.tgz",
+      "url": "https://github.com/alvarovillalbaa/agentcn-ui/releases/download/v0.2.0-candidate.1/alvarovillalbaa-agentcn-ui-0.2.0.tgz",
+      "bytes": 33597,
+      "sha256": "81829d3bfc376339e1f48fc123ded93b471e7bd7c654e5c2afba1a17bf1c226d",
+      "integrity": "sha512-XG7h0wkNRjmgweSUA7A4JbXCqj1n0bH+iNXqPk6lfwFswVSVuJpRFqn/lDWNgM9QNfPA8ASHXhRwo9DHn4ZS+A==",
+      "members": 70
+    },
+    {
+      "file": "agentcn-ui-0.2.0.tgz",
+      "url": "https://github.com/alvarovillalbaa/agentcn-ui/releases/download/v0.2.0-candidate.1/agentcn-ui-0.2.0.tgz",
+      "bytes": 37492,
+      "sha256": "fcfee32999e0df538c265fbd199297d89da9f049b5ffd45720f78812f44c5491",
+      "integrity": "sha512-9EE/GDQnEH9eQ/jM6y/u9aTAjS2J7xEIbLXyjHGU2CCuwedtdi6Cob/1Ix0waLjirMzZytg4Jb3oEBpQZ2XQGA==",
+      "members": 27
+    }
+  ]
+}

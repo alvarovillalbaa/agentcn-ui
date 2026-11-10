@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/alvarovillalbaa/agentcn-ui/main/agentcn.schema.json",
+  "version": 1,
+  "components": "components/agentcn",
+  "css": "styles/agentcn.css",
+  "palette": "forest",
+  "radius": "rounded",
+  "density": "comfortable"
+}

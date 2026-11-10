@@ -1,0 +1,291 @@
+{
+  "sourceCommit": "970190a0985673845707bf6da5851f7ac8190c29",
+  "workflowCommit": "e1aa481b39e740a8fe48736f86f01da0c14db58c",
+  "files": [
+    {
+      "name": "agentcn-ui-0.2.0.tgz",
+      "bytes": 37492,
+      "sha256": "fcfee32999e0df538c265fbd199297d89da9f049b5ffd45720f78812f44c5491"
+    },
+    {
+      "name": "alvarovillalbaa-agentcn-ui-0.2.0.tgz",
+      "bytes": 33597,
+      "sha256": "81829d3bfc376339e1f48fc123ded93b471e7bd7c654e5c2afba1a17bf1c226d"
+    },
+    {
+      "name": "download-0.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "download-0.stdout.txt",
+      "bytes": 64,
+      "sha256": "0199de13022dfee1b84279544076f210de7a51491eac47fd8fc7ba1454a51a33"
+    },
+    {
+      "name": "download-1.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "download-1.stdout.txt",
+      "bytes": 64,
+      "sha256": "0f57691d8211f7825c8df466d27bacae4afa3429ae31e6b1db27f635b6902e6a"
+    },
+    {
+      "name": "extract-0.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "extract-0.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "extract-1.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "extract-1.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "list-0.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "list-0.stdout.txt",
+      "bytes": 5388,
+      "sha256": "21364f3686dd15de19a10d709e35cffb20f7004db16259f2b0c80ff967429ce1"
+    },
+    {
+      "name": "list-1.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "list-1.stdout.txt",
+      "bytes": 2163,
+      "sha256": "81b5f92650a83aa8e0c2b2a4d7b0fb6bc30523cd85ca0fbb9e18fc3905c60097"
+    },
+    {
+      "name": "npm-exec-all20.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "npm-exec-all20.stdout.txt",
+      "bytes": 1156,
+      "sha256": "2ee17efb8dcb5ff6d0a64d256653faf09fc8744bbc91e1a76398bc105f011e53"
+    },
+    {
+      "name": "npm-exec-config.json",
+      "bytes": 264,
+      "sha256": "9262d9d73054d5980747a88d0fe0ea15d5e84dd6a70cd4239e33aec3f046448d"
+    },
+    {
+      "name": "npm-exec-init.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "npm-exec-init.stdout.txt",
+      "bytes": 143,
+      "sha256": "08a88b00ccf9f1709dd3fa9bbdc37bb7fbeb2526e77debfea7b0177e44762073"
+    },
+    {
+      "name": "npm-exec-version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "npm-exec-version.stdout.txt",
+      "bytes": 6,
+      "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9"
+    },
+    {
+      "name": "npx-all20.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "npx-all20.stdout.txt",
+      "bytes": 1156,
+      "sha256": "2ee17efb8dcb5ff6d0a64d256653faf09fc8744bbc91e1a76398bc105f011e53"
+    },
+    {
+      "name": "npx-config.json",
+      "bytes": 264,
+      "sha256": "9262d9d73054d5980747a88d0fe0ea15d5e84dd6a70cd4239e33aec3f046448d"
+    },
+    {
+      "name": "npx-init.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "npx-init.stdout.txt",
+      "bytes": 143,
+      "sha256": "08a88b00ccf9f1709dd3fa9bbdc37bb7fbeb2526e77debfea7b0177e44762073"
+    },
+    {
+      "name": "npx-version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "npx-version.stdout.txt",
+      "bytes": 6,
+      "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9"
+    },
+    {
+      "name": "pnpm-dlx-all20.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "pnpm-dlx-all20.stdout.txt",
+      "bytes": 1156,
+      "sha256": "2ee17efb8dcb5ff6d0a64d256653faf09fc8744bbc91e1a76398bc105f011e53"
+    },
+    {
+      "name": "pnpm-dlx-config.json",
+      "bytes": 264,
+      "sha256": "9262d9d73054d5980747a88d0fe0ea15d5e84dd6a70cd4239e33aec3f046448d"
+    },
+    {
+      "name": "pnpm-dlx-init.stderr.txt",
+      "bytes": 129,
+      "sha256": "74b3afc56f8a53f1ef6b1248429a619475a2c64fe672720e5a5a1f537707f853"
+    },
+    {
+      "name": "pnpm-dlx-init.stdout.txt",
+      "bytes": 143,
+      "sha256": "08a88b00ccf9f1709dd3fa9bbdc37bb7fbeb2526e77debfea7b0177e44762073"
+    },
+    {
+      "name": "pnpm-dlx-version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "pnpm-dlx-version.stdout.txt",
+      "bytes": 6,
+      "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9"
+    },
+    {
+      "name": "pnpm-version.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "pnpm-version.stdout.txt",
+      "bytes": 8,
+      "sha256": "4231fa72abcb210dd8a5bee4d28d4a2b439ef93e67bb7959880349642f82ba91"
+    },
+    {
+      "name": "public-archives.json",
+      "bytes": 17352,
+      "sha256": "c2efd17a8840c107c2d074fdbc45ba03c234fa56a91f8a9fd3905be4a36ab52d"
+    },
+    {
+      "name": "react18-exports.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "react18-exports.stdout.txt",
+      "bytes": 47,
+      "sha256": "61ca5de7aa2b29b85f3ca02809454ac76f2f9d854b7eb159fa507115e5cd4e9b"
+    },
+    {
+      "name": "react18-install.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "react18-install.stdout.txt",
+      "bytes": 25,
+      "sha256": "32f4f5de096f8b94c2c3260417f7fc9b1d4106774c57ac17b64336afb09ce6a8"
+    },
+    {
+      "name": "react18-package-lock.json",
+      "bytes": 5319,
+      "sha256": "332e974d1602dc235d70c650ba329bbdf81d496cbf2f2ff17d0489421c18ab3c"
+    },
+    {
+      "name": "react18-package.json",
+      "bytes": 582,
+      "sha256": "0124fe821cf76cd1a8f5f5470a3dc4931aeb3cc34e47371cf831ca6a7e544743"
+    },
+    {
+      "name": "react18-strict.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "react18-strict.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "react19-exports.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "react19-exports.stdout.txt",
+      "bytes": 47,
+      "sha256": "61ca5de7aa2b29b85f3ca02809454ac76f2f9d854b7eb159fa507115e5cd4e9b"
+    },
+    {
+      "name": "react19-install.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "react19-install.stdout.txt",
+      "bytes": 24,
+      "sha256": "1a1314856dd6ed3e668b0eabdbb6ac3bb05e2e07c6696dd54d80500b1bf2c08d"
+    },
+    {
+      "name": "react19-package-lock.json",
+      "bytes": 4101,
+      "sha256": "4efa70e6adf8dd99c820436e8a53beb935a7a64ccdd8165a5589a0d638bc426d"
+    },
+    {
+      "name": "react19-package.json",
+      "bytes": 582,
+      "sha256": "377a4a8c4dc0c2b0ed7bf269d40a5f7da0e9d20be26d5ad513e59d8ebef9aad4"
+    },
+    {
+      "name": "react19-strict.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "react19-strict.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "receipt.json",
+      "bytes": 62301,
+      "sha256": "5fb877fa0f1947176c7085aa5c2f078e79074f50e69cea9b0b4a9577956796b2"
+    },
+    {
+      "name": "tools-install.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "tools-install.stdout.txt",
+      "bytes": 23,
+      "sha256": "da13ab9d025b19c91553bc7d4c450975d3e4e36dd7c5fef6f223f8008ba39547"
+    }
+  ]
+}
