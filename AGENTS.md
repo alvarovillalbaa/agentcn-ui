@@ -11,7 +11,13 @@ threeactualnpmexec/npx/pnpmURLCLIall20/22sourceCSSfiles/config/ownerfile passed.
 57originals/174015Bindependentlyverified;23commands46streams/sixstableguards/
 ownedcleanup. Keep this cohort closed; npm publication remains pending.
 README/runbook now provide candidate instructions while all npm notices stay.
-Historical preparation follows. Workflow retirement/publication still pending.
+The source is published at accepted45cffc49;see
+docs/results/2026/11-10/public-archive-publication.md. Workflow413530993disabled
+before removal/terminaldeleted;oneownedQArefretired with bothparentspreserved.
+58verifiedduplicate text/indexcopies/150559Bremoved;twoactualarchivebodies
+retainedoutsideGit as repo policy requires. No app/package/generated change or
+website deploy. Keep cohort closed and npm identity/publication gates pending.
+Historical preparation follows.
 
 Follow docs/proposals/public-archive-checks.md after clean87540af6. Standing
 all-work approval covers five new public-carrier cases and one bounded public
