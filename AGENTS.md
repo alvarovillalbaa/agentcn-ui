@@ -1,6 +1,21 @@
 # Working on agentcn-ui
 
-Last updated: 2026-11-07
+Last updated: 2026-11-10
+
+## Public archive consumers — active
+
+Follow docs/proposals/public-archive-checks.md after clean87540af6. Standing
+all-work approval covers five new public-carrier cases and one bounded public
+20minute CI job; no reapproval needed. Keep all closed cohorts closed and both
+reviewed prerelease archives byte-exact. npm0.2.0 remains unavailable in fresh
+anonymous metadata; localwhoamiENOTFOUND does not qualify publish access. Keep
+the four source-only notices. Do not copy credentials or retry Auth externally.
+Verify two public-URL React18/19 consumers and npm exec/npx/pnpm URL CLIall20,
+strictNodeNext/skipLibCheck:false/archive parity/owned teardown. No local heavy
+runtime,source generator,dependency/lock/version change or website/browser run.
+Canonical450files/16MiB/file2MiB/export4MiB/packet8MiB/archive1MiBraw8MiB/
+stream512KiB are prospective bounds. Preserve nativeHEAD87540af6 until acceptance.
+No account,paid service,Auth/provider/model/production-data change or subagents.
 
 - Read README.md and git status before changing anything. Preserve unrelated work.
 - Components live in packages/react/src; catalog.mjs owns names, presets, and palettes.
