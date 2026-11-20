@@ -1,5 +1,9 @@
 # agentcn/ui
 
+<!-- project-family:start -->
+> **Project family:** [UI Libraries](https://github.com/alvarovillalbaa#ui-libraries) · **Area:** Agent interfaces
+<!-- project-family:end -->
+
 Last updated: 2026-11-07
 
 **Interfaces for apps that think.** An MIT-licensed React component library for AI-native apps: agent execution, human approvals, context, memory, artifacts, and evaluation.
